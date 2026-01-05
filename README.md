@@ -12,8 +12,10 @@ It now uses **simple session-based login** and stores files **per user**.
 ## Install
 
 # Clone the repository
+```bash
 git clone https://github.com/jaywehner/logviewer.git
 cd logviewer/log_webapp
+```
 
 ### Local development
 ```bash
