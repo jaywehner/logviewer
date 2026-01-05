@@ -24,13 +24,43 @@ pip install -r requirements.txt
 
 ### Docker deployment
 
+#### Using docker-compose (recommended)
+
 ```bash
 # Build and run with docker-compose
 docker-compose up --build
 
-# Or build and run manually
+# Run in detached mode
+docker-compose up -d
+
+# View logs
+docker-compose logs -f
+
+# Stop the service
+docker-compose down
+```
+
+#### Using manual Docker commands
+
+```bash
+# Build the image
 docker build -t log-webapp .
-docker run -p 5177:5177 -v $(pwd)/User_Storage:/app/User_Storage -v $(pwd)/users.json:/app/users.json log-webapp
+
+# Run the container
+docker run -d \
+  --name log-webapp \
+  -p 5177:5177 \
+  -v $(pwd)/User_Storage:/app/User_Storage \
+  -v $(pwd)/users.json:/app/users.json \
+  -e LOG_WEBAPP_SECRET=your-secret-key \
+  log-webapp
+
+# View logs
+docker logs -f log-webapp
+
+# Stop and remove the container
+docker stop log-webapp
+docker rm log-webapp
 ```
 
 ## Run
