@@ -77,6 +77,23 @@ DOCKER_BUILDKIT=1 docker build -t log-webapp .
 
 The Dockerfile includes retry logic and increased timeouts, but network issues may still occur. Try rebuilding if it fails.
 
+#### Docker Runtime Troubleshooting
+
+If you get "IsADirectoryError: /app/users.json" error:
+
+```bash
+# Ensure users.json exists as a file before running
+touch users.json
+
+# Or remove any existing users.json directory and recreate as file
+rm -rf users.json
+touch users.json
+
+# Then restart docker-compose
+docker-compose down
+docker-compose up -d
+```
+
 ## Run
 
 ### Local development
