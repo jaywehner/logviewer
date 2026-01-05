@@ -63,6 +63,20 @@ docker stop log-webapp
 docker rm log-webapp
 ```
 
+#### Docker Build Troubleshooting
+
+If you encounter timeout errors during the build:
+
+```bash
+# Increase build timeout
+docker build --timeout 600 -t log-webapp .
+
+# Or use buildkit for better error handling
+DOCKER_BUILDKIT=1 docker build -t log-webapp .
+```
+
+The Dockerfile includes retry logic and increased timeouts, but network issues may still occur. Try rebuilding if it fails.
+
 ## Run
 
 ### Local development
