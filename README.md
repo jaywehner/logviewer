@@ -135,7 +135,7 @@ docker run -d \
 - Set a strong `LOG_WEBAPP_SECRET` environment variable
 - Ensure `User_Storage` and `users.json` are backed up regularly
 - Consider using a reverse proxy (nginx) for HTTPS in production
-- The Dockerfile runs the app as a non-root user for security
+- The Dockerfile runs the app with Gunicorn WSGI server (2 workers) as a non-root user for security
 
 ## Login
 
