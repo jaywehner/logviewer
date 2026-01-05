@@ -1,0 +1,229 @@
+
+2024-09-01 11:19:24 Commons Daemon procrun stdout initialized
+Loading config directory property from: C:\Program Files\Fortra\GoAnywhere\config\system.properties
+Loading system properties from: C:\Program Files\Fortra\GoAnywhere\config\system.properties
+Setting system property: IECompatibility.adminClient=IE=edge
+Setting system property: com.linoma.sftp.client.kexProvider.BC=true
+Setting system property: IECompatibility.webClient=IE=edge
+DRBG required entropy bits defaulted to 256
+Loading JCIFS configuration from: C:\Program Files\Fortra\GoAnywhere\config\jcifs.properties
+Loading JNQ configuration from: C:\Program Files\Fortra\GoAnywhere\config\jnq.properties
+Initializing global log file '\\10.150.0.8\goanywhere\userdata\logs\goanywhere.log'.
+2024-09-01 11:19:42,915 main ERROR Unable to create file \\10.150.0.8\goanywhere\userdata\logs\goanywhere.log java.io.IOException: Could not create directory \\10.150.0.8\goanywhere\userdata\logs
+	at org.apache.logging.log4j.core.util.FileUtils.mkdir(FileUtils.java:120)
+	at org.apache.logging.log4j.core.util.FileUtils.makeParentDirs(FileUtils.java:137)
+	at org.apache.logging.log4j.core.appender.rolling.RollingFileManager$RollingFileManagerFactory.createManager(RollingFileManager.java:732)
+	at org.apache.logging.log4j.core.appender.rolling.RollingFileManager$RollingFileManagerFactory.createManager(RollingFileManager.java:716)
+	at org.apache.logging.log4j.core.appender.AbstractManager.getManager(AbstractManager.java:114)
+	at org.apache.logging.log4j.core.appender.OutputStreamManager.getManager(OutputStreamManager.java:100)
+	at org.apache.logging.log4j.core.appender.rolling.RollingFileManager.getFileManager(RollingFileManager.java:217)
+	at org.apache.logging.log4j.core.appender.RollingFileAppender$Builder.build(RollingFileAppender.java:146)
+	at com.fortra.ga.core.logger.Log4jConfigurationService.createFileSystemAppender(Log4jConfigurationService.java:243)
+	at com.fortra.ga.core.logger.Log4jConfigurationService.initFileSystemLogger(Log4jConfigurationService.java:200)
+	at com.fortra.ga.core.logger.Log4jConfigurationService.startup(Log4jConfigurationService.java:123)
+	at com.linoma.ga.core.base.service.BusinessService.initalize(BusinessService.java:10)
+	at com.linoma.ga.core.base.service.BusinessServiceRegistry.load(BusinessServiceRegistry.java:107)
+	at com.linoma.startup.TomcatStarter.start(TomcatStarter.java:327)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at com.linoma.bootstrap.GoAnywhereBootstrap.main(GoAnywhereBootstrap.java:109)
+
+Database was shutdown.
+GoAnywhere was shut down.
+
+2024-09-01 11:23:21 Commons Daemon procrun stdout initialized
+Loading config directory property from: C:\Program Files\Fortra\GoAnywhere\config\system.properties
+Loading system properties from: C:\Program Files\Fortra\GoAnywhere\config\system.properties
+Setting system property: IECompatibility.adminClient=IE=edge
+Setting system property: com.linoma.sftp.client.kexProvider.BC=true
+Setting system property: IECompatibility.webClient=IE=edge
+DRBG required entropy bits defaulted to 256
+Loading JCIFS configuration from: C:\Program Files\Fortra\GoAnywhere\config\jcifs.properties
+Loading JNQ configuration from: C:\Program Files\Fortra\GoAnywhere\config\jnq.properties
+Initializing global log file '\\10.150.0.8\goanywhere\userdata\logs\goanywhere.log'.
+
+2024-09-01 11:34:25 Commons Daemon procrun stdout initialized
+Loading config directory property from: C:\Program Files\Fortra\GoAnywhere\config\system.properties
+Loading system properties from: C:\Program Files\Fortra\GoAnywhere\config\system.properties
+Setting system property: IECompatibility.adminClient=IE=edge
+Setting system property: com.linoma.sftp.client.kexProvider.BC=true
+Setting system property: IECompatibility.webClient=IE=edge
+DRBG required entropy bits defaulted to 256
+Loading JCIFS configuration from: C:\Program Files\Fortra\GoAnywhere\config\jcifs.properties
+Loading JNQ configuration from: C:\Program Files\Fortra\GoAnywhere\config\jnq.properties
+Initializing global log file '\\10.150.0.8\goanywhere\userdata\logs\goanywhere.log'.
+
+2024-09-01 13:17:33 Commons Daemon procrun stdout initialized
+Loading config directory property from: C:\Program Files\Fortra\GoAnywhere\config\system.properties
+Loading system properties from: C:\Program Files\Fortra\GoAnywhere\config\system.properties
+Setting system property: IECompatibility.adminClient=IE=edge
+Setting system property: com.linoma.sftp.client.kexProvider.BC=true
+Setting system property: IECompatibility.webClient=IE=edge
+DRBG required entropy bits defaulted to 256
+Loading JCIFS configuration from: C:\Program Files\Fortra\GoAnywhere\config\jcifs.properties
+Loading JNQ configuration from: C:\Program Files\Fortra\GoAnywhere\config\jnq.properties
+Initializing global log file '\\10.150.0.8\goanywhere\userdata\logs\goanywhere.log'.
+2024-09-29 00:14:58,739 data-client-2 ERROR Unable to write to stream \\10.150.0.8\goanywhere\userdata\logs\goanywhere_vm-goanywhere1.log for appender FileSystemAppender org.apache.logging.log4j.core.appender.AppenderLoggingException: Error writing to stream \\10.150.0.8\goanywhere\userdata\logs\goanywhere_vm-goanywhere1.log
+	at org.apache.logging.log4j.core.appender.OutputStreamManager.writeToDestination(OutputStreamManager.java:252)
+	at org.apache.logging.log4j.core.appender.FileManager.writeToDestination(FileManager.java:277)
+	at org.apache.logging.log4j.core.appender.rolling.RollingFileManager.writeToDestination(RollingFileManager.java:275)
+	at org.apache.logging.log4j.core.appender.OutputStreamManager.flushBuffer(OutputStreamManager.java:283)
+	at org.apache.logging.log4j.core.appender.OutputStreamManager.flush(OutputStreamManager.java:294)
+	at org.apache.logging.log4j.core.appender.AbstractOutputStreamAppender.directEncodeEvent(AbstractOutputStreamAppender.java:199)
+	at org.apache.logging.log4j.core.appender.AbstractOutputStreamAppender.tryAppend(AbstractOutputStreamAppender.java:190)
+	at org.apache.logging.log4j.core.appender.AbstractOutputStreamAppender.append(AbstractOutputStreamAppender.java:181)
+	at org.apache.logging.log4j.core.appender.RollingFileAppender.append(RollingFileAppender.java:312)
+	at org.apache.logging.log4j.core.config.AppenderControl.tryCallAppender(AppenderControl.java:161)
+	at org.apache.logging.log4j.core.config.AppenderControl.callAppender0(AppenderControl.java:134)
+	at org.apache.logging.log4j.core.config.AppenderControl.callAppenderPreventRecursion(AppenderControl.java:125)
+	at org.apache.logging.log4j.core.config.AppenderControl.callAppender(AppenderControl.java:89)
+	at org.apache.logging.log4j.core.config.LoggerConfig.callAppenders(LoggerConfig.java:542)
+	at org.apache.logging.log4j.core.config.LoggerConfig.processLogEvent(LoggerConfig.java:500)
+	at org.apache.logging.log4j.core.config.LoggerConfig.log(LoggerConfig.java:483)
+	at org.apache.logging.log4j.core.config.LoggerConfig.log(LoggerConfig.java:417)
+	at org.apache.logging.log4j.core.config.AwaitCompletionReliabilityStrategy.log(AwaitCompletionReliabilityStrategy.java:82)
+	at org.apache.logging.log4j.core.Logger.log(Logger.java:161)
+	at org.apache.logging.log4j.spi.AbstractLogger.tryLogMessage(AbstractLogger.java:2205)
+	at org.apache.logging.log4j.spi.AbstractLogger.logMessageTrackRecursion(AbstractLogger.java:2159)
+	at org.apache.logging.log4j.spi.AbstractLogger.logMessageSafely(AbstractLogger.java:2142)
+	at org.apache.logging.log4j.spi.AbstractLogger.logMessage(AbstractLogger.java:2028)
+	at org.apache.logging.log4j.spi.AbstractLogger.logIfEnabled(AbstractLogger.java:1891)
+	at org.apache.logging.slf4j.Log4jLogger.debug(Log4jLogger.java:134)
+	at com.linoma.gag.client.DataClientHandler.channelInactive(DataClientHandler.java:71)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:305)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:281)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:274)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelInactive(DefaultChannelPipeline.java:1405)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:301)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:281)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelInactive(DefaultChannelPipeline.java:901)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe$7.run(AbstractChannel.java:813)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:173)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:166)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:566)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.io.IOException: A specified authentication package is unknown
+	at java.base/java.io.FileOutputStream.writeBytes(Native Method)
+	at java.base/java.io.FileOutputStream.write(FileOutputStream.java:354)
+	at org.apache.logging.log4j.core.appender.OutputStreamManager.writeToDestination(OutputStreamManager.java:250)
+	... 40 more
+
+2024-09-29 00:14:58,739 Thread-74 ERROR Unable to write to stream \\10.150.0.8\goanywhere\userdata\logs\goanywhere_vm-goanywhere1.log for appender FileSystemAppender org.apache.logging.log4j.core.appender.AppenderLoggingException: Error writing to stream \\10.150.0.8\goanywhere\userdata\logs\goanywhere_vm-goanywhere1.log
+	at org.apache.logging.log4j.core.appender.OutputStreamManager.writeToDestination(OutputStreamManager.java:252)
+	at org.apache.logging.log4j.core.appender.FileManager.writeToDestination(FileManager.java:277)
+	at org.apache.logging.log4j.core.appender.rolling.RollingFileManager.writeToDestination(RollingFileManager.java:275)
+	at org.apache.logging.log4j.core.appender.OutputStreamManager.flushBuffer(OutputStreamManager.java:283)
+	at org.apache.logging.log4j.core.appender.OutputStreamManager.flush(OutputStreamManager.java:294)
+	at org.apache.logging.log4j.core.appender.AbstractOutputStreamAppender.directEncodeEvent(AbstractOutputStreamAppender.java:199)
+	at org.apache.logging.log4j.core.appender.AbstractOutputStreamAppender.tryAppend(AbstractOutputStreamAppender.java:190)
+	at org.apache.logging.log4j.core.appender.AbstractOutputStreamAppender.append(AbstractOutputStreamAppender.java:181)
+	at org.apache.logging.log4j.core.appender.RollingFileAppender.append(RollingFileAppender.java:312)
+	at org.apache.logging.log4j.core.config.AppenderControl.tryCallAppender(AppenderControl.java:161)
+	at org.apache.logging.log4j.core.config.AppenderControl.callAppender0(AppenderControl.java:134)
+	at org.apache.logging.log4j.core.config.AppenderControl.callAppenderPreventRecursion(AppenderControl.java:125)
+	at org.apache.logging.log4j.core.config.AppenderControl.callAppender(AppenderControl.java:89)
+	at org.apache.logging.log4j.core.config.LoggerConfig.callAppenders(LoggerConfig.java:542)
+	at org.apache.logging.log4j.core.config.LoggerConfig.processLogEvent(LoggerConfig.java:500)
+	at org.apache.logging.log4j.core.config.LoggerConfig.log(LoggerConfig.java:483)
+	at org.apache.logging.log4j.core.config.LoggerConfig.log(LoggerConfig.java:417)
+	at org.apache.logging.log4j.core.config.AwaitCompletionReliabilityStrategy.log(AwaitCompletionReliabilityStrategy.java:82)
+	at org.apache.logging.log4j.core.Logger.log(Logger.java:161)
+	at org.apache.logging.log4j.spi.AbstractLogger.tryLogMessage(AbstractLogger.java:2205)
+	at org.apache.logging.log4j.spi.AbstractLogger.logMessageTrackRecursion(AbstractLogger.java:2159)
+	at org.apache.logging.log4j.spi.AbstractLogger.logMessageSafely(AbstractLogger.java:2142)
+	at org.apache.logging.log4j.spi.AbstractLogger.logMessage(AbstractLogger.java:2022)
+	at org.apache.logging.log4j.spi.AbstractLogger.logIfEnabled(AbstractLogger.java:1875)
+	at org.apache.logging.slf4j.Log4jLogger.info(Log4jLogger.java:179)
+	at com.linoma.dpa.logging.LoggerRedirectStream.log(LoggerRedirectStream.java:57)
+	at com.linoma.dpa.logging.LoggerRedirectStream.println(LoggerRedirectStream.java:70)
+	at org.apache.tomcat.util.log.SystemLogHandler.println(SystemLogHandler.java:270)
+	at com.linoma.bootstrap.GoAnywhereBootstrap.loadConfigDirectoryProperty(GoAnywhereBootstrap.java:202)
+	at com.linoma.bootstrap.GoAnywhereBootstrap.main(GoAnywhereBootstrap.java:74)
+Caused by: java.io.IOException: An unexpected network error occurred
+	at java.base/java.io.FileOutputStream.writeBytes(Native Method)
+	at java.base/java.io.FileOutputStream.write(FileOutputStream.java:354)
+	at org.apache.logging.log4j.core.appender.OutputStreamManager.writeToDestination(OutputStreamManager.java:250)
+	... 29 more
+
+2024-09-29 00:14:58,739 cluster-message-processor-54 ERROR Unable to write to stream \\10.150.0.8\goanywhere\userdata\logs\goanywhere_vm-goanywhere1.log for appender FileSystemAppender org.apache.logging.log4j.core.appender.AppenderLoggingException: Error writing to stream \\10.150.0.8\goanywhere\userdata\logs\goanywhere_vm-goanywhere1.log
+	at org.apache.logging.log4j.core.appender.OutputStreamManager.writeToDestination(OutputStreamManager.java:252)
+	at org.apache.logging.log4j.core.appender.FileManager.writeToDestination(FileManager.java:277)
+	at org.apache.logging.log4j.core.appender.rolling.RollingFileManager.writeToDestination(RollingFileManager.java:275)
+	at org.apache.logging.log4j.core.appender.OutputStreamManager.flushBuffer(OutputStreamManager.java:283)
+	at org.apache.logging.log4j.core.appender.OutputStreamManager.flush(OutputStreamManager.java:294)
+	at org.apache.logging.log4j.core.appender.AbstractOutputStreamAppender.directEncodeEvent(AbstractOutputStreamAppender.java:199)
+	at org.apache.logging.log4j.core.appender.AbstractOutputStreamAppender.tryAppend(AbstractOutputStreamAppender.java:190)
+	at org.apache.logging.log4j.core.appender.AbstractOutputStreamAppender.append(AbstractOutputStreamAppender.java:181)
+	at org.apache.logging.log4j.core.appender.RollingFileAppender.append(RollingFileAppender.java:312)
+	at org.apache.logging.log4j.core.config.AppenderControl.tryCallAppender(AppenderControl.java:161)
+	at org.apache.logging.log4j.core.config.AppenderControl.callAppender0(AppenderControl.java:134)
+	at org.apache.logging.log4j.core.config.AppenderControl.callAppenderPreventRecursion(AppenderControl.java:125)
+	at org.apache.logging.log4j.core.config.AppenderControl.callAppender(AppenderControl.java:89)
+	at org.apache.logging.log4j.core.config.LoggerConfig.callAppenders(LoggerConfig.java:542)
+	at org.apache.logging.log4j.core.config.LoggerConfig.processLogEvent(LoggerConfig.java:500)
+	at org.apache.logging.log4j.core.config.LoggerConfig.log(LoggerConfig.java:483)
+	at org.apache.logging.log4j.core.config.LoggerConfig.log(LoggerConfig.java:417)
+	at org.apache.logging.log4j.core.config.AwaitCompletionReliabilityStrategy.log(AwaitCompletionReliabilityStrategy.java:82)
+	at org.apache.logging.log4j.core.Logger.log(Logger.java:161)
+	at org.apache.logging.log4j.spi.AbstractLogger.tryLogMessage(AbstractLogger.java:2205)
+	at org.apache.logging.log4j.spi.AbstractLogger.logMessageTrackRecursion(AbstractLogger.java:2159)
+	at org.apache.logging.log4j.spi.AbstractLogger.logMessageSafely(AbstractLogger.java:2142)
+	at org.apache.logging.log4j.spi.AbstractLogger.logMessage(AbstractLogger.java:2022)
+	at org.apache.logging.log4j.spi.AbstractLogger.logIfEnabled(AbstractLogger.java:1875)
+	at org.apache.logging.slf4j.Log4jLogger.info(Log4jLogger.java:179)
+	at com.linoma.dpa.system.workers.ValidateParticipantWorker.validateLocalFolder(ValidateParticipantWorker.java:252)
+	at com.linoma.dpa.system.workers.ValidateParticipantWorker.validateLocalFolder(ValidateParticipantWorker.java:237)
+	at com.linoma.dpa.system.workers.ValidateParticipantWorker.execute(ValidateParticipantWorker.java:155)
+	at com.linoma.dpa.jgroups.ClusterMessageProcessor.run(ClusterMessageProcessor.java:48)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.io.IOException: An unexpected network error occurred
+	at java.base/java.io.FileOutputStream.writeBytes(Native Method)
+	at java.base/java.io.FileOutputStream.write(FileOutputStream.java:354)
+	at org.apache.logging.log4j.core.appender.OutputStreamManager.writeToDestination(OutputStreamManager.java:250)
+	... 33 more
+
+2024-09-29 00:14:58,739 ga-viewchange-2 ERROR Unable to write to stream \\10.150.0.8\goanywhere\userdata\logs\goanywhere_vm-goanywhere1.log for appender FileSystemAppender org.apache.logging.log4j.core.appender.AppenderLoggingException: Error writing to stream \\10.150.0.8\goanywhere\userdata\logs\goanywhere_vm-goanywhere1.log
+	at org.apache.logging.log4j.core.appender.OutputStreamManager.writeToDestination(OutputStreamManager.java:252)
+	at org.apache.logging.log4j.core.appender.FileManager.writeToDestination(FileManager.java:277)
+	at org.apache.logging.log4j.core.appender.rolling.RollingFileManager.writeToDestination(RollingFileManager.java:275)
+	at org.apache.logging.log4j.core.appender.OutputStreamManager.flushBuffer(OutputStreamManager.java:283)
+	at org.apache.logging.log4j.core.appender.OutputStreamManager.flush(OutputStreamManager.java:294)
+	at org.apache.logging.log4j.core.appender.AbstractOutputStreamAppender.directEncodeEvent(AbstractOutputStreamAppender.java:199)
+	at org.apache.logging.log4j.core.appender.AbstractOutputStreamAppender.tryAppend(AbstractOutputStreamAppender.java:190)
+	at org.apache.logging.log4j.core.appender.AbstractOutputStreamAppender.append(AbstractOutputStreamAppender.java:181)
+	at org.apache.logging.log4j.core.appender.RollingFileAppender.append(RollingFileAppender.java:312)
+	at org.apache.logging.log4j.core.config.AppenderControl.tryCallAppender(AppenderControl.java:161)
+	at org.apache.logging.log4j.core.config.AppenderControl.callAppender0(AppenderControl.java:134)
+	at org.apache.logging.log4j.core.config.AppenderControl.callAppenderPreventRecursion(AppenderControl.java:125)
+	at org.apache.logging.log4j.core.config.AppenderControl.callAppender(AppenderControl.java:89)
+	at org.apache.logging.log4j.core.config.LoggerConfig.callAppenders(LoggerConfig.java:542)
+	at org.apache.logging.log4j.core.config.LoggerConfig.processLogEvent(LoggerConfig.java:500)
+	at org.apache.logging.log4j.core.config.LoggerConfig.log(LoggerConfig.java:483)
+	at org.apache.logging.log4j.core.config.LoggerConfig.log(LoggerConfig.java:417)
+	at org.apache.logging.log4j.core.config.AwaitCompletionReliabilityStrategy.log(AwaitCompletionReliabilityStrategy.java:82)
+	at org.apache.logging.log4j.core.Logger.log(Logger.java:161)
+	at org.apache.logging.log4j.spi.AbstractLogger.tryLogMessage(AbstractLogger.java:2205)
+	at org.apache.logging.log4j.spi.AbstractLogger.logMessageTrackRecursion(AbstractLogger.java:2159)
+	at org.apache.logging.log4j.spi.AbstractLogger.logMessageSafely(AbstractLogger.java:2142)
+	at org.apache.logging.log4j.spi.AbstractLogger.logMessage(AbstractLogger.java:2022)
+	at org.apache.logging.log4j.spi.AbstractLogger.logIfEnabled(AbstractLogger.java:1875)
+	at org.apache.logging.slf4j.Log4jLogger.info(Log4jLogger.java:179)
+	at com.linoma.dpa.jgroups.ViewChangeWorker.run(ViewChangeWorker.java:115)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.io.IOException: An unexpected network error occurred
+	at java.base/java.io.FileOutputStream.writeBytes(Native Method)
+	at java.base/java.io.FileOutputStream.write(FileOutputStream.java:354)
+	at org.apache.logging.log4j.core.appender.OutputStreamManager.writeToDestination(OutputStreamManager.java:250)
+	... 28 more
+

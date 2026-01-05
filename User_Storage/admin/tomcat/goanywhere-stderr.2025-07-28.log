@@ -1,0 +1,1869 @@
+
+2025-07-28 09:29:47 Commons Daemon procrun stderr initialized
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.linoma.security.commons.credential.key.store.KeyStoreFactory (file:/C:/Program%20Files/Fortra/GoAnywhere/lib/linoma-security-commons-1.6.0.jar) to constructor sun.security.provider.Sun()
+WARNING: Please consider reporting this to the maintainers of com.linoma.security.commons.credential.key.store.KeyStoreFactory
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Jul 28, 2025 9:30:13 AM org.apache.tomcat.util.digester.SetPropertiesRule begin
+WARNING: Match [Server/Service/Connector] failed to set property [forceIDPLogin] to [false]
+Jul 28, 2025 9:30:13 AM org.apache.tomcat.util.digester.SetPropertiesRule begin
+WARNING: Match [Server/Service/Connector] failed to set property [gaRedirect] to [true]
+Jul 28, 2025 9:30:13 AM org.apache.tomcat.util.digester.SetPropertiesRule begin
+WARNING: Match [Server/Service/Connector] failed to set property [gaRedirectHost] to [vm-goanywhere1]
+Jul 28, 2025 9:30:13 AM org.apache.tomcat.util.digester.SetPropertiesRule begin
+WARNING: Match [Server/Service/Connector] failed to set property [gaRedirectPort] to [8001]
+Jul 28, 2025 9:30:13 AM org.apache.tomcat.util.digester.SetPropertiesRule begin
+WARNING: Match [Server/Service/Connector] failed to set property [gaRedirectScheme] to [https]
+Jul 28, 2025 9:30:13 AM org.apache.tomcat.util.digester.SetPropertiesRule begin
+WARNING: Match [Server/Service/Connector] failed to set property [keyLocation] to [File]
+Jul 28, 2025 9:30:13 AM org.apache.tomcat.util.digester.SetPropertiesRule begin
+WARNING: Match [Server/Service/Connector] failed to set property [forceIDPLogin] to [false]
+Jul 28, 2025 9:30:13 AM org.apache.tomcat.util.digester.SetPropertiesRule begin
+WARNING: Match [Server/Service/Connector] failed to set property [gaRedirect] to [false]
+Jul 28, 2025 9:30:13 AM org.apache.tomcat.util.digester.SetPropertiesRule begin
+WARNING: Match [Server/Service/Connector] failed to set property [keyLocation] to [KeyVault]
+Jul 28, 2025 9:30:13 AM org.apache.tomcat.util.digester.SetPropertiesRule begin
+WARNING: Match [Server/Service/Connector] failed to set property [keyName] to [atricure_wildcard_new]
+Jul 28, 2025 9:30:13 AM org.apache.tomcat.util.net.SSLHostConfig setProtocols
+WARNING: The protocol [TLSv1.3] was added to the list of protocols on the SSLHostConfig named [_default_]. Check if a +/- prefix is missing.
+Jul 28, 2025 9:30:14 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-8000"]
+Jul 28, 2025 9:30:14 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["https-jsse-nio-8001"]
+Jul 28, 2025 9:30:14 AM org.apache.tomcat.util.net.SSLUtilBase <init>
+WARNING: The JSSE TLS 1.3 implementation does not support post handshake authentication (PHA) and is therefore incompatible with optional certificate authentication
+Jul 28, 2025 9:30:16 AM org.apache.tomcat.util.net.AbstractEndpoint logCertificate
+INFO: Connector [https-jsse-nio-8001], TLS virtual host [_default_], certificate type [UNDEFINED] configured from keystore [C:\Program Files\Fortra\GoAnywhere\tomcat\temp\mft_admin_ks_9620855463849538517] using alias [key] with trust store [C:\Program Files\Fortra\GoAnywhere\tomcat\temp\mft_admin_ts_18210021572631623322]
+Jul 28, 2025 9:30:16 AM org.apache.catalina.startup.Catalina load
+INFO: Server initialization in [3176] milliseconds
+Jul 28, 2025 9:30:20 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [admin]
+Jul 28, 2025 9:30:20 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet engine: [Apache Tomcat/9.0.97]
+Jul 28, 2025 9:30:25 AM org.apache.tomcat.util.net.SSLHostConfig setProtocols
+WARNING: The protocol [TLSv1.3] was added to the list of protocols on the SSLHostConfig named [_default_]. Check if a +/- prefix is missing.
+Jul 28, 2025 9:30:26 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["https-jsse-nio-443"]
+Jul 28, 2025 9:30:26 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [ghttps]
+Jul 28, 2025 9:30:26 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet engine: [Apache Tomcat/9.0.97]
+Jul 28, 2025 9:30:26 AM org.apache.myfaces.config.DefaultFacesConfigurationProvider getStandardFacesConfig
+INFO: Reading standard config META-INF/standard-faces-config.xml
+Jul 28, 2025 9:30:26 AM org.apache.myfaces.config.DefaultFacesConfigurationProvider getWebAppFacesConfig
+INFO: Reading config /WEB-INF/faces-config.xml
+Jul 28, 2025 9:30:28 AM org.apache.myfaces.config.DefaultFacesConfigurationProvider getClassloaderFacesConfig
+INFO: Reading config : jar:file:/C:/Program%20Files/Fortra/GoAnywhere/lib/gfaces-3.6.0.jar!/META-INF/faces-config.xml
+Jul 28, 2025 9:30:28 AM org.apache.myfaces.config.DefaultFacesConfigurationProvider getClassloaderFacesConfig
+INFO: Reading config : jar:file:/C:/Program%20Files/Fortra/GoAnywhere/lib/primefaces-7.0.14.jar!/META-INF/faces-config.xml
+Jul 28, 2025 9:30:28 AM org.apache.myfaces.config.DefaultFacesConfigurationProvider getClassloaderFacesConfig
+INFO: Reading config : jar:file:/C:/Program%20Files/Fortra/GoAnywhere/lib/primefaces-extensions-7.0.1.jar!/META-INF/faces-config.xml
+Jul 28, 2025 9:30:28 AM org.apache.myfaces.config.DefaultFacesConfigurationProvider getClassloaderFacesConfig
+INFO: Reading config : jar:file:/C:/Program%20Files/Fortra/GoAnywhere/lib/tomahawk20-1.1.14.jar!/META-INF/faces-config.xml
+Jul 28, 2025 9:30:28 AM org.apache.myfaces.config.DefaultFacesConfigurationProvider getContextSpecifiedFacesConfig
+INFO: Reading config /WEB-INF/faces-forms.xml
+Jul 28, 2025 9:30:28 AM org.apache.myfaces.config.DefaultFacesConfigurationProvider getContextSpecifiedFacesConfig
+INFO: Reading config /WEB-INF/faces-navigation.xml
+Jul 28, 2025 9:30:28 AM org.apache.myfaces.config.LogMetaInfUtils logArtifact
+INFO: Artifact 'myfaces-api' was found in version '2.2.15' from path 'file:/C:/Program%20Files/Fortra/GoAnywhere/lib/myfaces-api-2.2.15.jar'
+Jul 28, 2025 9:30:28 AM org.apache.myfaces.config.LogMetaInfUtils logArtifact
+INFO: Artifact 'myfaces-bundle' was found in version '2.2.15' from path 'file:/C:/Program%20Files/Fortra/GoAnywhere/lib/myfaces-bundle-2.2.15.jar'
+Jul 28, 2025 9:30:28 AM org.apache.myfaces.config.LogMetaInfUtils logArtifact
+INFO: Artifact 'myfaces-impl' was found in version '2.2.15' from path 'file:/C:/Program%20Files/Fortra/GoAnywhere/lib/myfaces-impl-2.2.15.jar'
+Jul 28, 2025 9:30:28 AM org.apache.myfaces.config.LogMetaInfUtils logArtifact
+INFO: Artifact 'tomahawk20' was found in version '1.1.14' from path 'file:/C:/Program%20Files/Fortra/GoAnywhere/lib/tomahawk20-1.1.14.jar'
+Jul 28, 2025 9:30:28 AM org.apache.myfaces.util.ExternalSpecifications isCDIAvailable
+INFO: MyFaces CDI support disabled
+Jul 28, 2025 9:30:28 AM org.apache.myfaces.spi.impl.DefaultInjectionProviderFactory getInjectionProvider
+INFO: Using InjectionProvider org.apache.myfaces.spi.impl.Tomcat7AnnotationInjectionProvider
+Jul 28, 2025 9:30:29 AM org.apache.myfaces.util.ExternalSpecifications isBeanValidationAvailable
+INFO: MyFaces Bean Validation support disabled
+Jul 28, 2025 9:30:30 AM org.apache.myfaces.config.FacesConfigurator handleSerialFactory
+INFO: Serialization provider : class org.apache.myfaces.shared_impl.util.serial.DefaultSerialFactory
+Jul 28, 2025 9:30:30 AM org.apache.myfaces.config.annotation.DefaultLifecycleProviderFactory getLifecycleProvider
+INFO: Using LifecycleProvider org.apache.myfaces.config.annotation.Tomcat7AnnotationLifecycleProvider
+Jul 28, 2025 9:30:30 AM org.primefaces.webapp.PostConstructApplicationEventListener processEvent
+INFO: Running on PrimeFaces 7.0.14
+Jul 28, 2025 9:30:30 AM org.primefaces.extensions.application.PostConstructApplicationEventListener processEvent
+INFO: Running on PrimeFaces Extensions 7.0.1
+Jul 28, 2025 9:30:30 AM org.apache.myfaces.webapp.AbstractFacesInitializer initFaces
+INFO: ServletContext initialized.
+Jul 28, 2025 9:30:30 AM org.apache.myfaces.util.ExternalSpecifications isUnifiedELAvailable
+INFO: MyFaces Unified EL support enabled
+Jul 28, 2025 9:30:30 AM org.apache.myfaces.view.facelets.ViewPoolProcessor initialize
+INFO: org.apache.myfaces.CACHE_EL_EXPRESSIONS web config parameter is set to "noCache". To enable view pooling this param must be set to "alwaysRecompile". View Pooling disabled.
+Jul 28, 2025 9:30:30 AM org.apache.myfaces.webapp.StartupServletContextListener contextInitialized
+INFO: MyFaces Core has started, it took [4001] ms.
+Jul 28, 2025 9:30:31 AM com.sun.xml.ws.transport.http.servlet.WSServletDelegate <init>
+INFO: WSSERVLET14: JAX-WS servlet initializing
+Jul 28, 2025 9:30:31 AM org.apache.tomcat.util.descriptor.web.SecurityConstraint handleOmittedMethods
+SEVERE: For security constraints with URL pattern [/*] the HTTP methods [HEAD POST GET] are uncovered.
+Jul 28, 2025 9:30:31 AM org.apache.tomcat.util.descriptor.web.SecurityConstraint handleOmittedMethods
+SEVERE: For security constraints with URL pattern [/rest/*] the HTTP methods [HEAD DELETE POST GET PUT] are uncovered.
+Jul 28, 2025 9:30:31 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["https-jsse-nio-443"]
+Jul 28, 2025 9:30:31 AM org.apache.tomcat.util.net.SSLUtilBase <init>
+WARNING: The JSSE TLS 1.3 implementation does not support post handshake authentication (PHA) and is therefore incompatible with optional certificate authentication
+Jul 28, 2025 9:30:32 AM org.apache.tomcat.util.net.AbstractEndpoint logCertificate
+INFO: Connector [https-jsse-nio-443], TLS virtual host [_default_], certificate type [UNDEFINED] configured from keystore [C:\Program Files\Fortra\GoAnywhere\tomcat\temp\mft_https_ks_16864344860257078723] using alias [key] with trust store [C:\Program Files\Fortra\GoAnywhere\tomcat\temp\mft_https_ts_13020650962863421605]
+Jul 28, 2025 9:30:39 AM com.sun.xml.ws.transport.http.DeploymentDescriptorParser getPrimaryWSDL
+WARNING: Ignoring wrong wsdl=WEB-INF/webservices/GoAnywhereCommandService.wsdl. It should start with WEB-INF/wsdl. Going to generate and publish a new WSDL.
+Jul 28, 2025 9:30:39 AM com.sun.xml.ws.transport.http.servlet.WSServletDelegate <init>
+INFO: WSSERVLET14: JAX-WS servlet initializing
+Jul 28, 2025 9:30:39 AM org.apache.myfaces.config.DefaultFacesConfigurationProvider getStandardFacesConfig
+INFO: Reading standard config META-INF/standard-faces-config.xml
+Jul 28, 2025 9:30:39 AM org.apache.myfaces.config.DefaultFacesConfigurationProvider getWebAppFacesConfig
+INFO: Reading config /WEB-INF/faces-config.xml
+Jul 28, 2025 9:30:41 AM org.apache.myfaces.config.DefaultFacesConfigurationProvider getClassloaderFacesConfig
+INFO: Reading config : jar:file:/C:/Program%20Files/Fortra/GoAnywhere/lib/gfaces-3.6.0.jar!/META-INF/faces-config.xml
+Jul 28, 2025 9:30:41 AM org.apache.myfaces.config.DefaultFacesConfigurationProvider getClassloaderFacesConfig
+INFO: Reading config : jar:file:/C:/Program%20Files/Fortra/GoAnywhere/lib/primefaces-7.0.14.jar!/META-INF/faces-config.xml
+Jul 28, 2025 9:30:41 AM org.apache.myfaces.config.DefaultFacesConfigurationProvider getClassloaderFacesConfig
+INFO: Reading config : jar:file:/C:/Program%20Files/Fortra/GoAnywhere/lib/primefaces-extensions-7.0.1.jar!/META-INF/faces-config.xml
+Jul 28, 2025 9:30:41 AM org.apache.myfaces.config.DefaultFacesConfigurationProvider getClassloaderFacesConfig
+INFO: Reading config : jar:file:/C:/Program%20Files/Fortra/GoAnywhere/lib/tomahawk20-1.1.14.jar!/META-INF/faces-config.xml
+Jul 28, 2025 9:30:41 AM org.apache.myfaces.config.DefaultFacesConfigurationProvider getContextSpecifiedFacesConfig
+INFO: Reading config /WEB-INF/faces-forms.xml
+Jul 28, 2025 9:30:41 AM org.apache.myfaces.config.DefaultFacesConfigurationProvider getContextSpecifiedFacesConfig
+INFO: Reading config /WEB-INF/faces-navigation.xml
+Jul 28, 2025 9:30:41 AM org.apache.myfaces.config.LogMetaInfUtils logArtifact
+INFO: Artifact 'myfaces-api' was found in version '2.2.15' from path 'file:/C:/Program%20Files/Fortra/GoAnywhere/lib/myfaces-api-2.2.15.jar'
+Jul 28, 2025 9:30:41 AM org.apache.myfaces.config.LogMetaInfUtils logArtifact
+INFO: Artifact 'myfaces-bundle' was found in version '2.2.15' from path 'file:/C:/Program%20Files/Fortra/GoAnywhere/lib/myfaces-bundle-2.2.15.jar'
+Jul 28, 2025 9:30:41 AM org.apache.myfaces.config.LogMetaInfUtils logArtifact
+INFO: Artifact 'myfaces-impl' was found in version '2.2.15' from path 'file:/C:/Program%20Files/Fortra/GoAnywhere/lib/myfaces-impl-2.2.15.jar'
+Jul 28, 2025 9:30:41 AM org.apache.myfaces.config.LogMetaInfUtils logArtifact
+INFO: Artifact 'tomahawk20' was found in version '1.1.14' from path 'file:/C:/Program%20Files/Fortra/GoAnywhere/lib/tomahawk20-1.1.14.jar'
+Jul 28, 2025 9:30:41 AM org.apache.myfaces.spi.impl.DefaultInjectionProviderFactory getInjectionProvider
+INFO: Using InjectionProvider org.apache.myfaces.spi.impl.Tomcat7AnnotationInjectionProvider
+Jul 28, 2025 9:30:41 AM org.apache.myfaces.config.FacesConfigurator handleSerialFactory
+INFO: Serialization provider : class org.apache.myfaces.shared_impl.util.serial.DefaultSerialFactory
+Jul 28, 2025 9:30:41 AM org.apache.myfaces.config.annotation.DefaultLifecycleProviderFactory getLifecycleProvider
+INFO: Using LifecycleProvider org.apache.myfaces.config.annotation.Tomcat7AnnotationLifecycleProvider
+Jul 28, 2025 9:30:41 AM org.primefaces.webapp.PostConstructApplicationEventListener processEvent
+INFO: Running on PrimeFaces 7.0.14
+Jul 28, 2025 9:30:41 AM org.primefaces.extensions.application.PostConstructApplicationEventListener processEvent
+INFO: Running on PrimeFaces Extensions 7.0.1
+Jul 28, 2025 9:30:41 AM org.apache.myfaces.webapp.AbstractFacesInitializer initFaces
+INFO: ServletContext initialized.
+Jul 28, 2025 9:30:41 AM org.apache.myfaces.view.facelets.ViewPoolProcessor initialize
+INFO: org.apache.myfaces.CACHE_EL_EXPRESSIONS web config parameter is set to "noCache". To enable view pooling this param must be set to "alwaysRecompile". View Pooling disabled.
+Jul 28, 2025 9:30:41 AM org.apache.myfaces.webapp.StartupServletContextListener contextInitialized
+INFO: MyFaces Core has started, it took [2084] ms.
+Jul 28, 2025 9:30:41 AM org.apache.tomcat.util.descriptor.web.SecurityConstraint handleOmittedMethods
+SEVERE: For security constraints with URL pattern [/*] the HTTP methods [HEAD POST GET] are uncovered.
+Jul 28, 2025 9:30:41 AM org.apache.tomcat.util.descriptor.web.SecurityConstraint handleOmittedMethods
+SEVERE: For security constraints with URL pattern [/rest/*] the HTTP methods [HEAD DELETE POST GET PUT] are uncovered.
+Jul 28, 2025 9:30:41 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory [C:\Program Files\Fortra\GoAnywhere\tomcat\webapps\ROOT]
+Jul 28, 2025 9:30:42 AM org.apache.myfaces.ee6.MyFacesContainerInitializer onStartup
+INFO: Added FacesServlet with mappings=[/faces/*, *.jsf, *.faces]
+Jul 28, 2025 9:30:42 AM org.apache.tomcat.util.descriptor.web.SecurityConstraint handleOmittedMethods
+SEVERE: For security constraints with URL pattern [/*] the HTTP methods [HEAD POST GET] are uncovered.
+Jul 28, 2025 9:30:42 AM org.apache.tomcat.util.descriptor.web.SecurityConstraint handleOmittedMethods
+SEVERE: For security constraints with URL pattern [/rest/*] the HTTP methods [HEAD DELETE POST GET PUT] are uncovered.
+Jul 28, 2025 9:30:42 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [C:\Program Files\Fortra\GoAnywhere\tomcat\webapps\ROOT] has finished in [547] ms
+Jul 28, 2025 9:30:42 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-8000"]
+Jul 28, 2025 9:30:42 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["https-jsse-nio-8001"]
+Jul 28, 2025 9:30:42 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in [23602] milliseconds
+Jul 28, 2025 9:54:41 AM org.apache.tomcat.util.http.parser.Cookie logInvalidHeader
+INFO: A cookie header was received [${jndi:dns://MDEDiscoveryabe981bb6bCookie-8000}] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+Jul 28, 2025 9:54:42 AM org.apache.coyote.http11.Http11Processor service
+INFO: Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in the request target [/js/?${jndi:dns://MDEDiscoveryabe981bb6bSeenInTheWildGet-8000} ]. The valid characters are defined in RFC 7230 and RFC 3986
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:482)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:269)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:937)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Jul 28, 2025 9:54:42 AM org.apache.coyote.http11.Http11Processor service
+INFO: Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in the request target [/js/?${jndi:dns://MDEDiscoveryabe981bb6bSeenInTheWildGet-443} ]. The valid characters are defined in RFC 7230 and RFC 3986
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:482)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:269)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:937)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Jul 28, 2025 9:54:42 AM org.apache.coyote.http11.Http11Processor service
+SEVERE: Error processing request
+java.lang.NullPointerException
+	at com.linoma.dpa.services.GHTTPSRemoteIPValve.invoke(GHTTPSRemoteIPValve.java:47)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:396)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:937)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Jul 28, 2025 9:54:44 AM org.apache.coyote.http11.Http11Processor service
+SEVERE: Error processing request
+java.lang.NullPointerException
+	at com.linoma.dpa.services.GHTTPSRemoteIPValve.invoke(GHTTPSRemoteIPValve.java:47)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:396)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:937)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Jul 28, 2025 9:54:44 AM org.apache.coyote.http11.Http11Processor service
+SEVERE: Error processing request
+java.lang.NullPointerException
+	at com.linoma.dpa.services.GHTTPSRemoteIPValve.invoke(GHTTPSRemoteIPValve.java:47)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:396)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:937)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Jul 28, 2025 9:54:44 AM org.apache.coyote.http11.Http11Processor service
+INFO: Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in the request target [/api/v2/${jndi:dns://MDEDiscoveryabe981bb6bSeenInTheWildGet-8000} ]. The valid characters are defined in RFC 7230 and RFC 3986
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:490)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:269)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:937)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Jul 28, 2025 9:54:44 AM org.apache.coyote.http11.Http11Processor service
+INFO: Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in the request target [/api/v2/${jndi:dns://MDEDiscoveryabe981bb6bSeenInTheWildGet-443} ]. The valid characters are defined in RFC 7230 and RFC 3986
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:490)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:269)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:937)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Jul 28, 2025 9:54:44 AM org.apache.coyote.http11.Http11Processor service
+SEVERE: Error processing request
+java.lang.NullPointerException
+	at com.linoma.dpa.services.GHTTPSRemoteIPValve.invoke(GHTTPSRemoteIPValve.java:47)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:396)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:937)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Jul 28, 2025 9:54:44 AM org.apache.coyote.http11.Http11Processor service
+SEVERE: Error processing request
+java.lang.NullPointerException
+	at com.linoma.dpa.services.GHTTPSRemoteIPValve.invoke(GHTTPSRemoteIPValve.java:47)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:396)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:937)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Jul 28, 2025 9:54:45 AM org.apache.coyote.http11.Http11Processor service
+SEVERE: Error processing request
+java.lang.NullPointerException
+	at com.linoma.dpa.services.GHTTPSRemoteIPValve.invoke(GHTTPSRemoteIPValve.java:47)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:396)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:937)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Jul 28, 2025 9:54:45 AM org.apache.coyote.http11.Http11Processor service
+SEVERE: Error processing request
+java.lang.NullPointerException
+	at com.linoma.dpa.services.GHTTPSRemoteIPValve.invoke(GHTTPSRemoteIPValve.java:47)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:396)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:937)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Jul 28, 2025 9:54:45 AM org.apache.coyote.http11.Http11Processor service
+SEVERE: Error processing request
+java.lang.NullPointerException
+	at com.linoma.dpa.services.GHTTPSRemoteIPValve.invoke(GHTTPSRemoteIPValve.java:47)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:396)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:937)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Jul 28, 2025 9:54:45 AM org.apache.coyote.http11.Http11Processor service
+SEVERE: Error processing request
+java.lang.NullPointerException
+	at com.linoma.dpa.services.GHTTPSRemoteIPValve.invoke(GHTTPSRemoteIPValve.java:47)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:396)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:937)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Jul 28, 2025 9:54:45 AM org.apache.coyote.http11.Http11Processor service
+SEVERE: Error processing request
+java.lang.NullPointerException
+	at com.linoma.dpa.services.GHTTPSRemoteIPValve.invoke(GHTTPSRemoteIPValve.java:47)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:396)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:937)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Jul 28, 2025 9:54:46 AM org.apache.coyote.http11.Http11Processor service
+SEVERE: Error processing request
+java.lang.NullPointerException
+	at com.linoma.dpa.services.GHTTPSRemoteIPValve.invoke(GHTTPSRemoteIPValve.java:47)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:396)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:937)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Jul 28, 2025 9:54:47 AM org.apache.coyote.http11.Http11Processor service
+SEVERE: Error processing request
+java.lang.NullPointerException
+	at com.linoma.dpa.services.GHTTPSRemoteIPValve.invoke(GHTTPSRemoteIPValve.java:47)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:396)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:937)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Jul 28, 2025 9:54:47 AM org.apache.coyote.http11.Http11Processor service
+SEVERE: Error processing request
+java.lang.NullPointerException
+	at com.linoma.dpa.services.GHTTPSRemoteIPValve.invoke(GHTTPSRemoteIPValve.java:47)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:396)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:937)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Jul 28, 2025 9:54:48 AM org.apache.coyote.http11.Http11Processor service
+INFO: Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in the request target [/?x=${jndi:dns://MDEDiscoveryabe981bb6bxParam-8000} ]. The valid characters are defined in RFC 7230 and RFC 3986
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:482)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:269)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:937)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Jul 28, 2025 9:54:48 AM org.apache.coyote.http11.Http11Processor service
+SEVERE: Error processing request
+java.lang.NullPointerException
+	at com.linoma.dpa.services.GHTTPSRemoteIPValve.invoke(GHTTPSRemoteIPValve.java:47)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:396)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:937)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Jul 28, 2025 9:54:48 AM org.apache.coyote.http11.Http11Processor service
+SEVERE: Error processing request
+java.lang.NullPointerException
+	at com.linoma.dpa.services.GHTTPSRemoteIPValve.invoke(GHTTPSRemoteIPValve.java:47)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:396)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:937)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Jul 28, 2025 9:54:48 AM org.apache.coyote.http11.Http11Processor service
+SEVERE: Error processing request
+java.lang.NullPointerException
+	at com.linoma.dpa.services.GHTTPSRemoteIPValve.invoke(GHTTPSRemoteIPValve.java:47)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:396)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:937)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Jul 28, 2025 9:54:48 AM org.apache.coyote.http11.Http11Processor service
+SEVERE: Error processing request
+java.lang.NullPointerException
+	at com.linoma.dpa.services.GHTTPSRemoteIPValve.invoke(GHTTPSRemoteIPValve.java:47)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:396)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:937)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Jul 28, 2025 6:10:07 PM org.apache.coyote.http11.Http11Processor service
+INFO: Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name [0x000x000x070x000x080x000x030x000x040x000x050x000x06...]. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:407)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:269)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:937)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Jul 28, 2025 6:10:07 PM org.apache.coyote.http11.Http11Processor service
+SEVERE: Error processing request
+java.lang.NullPointerException
+	at com.linoma.dpa.services.GHTTPSRemoteIPValve.invoke(GHTTPSRemoteIPValve.java:47)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:396)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:937)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Jul 29, 2025 9:19:05 AM org.apache.coyote.http11.Http11Processor service
+INFO: Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in the request target [/js/?${jndi:dns://MDEDiscoveryabe981bb6bSeenInTheWildGet-443} ]. The valid characters are defined in RFC 7230 and RFC 3986
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:482)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:269)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:937)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Jul 29, 2025 9:19:05 AM org.apache.coyote.http11.Http11Processor service
+SEVERE: Error processing request
+java.lang.NullPointerException
+	at com.linoma.dpa.services.GHTTPSRemoteIPValve.invoke(GHTTPSRemoteIPValve.java:47)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:396)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:937)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Jul 29, 2025 9:19:06 AM org.apache.coyote.http11.Http11Processor service
+SEVERE: Error processing request
+java.lang.NullPointerException
+	at com.linoma.dpa.services.GHTTPSRemoteIPValve.invoke(GHTTPSRemoteIPValve.java:47)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:396)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:937)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Jul 29, 2025 9:19:06 AM org.apache.coyote.http11.Http11Processor service
+SEVERE: Error processing request
+java.lang.NullPointerException
+	at com.linoma.dpa.services.GHTTPSRemoteIPValve.invoke(GHTTPSRemoteIPValve.java:47)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:396)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:937)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Jul 29, 2025 9:19:06 AM org.apache.coyote.http11.Http11Processor service
+SEVERE: Error processing request
+java.lang.NullPointerException
+	at com.linoma.dpa.services.GHTTPSRemoteIPValve.invoke(GHTTPSRemoteIPValve.java:47)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:396)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:937)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Jul 29, 2025 9:19:06 AM org.apache.coyote.http11.Http11Processor service
+INFO: Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in the request target [/analytics/telemetry/ph/api/hyper/send?_c=${jndi:dns://MDEDiscoveryabe981bb6bVMwarevCenter-8000}&i=test ]. The valid characters are defined in RFC 7230 and RFC 3986
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:482)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:269)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:937)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Jul 29, 2025 9:19:06 AM org.apache.coyote.http11.Http11Processor service
+SEVERE: Error processing request
+java.lang.NullPointerException
+	at com.linoma.dpa.services.GHTTPSRemoteIPValve.invoke(GHTTPSRemoteIPValve.java:47)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:396)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:937)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Jul 29, 2025 9:19:07 AM org.apache.coyote.http11.Http11Processor service
+SEVERE: Error processing request
+java.lang.NullPointerException
+	at com.linoma.dpa.services.GHTTPSRemoteIPValve.invoke(GHTTPSRemoteIPValve.java:47)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:396)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:937)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Jul 29, 2025 9:19:07 AM org.apache.coyote.http11.Http11Processor service
+SEVERE: Error processing request
+java.lang.NullPointerException
+	at com.linoma.dpa.services.GHTTPSRemoteIPValve.invoke(GHTTPSRemoteIPValve.java:47)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:396)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:937)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Jul 29, 2025 9:19:07 AM org.apache.coyote.http11.Http11Processor service
+SEVERE: Error processing request
+java.lang.NullPointerException
+	at com.linoma.dpa.services.GHTTPSRemoteIPValve.invoke(GHTTPSRemoteIPValve.java:47)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:396)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:937)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Jul 29, 2025 9:19:07 AM org.apache.coyote.http11.Http11Processor service
+SEVERE: Error processing request
+java.lang.NullPointerException
+	at com.linoma.dpa.services.GHTTPSRemoteIPValve.invoke(GHTTPSRemoteIPValve.java:47)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:396)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:937)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Jul 29, 2025 9:19:07 AM org.apache.coyote.http11.Http11Processor service
+SEVERE: Error processing request
+java.lang.NullPointerException
+	at com.linoma.dpa.services.GHTTPSRemoteIPValve.invoke(GHTTPSRemoteIPValve.java:47)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:396)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:937)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Jul 29, 2025 9:19:07 AM org.apache.coyote.http11.Http11Processor service
+SEVERE: Error processing request
+java.lang.NullPointerException
+	at com.linoma.dpa.services.GHTTPSRemoteIPValve.invoke(GHTTPSRemoteIPValve.java:47)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:396)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:937)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Jul 29, 2025 9:19:08 AM org.apache.coyote.http11.Http11Processor service
+SEVERE: Error processing request
+java.lang.NullPointerException
+	at com.linoma.dpa.services.GHTTPSRemoteIPValve.invoke(GHTTPSRemoteIPValve.java:47)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:396)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:937)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Jul 29, 2025 9:19:08 AM org.apache.coyote.http11.Http11Processor service
+SEVERE: Error processing request
+java.lang.NullPointerException
+	at com.linoma.dpa.services.GHTTPSRemoteIPValve.invoke(GHTTPSRemoteIPValve.java:47)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:396)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:937)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Jul 29, 2025 9:19:09 AM org.apache.coyote.http11.Http11Processor service
+SEVERE: Error processing request
+java.lang.NullPointerException
+	at com.linoma.dpa.services.GHTTPSRemoteIPValve.invoke(GHTTPSRemoteIPValve.java:47)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:396)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:937)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Jul 29, 2025 9:19:09 AM org.apache.coyote.http11.Http11Processor service
+SEVERE: Error processing request
+java.lang.NullPointerException
+	at com.linoma.dpa.services.GHTTPSRemoteIPValve.invoke(GHTTPSRemoteIPValve.java:47)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:396)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:937)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Jul 29, 2025 9:19:09 AM org.apache.coyote.http11.Http11Processor service
+SEVERE: Error processing request
+java.lang.NullPointerException
+	at com.linoma.dpa.services.GHTTPSRemoteIPValve.invoke(GHTTPSRemoteIPValve.java:47)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:396)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:937)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Jul 29, 2025 9:19:09 AM org.apache.coyote.http11.Http11Processor service
+SEVERE: Error processing request
+java.lang.NullPointerException
+	at com.linoma.dpa.services.GHTTPSRemoteIPValve.invoke(GHTTPSRemoteIPValve.java:47)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:396)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:937)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Jul 29, 2025 12:39:26 PM javax.faces.component._ExternalSpecifications isBeanValidationAvailable
+INFO: MyFaces Bean Validation support disabled
+Jul 29, 2025 6:14:44 PM org.apache.coyote.http11.Http11Processor service
+INFO: Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name [0x000x000x070x000x080x000x030x000x040x000x050x000x06...]. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:407)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:269)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:937)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Jul 29, 2025 6:14:44 PM org.apache.coyote.http11.Http11Processor service
+SEVERE: Error processing request
+java.lang.NullPointerException
+	at com.linoma.dpa.services.GHTTPSRemoteIPValve.invoke(GHTTPSRemoteIPValve.java:47)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:396)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:937)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Jul 29, 2025 6:56:41 PM org.apache.coyote.http11.Http11Processor service
+SEVERE: Error processing request
+java.lang.NullPointerException
+	at com.linoma.dpa.services.GHTTPSRemoteIPValve.invoke(GHTTPSRemoteIPValve.java:47)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:396)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:937)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Jul 29, 2025 10:16:13 PM org.apache.catalina.core.ApplicationDispatcher invoke
+SEVERE: Servlet.service() for servlet [Faces Servlet] threw exception
+java.lang.IllegalArgumentException: ContentTypeList does not contain a supported content type: application/dns-json
+	at org.apache.myfaces.renderkit.html.HtmlRenderKitImpl.createResponseWriter(HtmlRenderKitImpl.java:358)
+	at org.apache.myfaces.view.facelets.FaceletViewDeclarationLanguage.createResponseWriter(FaceletViewDeclarationLanguage.java:2263)
+	at org.apache.myfaces.view.facelets.FaceletViewDeclarationLanguage.renderView(FaceletViewDeclarationLanguage.java:1861)
+	at org.apache.myfaces.application.ViewHandlerImpl.renderView(ViewHandlerImpl.java:313)
+	at javax.faces.application.ViewHandlerWrapper.renderView(ViewHandlerWrapper.java:58)
+	at org.apache.myfaces.tomahawk.application.ResourceViewHandlerWrapper.renderView(ResourceViewHandlerWrapper.java:169)
+	at javax.faces.application.ViewHandlerWrapper.renderView(ViewHandlerWrapper.java:58)
+	at javax.faces.application.ViewHandlerWrapper.renderView(ViewHandlerWrapper.java:58)
+	at org.apache.myfaces.lifecycle.RenderResponseExecutor.execute(RenderResponseExecutor.java:121)
+	at org.apache.myfaces.lifecycle.LifecycleImpl.render(LifecycleImpl.java:267)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:200)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:199)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at com.linoma.ga.ui.wc.application.LocaleFilter.doFilter(LocaleFilter.java:154)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at com.linoma.ga.ui.wc.application.SecureFormDetectionFilter.doFilter(SecureFormDetectionFilter.java:45)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:641)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:417)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:347)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:284)
+	at com.linoma.ga.ui.wc.servlet.WebClientErrorHandlerServlet.doGet(WebClientErrorHandlerServlet.java:190)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:199)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at com.linoma.ga.ui.wc.application.SecureFormDetectionFilter.doFilter(SecureFormDetectionFilter.java:45)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:641)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:417)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:347)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:284)
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:377)
+	at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:237)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:166)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at com.linoma.dpa.services.GHTTPSIPDetectionValve.invoke(GHTTPSIPDetectionValve.java:45)
+	at com.linoma.dpa.services.GHTTPSIpFilter.invoke(GHTTPSIpFilter.java:43)
+	at com.linoma.dpa.services.GHTTPSRemoteIPValve.invoke(GHTTPSRemoteIPValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:396)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:937)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Jul 29, 2025 10:16:13 PM org.apache.catalina.core.ApplicationDispatcher invoke
+SEVERE: Servlet.service() for servlet [Error Handler Servlet] threw exception
+java.lang.IllegalArgumentException: ContentTypeList does not contain a supported content type: application/dns-json
+	at org.apache.myfaces.renderkit.html.HtmlRenderKitImpl.createResponseWriter(HtmlRenderKitImpl.java:358)
+	at org.apache.myfaces.view.facelets.FaceletViewDeclarationLanguage.createResponseWriter(FaceletViewDeclarationLanguage.java:2263)
+	at org.apache.myfaces.view.facelets.FaceletViewDeclarationLanguage.renderView(FaceletViewDeclarationLanguage.java:1861)
+	at org.apache.myfaces.application.ViewHandlerImpl.renderView(ViewHandlerImpl.java:313)
+	at javax.faces.application.ViewHandlerWrapper.renderView(ViewHandlerWrapper.java:58)
+	at org.apache.myfaces.tomahawk.application.ResourceViewHandlerWrapper.renderView(ResourceViewHandlerWrapper.java:169)
+	at javax.faces.application.ViewHandlerWrapper.renderView(ViewHandlerWrapper.java:58)
+	at javax.faces.application.ViewHandlerWrapper.renderView(ViewHandlerWrapper.java:58)
+	at org.apache.myfaces.lifecycle.RenderResponseExecutor.execute(RenderResponseExecutor.java:121)
+	at org.apache.myfaces.lifecycle.LifecycleImpl.render(LifecycleImpl.java:267)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:200)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:199)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at com.linoma.ga.ui.wc.application.LocaleFilter.doFilter(LocaleFilter.java:154)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at com.linoma.ga.ui.wc.application.SecureFormDetectionFilter.doFilter(SecureFormDetectionFilter.java:45)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:641)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:417)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:347)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:284)
+	at com.linoma.ga.ui.wc.servlet.WebClientErrorHandlerServlet.doGet(WebClientErrorHandlerServlet.java:190)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:199)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at com.linoma.ga.ui.wc.application.SecureFormDetectionFilter.doFilter(SecureFormDetectionFilter.java:45)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:641)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:417)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:347)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:284)
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:377)
+	at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:237)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:166)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at com.linoma.dpa.services.GHTTPSIPDetectionValve.invoke(GHTTPSIPDetectionValve.java:45)
+	at com.linoma.dpa.services.GHTTPSIpFilter.invoke(GHTTPSIpFilter.java:43)
+	at com.linoma.dpa.services.GHTTPSRemoteIPValve.invoke(GHTTPSRemoteIPValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:396)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:937)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Jul 29, 2025 10:16:13 PM org.apache.catalina.core.StandardHostValve custom
+SEVERE: Exception Processing [ErrorPage[errorCode=404, location=/servlets/error]]
+javax.servlet.ServletException: ContentTypeList does not contain a supported content type: application/dns-json
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:230)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:199)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at com.linoma.ga.ui.wc.application.LocaleFilter.doFilter(LocaleFilter.java:154)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at com.linoma.ga.ui.wc.application.SecureFormDetectionFilter.doFilter(SecureFormDetectionFilter.java:45)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:641)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:417)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:347)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:284)
+	at com.linoma.ga.ui.wc.servlet.WebClientErrorHandlerServlet.doGet(WebClientErrorHandlerServlet.java:190)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:199)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at com.linoma.ga.ui.wc.application.SecureFormDetectionFilter.doFilter(SecureFormDetectionFilter.java:45)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:641)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:417)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:347)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:284)
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:377)
+	at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:237)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:166)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at com.linoma.dpa.services.GHTTPSIPDetectionValve.invoke(GHTTPSIPDetectionValve.java:45)
+	at com.linoma.dpa.services.GHTTPSIpFilter.invoke(GHTTPSIpFilter.java:43)
+	at com.linoma.dpa.services.GHTTPSRemoteIPValve.invoke(GHTTPSRemoteIPValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:396)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:937)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.IllegalArgumentException: ContentTypeList does not contain a supported content type: application/dns-json
+	at org.apache.myfaces.renderkit.html.HtmlRenderKitImpl.createResponseWriter(HtmlRenderKitImpl.java:358)
+	at org.apache.myfaces.view.facelets.FaceletViewDeclarationLanguage.createResponseWriter(FaceletViewDeclarationLanguage.java:2263)
+	at org.apache.myfaces.view.facelets.FaceletViewDeclarationLanguage.renderView(FaceletViewDeclarationLanguage.java:1861)
+	at org.apache.myfaces.application.ViewHandlerImpl.renderView(ViewHandlerImpl.java:313)
+	at javax.faces.application.ViewHandlerWrapper.renderView(ViewHandlerWrapper.java:58)
+	at org.apache.myfaces.tomahawk.application.ResourceViewHandlerWrapper.renderView(ResourceViewHandlerWrapper.java:169)
+	at javax.faces.application.ViewHandlerWrapper.renderView(ViewHandlerWrapper.java:58)
+	at javax.faces.application.ViewHandlerWrapper.renderView(ViewHandlerWrapper.java:58)
+	at org.apache.myfaces.lifecycle.RenderResponseExecutor.execute(RenderResponseExecutor.java:121)
+	at org.apache.myfaces.lifecycle.LifecycleImpl.render(LifecycleImpl.java:267)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:200)
+	... 42 more
+
+Jul 30, 2025 3:23:09 PM org.apache.coyote.http11.Http11Processor service
+INFO: Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name [HELP0x0d0x0aEHLO ]. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:407)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:269)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:937)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Jul 30, 2025 3:23:09 PM org.apache.coyote.http11.Http11Processor service
+SEVERE: Error processing request
+java.lang.NullPointerException
+	at com.linoma.dpa.services.GHTTPSRemoteIPValve.invoke(GHTTPSRemoteIPValve.java:47)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:396)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:937)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Jul 30, 2025 5:13:13 PM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet [Faces Servlet] in context with path [] threw exception [ContentTypeList does not contain a supported content type: *] with root cause
+java.lang.IllegalArgumentException: ContentTypeList does not contain a supported content type: *
+	at org.apache.myfaces.renderkit.html.HtmlRenderKitImpl.createResponseWriter(HtmlRenderKitImpl.java:358)
+	at org.apache.myfaces.view.facelets.FaceletViewDeclarationLanguage.createResponseWriter(FaceletViewDeclarationLanguage.java:2263)
+	at org.apache.myfaces.view.facelets.FaceletViewDeclarationLanguage.renderView(FaceletViewDeclarationLanguage.java:1861)
+	at org.apache.myfaces.application.ViewHandlerImpl.renderView(ViewHandlerImpl.java:313)
+	at javax.faces.application.ViewHandlerWrapper.renderView(ViewHandlerWrapper.java:58)
+	at org.apache.myfaces.tomahawk.application.ResourceViewHandlerWrapper.renderView(ResourceViewHandlerWrapper.java:169)
+	at javax.faces.application.ViewHandlerWrapper.renderView(ViewHandlerWrapper.java:58)
+	at javax.faces.application.ViewHandlerWrapper.renderView(ViewHandlerWrapper.java:58)
+	at org.apache.myfaces.lifecycle.RenderResponseExecutor.execute(RenderResponseExecutor.java:121)
+	at org.apache.myfaces.lifecycle.LifecycleImpl.render(LifecycleImpl.java:267)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:200)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:199)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at com.linoma.ga.ui.wc.application.LocaleFilter.doFilter(LocaleFilter.java:154)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at com.linoma.ga.core.upload.WebClientFileUploadFilter.doFilter(WebClientFileUploadFilter.java:80)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at com.linoma.ga.ui.wc.application.ForwardingFilter.doFilter(ForwardingFilter.java:96)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at com.linoma.ga.ui.wc.application.WebClientSecurityFilter.doFilter(WebClientSecurityFilter.java:360)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at com.linoma.ga.ui.wc.application.WebClientSecurityHeaderFilter.doFilter(WebClientSecurityHeaderFilter.java:143)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at com.linoma.ga.ui.core.filter.IFrameEmbeddingFilter.doFilter(IFrameEmbeddingFilter.java:89)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at com.linoma.ga.ui.core.filter.NoCacheFilter.doFilter(NoCacheFilter.java:46)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at com.linoma.ga.ui.core.filter.IECompatibilityModeFilter.doFilter(IECompatibilityModeFilter.java:61)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at com.linoma.ga.ui.wc.application.RedirectFilter.doFilter(RedirectFilter.java:50)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at com.linoma.ga.ui.wc.application.SecureFormDetectionFilter.doFilter(SecureFormDetectionFilter.java:45)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at com.linoma.ga.ui.wc.application.CharacterEncodingFilter.doFilter(CharacterEncodingFilter.java:30)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at com.linoma.ga.ui.wc.application.ActiveSessionAddressFilter.doFilter(ActiveSessionAddressFilter.java:58)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at com.linoma.dpa.services.GHTTPSIPDetectionValve.invoke(GHTTPSIPDetectionValve.java:45)
+	at com.linoma.dpa.services.GHTTPSIpFilter.invoke(GHTTPSIpFilter.java:43)
+	at com.linoma.dpa.services.GHTTPSRemoteIPValve.invoke(GHTTPSRemoteIPValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:396)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:937)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Jul 30, 2025 5:13:13 PM org.apache.catalina.core.ApplicationDispatcher invoke
+SEVERE: Servlet.service() for servlet [Faces Servlet] threw exception
+java.lang.IllegalArgumentException: ContentTypeList does not contain a supported content type: *
+	at org.apache.myfaces.renderkit.html.HtmlRenderKitImpl.createResponseWriter(HtmlRenderKitImpl.java:358)
+	at org.apache.myfaces.view.facelets.FaceletViewDeclarationLanguage.createResponseWriter(FaceletViewDeclarationLanguage.java:2263)
+	at org.apache.myfaces.view.facelets.FaceletViewDeclarationLanguage.renderView(FaceletViewDeclarationLanguage.java:1861)
+	at org.apache.myfaces.application.ViewHandlerImpl.renderView(ViewHandlerImpl.java:313)
+	at javax.faces.application.ViewHandlerWrapper.renderView(ViewHandlerWrapper.java:58)
+	at org.apache.myfaces.tomahawk.application.ResourceViewHandlerWrapper.renderView(ResourceViewHandlerWrapper.java:169)
+	at javax.faces.application.ViewHandlerWrapper.renderView(ViewHandlerWrapper.java:58)
+	at javax.faces.application.ViewHandlerWrapper.renderView(ViewHandlerWrapper.java:58)
+	at org.apache.myfaces.lifecycle.RenderResponseExecutor.execute(RenderResponseExecutor.java:121)
+	at org.apache.myfaces.lifecycle.LifecycleImpl.render(LifecycleImpl.java:267)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:200)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:199)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at com.linoma.ga.ui.wc.application.LocaleFilter.doFilter(LocaleFilter.java:154)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at com.linoma.ga.ui.wc.application.SecureFormDetectionFilter.doFilter(SecureFormDetectionFilter.java:45)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:641)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:417)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:347)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:284)
+	at com.linoma.ga.ui.wc.servlet.WebClientErrorHandlerServlet.doGet(WebClientErrorHandlerServlet.java:190)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:199)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at com.linoma.ga.ui.wc.application.SecureFormDetectionFilter.doFilter(SecureFormDetectionFilter.java:45)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:641)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:417)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:347)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:284)
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:377)
+	at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:237)
+	at org.apache.catalina.core.StandardHostValve.throwable(StandardHostValve.java:323)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:164)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at com.linoma.dpa.services.GHTTPSIPDetectionValve.invoke(GHTTPSIPDetectionValve.java:45)
+	at com.linoma.dpa.services.GHTTPSIpFilter.invoke(GHTTPSIpFilter.java:43)
+	at com.linoma.dpa.services.GHTTPSRemoteIPValve.invoke(GHTTPSRemoteIPValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:396)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:937)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Jul 30, 2025 5:13:13 PM org.apache.catalina.core.ApplicationDispatcher invoke
+SEVERE: Servlet.service() for servlet [Error Handler Servlet] threw exception
+java.lang.IllegalArgumentException: ContentTypeList does not contain a supported content type: *
+	at org.apache.myfaces.renderkit.html.HtmlRenderKitImpl.createResponseWriter(HtmlRenderKitImpl.java:358)
+	at org.apache.myfaces.view.facelets.FaceletViewDeclarationLanguage.createResponseWriter(FaceletViewDeclarationLanguage.java:2263)
+	at org.apache.myfaces.view.facelets.FaceletViewDeclarationLanguage.renderView(FaceletViewDeclarationLanguage.java:1861)
+	at org.apache.myfaces.application.ViewHandlerImpl.renderView(ViewHandlerImpl.java:313)
+	at javax.faces.application.ViewHandlerWrapper.renderView(ViewHandlerWrapper.java:58)
+	at org.apache.myfaces.tomahawk.application.ResourceViewHandlerWrapper.renderView(ResourceViewHandlerWrapper.java:169)
+	at javax.faces.application.ViewHandlerWrapper.renderView(ViewHandlerWrapper.java:58)
+	at javax.faces.application.ViewHandlerWrapper.renderView(ViewHandlerWrapper.java:58)
+	at org.apache.myfaces.lifecycle.RenderResponseExecutor.execute(RenderResponseExecutor.java:121)
+	at org.apache.myfaces.lifecycle.LifecycleImpl.render(LifecycleImpl.java:267)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:200)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:199)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at com.linoma.ga.ui.wc.application.LocaleFilter.doFilter(LocaleFilter.java:154)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at com.linoma.ga.ui.wc.application.SecureFormDetectionFilter.doFilter(SecureFormDetectionFilter.java:45)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:641)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:417)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:347)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:284)
+	at com.linoma.ga.ui.wc.servlet.WebClientErrorHandlerServlet.doGet(WebClientErrorHandlerServlet.java:190)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:199)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at com.linoma.ga.ui.wc.application.SecureFormDetectionFilter.doFilter(SecureFormDetectionFilter.java:45)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:641)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:417)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:347)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:284)
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:377)
+	at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:237)
+	at org.apache.catalina.core.StandardHostValve.throwable(StandardHostValve.java:323)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:164)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at com.linoma.dpa.services.GHTTPSIPDetectionValve.invoke(GHTTPSIPDetectionValve.java:45)
+	at com.linoma.dpa.services.GHTTPSIpFilter.invoke(GHTTPSIpFilter.java:43)
+	at com.linoma.dpa.services.GHTTPSRemoteIPValve.invoke(GHTTPSRemoteIPValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:396)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:937)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Jul 30, 2025 5:13:13 PM org.apache.catalina.core.StandardHostValve custom
+SEVERE: Exception Processing [ErrorPage[errorCode=500, location=/servlets/error]]
+javax.servlet.ServletException: ContentTypeList does not contain a supported content type: *
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:230)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:199)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at com.linoma.ga.ui.wc.application.LocaleFilter.doFilter(LocaleFilter.java:154)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at com.linoma.ga.ui.wc.application.SecureFormDetectionFilter.doFilter(SecureFormDetectionFilter.java:45)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:641)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:417)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:347)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:284)
+	at com.linoma.ga.ui.wc.servlet.WebClientErrorHandlerServlet.doGet(WebClientErrorHandlerServlet.java:190)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:199)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at com.linoma.ga.ui.wc.application.SecureFormDetectionFilter.doFilter(SecureFormDetectionFilter.java:45)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:641)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:417)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:347)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:284)
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:377)
+	at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:237)
+	at org.apache.catalina.core.StandardHostValve.throwable(StandardHostValve.java:323)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:164)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at com.linoma.dpa.services.GHTTPSIPDetectionValve.invoke(GHTTPSIPDetectionValve.java:45)
+	at com.linoma.dpa.services.GHTTPSIpFilter.invoke(GHTTPSIpFilter.java:43)
+	at com.linoma.dpa.services.GHTTPSRemoteIPValve.invoke(GHTTPSRemoteIPValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:396)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:937)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.IllegalArgumentException: ContentTypeList does not contain a supported content type: *
+	at org.apache.myfaces.renderkit.html.HtmlRenderKitImpl.createResponseWriter(HtmlRenderKitImpl.java:358)
+	at org.apache.myfaces.view.facelets.FaceletViewDeclarationLanguage.createResponseWriter(FaceletViewDeclarationLanguage.java:2263)
+	at org.apache.myfaces.view.facelets.FaceletViewDeclarationLanguage.renderView(FaceletViewDeclarationLanguage.java:1861)
+	at org.apache.myfaces.application.ViewHandlerImpl.renderView(ViewHandlerImpl.java:313)
+	at javax.faces.application.ViewHandlerWrapper.renderView(ViewHandlerWrapper.java:58)
+	at org.apache.myfaces.tomahawk.application.ResourceViewHandlerWrapper.renderView(ResourceViewHandlerWrapper.java:169)
+	at javax.faces.application.ViewHandlerWrapper.renderView(ViewHandlerWrapper.java:58)
+	at javax.faces.application.ViewHandlerWrapper.renderView(ViewHandlerWrapper.java:58)
+	at org.apache.myfaces.lifecycle.RenderResponseExecutor.execute(RenderResponseExecutor.java:121)
+	at org.apache.myfaces.lifecycle.LifecycleImpl.render(LifecycleImpl.java:267)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:200)
+	... 43 more
+
+Jul 31, 2025 10:11:06 AM org.apache.tomcat.util.http.parser.Cookie logInvalidHeader
+INFO: A cookie header was received [${jndi:dns://MDEDiscoveryabe981bb6bCookie-8000}] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+Jul 31, 2025 10:11:08 AM org.apache.coyote.http11.Http11Processor service
+INFO: Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in the request target [/js/?${jndi:dns://MDEDiscoveryabe981bb6bSeenInTheWildGet-8000} ]. The valid characters are defined in RFC 7230 and RFC 3986
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:482)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:269)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:937)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Jul 31, 2025 10:11:08 AM org.apache.coyote.http11.Http11Processor service
+SEVERE: Error processing request
+java.lang.NullPointerException
+	at com.linoma.dpa.services.GHTTPSRemoteIPValve.invoke(GHTTPSRemoteIPValve.java:47)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:396)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:937)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Jul 31, 2025 10:11:09 AM org.apache.coyote.http11.Http11Processor service
+SEVERE: Error processing request
+java.lang.NullPointerException
+	at com.linoma.dpa.services.GHTTPSRemoteIPValve.invoke(GHTTPSRemoteIPValve.java:47)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:396)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:937)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Jul 31, 2025 10:11:09 AM org.apache.coyote.http11.Http11Processor service
+SEVERE: Error processing request
+java.lang.NullPointerException
+	at com.linoma.dpa.services.GHTTPSRemoteIPValve.invoke(GHTTPSRemoteIPValve.java:47)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:396)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:937)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Jul 31, 2025 10:11:09 AM org.apache.coyote.http11.Http11Processor service
+INFO: Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in the request target [/struts2-showcase/${jndi:dns://MDEDiscoveryabe981bb6bApacheStruts2-8000} ]. The valid characters are defined in RFC 7230 and RFC 3986
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:490)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:269)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:937)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Jul 31, 2025 10:11:09 AM org.apache.coyote.http11.Http11Processor service
+SEVERE: Error processing request
+java.lang.NullPointerException
+	at com.linoma.dpa.services.GHTTPSRemoteIPValve.invoke(GHTTPSRemoteIPValve.java:47)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:396)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:937)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Jul 31, 2025 10:11:09 AM org.apache.coyote.http11.Http11Processor service
+INFO: Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in the request target [/analytics/telemetry/ph/api/hyper/send?_c=${jndi:dns://MDEDiscoveryabe981bb6bVMwarevCenter-443}&i=test ]. The valid characters are defined in RFC 7230 and RFC 3986
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:482)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:269)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:937)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Jul 31, 2025 10:11:09 AM org.apache.coyote.http11.Http11Processor service
+SEVERE: Error processing request
+java.lang.NullPointerException
+	at com.linoma.dpa.services.GHTTPSRemoteIPValve.invoke(GHTTPSRemoteIPValve.java:47)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:396)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:937)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Jul 31, 2025 10:11:09 AM org.apache.coyote.http11.Http11Processor service
+SEVERE: Error processing request
+java.lang.NullPointerException
+	at com.linoma.dpa.services.GHTTPSRemoteIPValve.invoke(GHTTPSRemoteIPValve.java:47)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:396)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:937)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Jul 31, 2025 10:11:09 AM org.apache.coyote.http11.Http11Processor service
+SEVERE: Error processing request
+java.lang.NullPointerException
+	at com.linoma.dpa.services.GHTTPSRemoteIPValve.invoke(GHTTPSRemoteIPValve.java:47)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:396)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:937)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Jul 31, 2025 10:11:09 AM org.apache.coyote.http11.Http11Processor service
+SEVERE: Error processing request
+java.lang.NullPointerException
+	at com.linoma.dpa.services.GHTTPSRemoteIPValve.invoke(GHTTPSRemoteIPValve.java:47)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:396)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:937)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Jul 31, 2025 10:11:10 AM org.apache.coyote.http11.Http11Processor service
+SEVERE: Error processing request
+java.lang.NullPointerException
+	at com.linoma.dpa.services.GHTTPSRemoteIPValve.invoke(GHTTPSRemoteIPValve.java:47)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:396)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:937)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Jul 31, 2025 10:11:10 AM org.apache.coyote.http11.Http11Processor service
+SEVERE: Error processing request
+java.lang.NullPointerException
+	at com.linoma.dpa.services.GHTTPSRemoteIPValve.invoke(GHTTPSRemoteIPValve.java:47)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:396)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:937)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Jul 31, 2025 10:11:10 AM org.apache.coyote.http11.Http11Processor service
+SEVERE: Error processing request
+java.lang.NullPointerException
+	at com.linoma.dpa.services.GHTTPSRemoteIPValve.invoke(GHTTPSRemoteIPValve.java:47)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:396)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:937)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Jul 31, 2025 10:11:11 AM org.apache.coyote.http11.Http11Processor service
+SEVERE: Error processing request
+java.lang.NullPointerException
+	at com.linoma.dpa.services.GHTTPSRemoteIPValve.invoke(GHTTPSRemoteIPValve.java:47)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:396)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:937)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Jul 31, 2025 10:11:11 AM org.apache.coyote.http11.Http11Processor service
+SEVERE: Error processing request
+java.lang.NullPointerException
+	at com.linoma.dpa.services.GHTTPSRemoteIPValve.invoke(GHTTPSRemoteIPValve.java:47)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:396)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:937)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Jul 31, 2025 10:11:12 AM org.apache.coyote.http11.Http11Processor service
+SEVERE: Error processing request
+java.lang.NullPointerException
+	at com.linoma.dpa.services.GHTTPSRemoteIPValve.invoke(GHTTPSRemoteIPValve.java:47)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:396)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:937)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Jul 31, 2025 10:11:12 AM org.apache.coyote.http11.Http11Processor service
+SEVERE: Error processing request
+java.lang.NullPointerException
+	at com.linoma.dpa.services.GHTTPSRemoteIPValve.invoke(GHTTPSRemoteIPValve.java:47)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:396)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:937)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Jul 31, 2025 10:11:12 AM org.apache.coyote.http11.Http11Processor service
+SEVERE: Error processing request
+java.lang.NullPointerException
+	at com.linoma.dpa.services.GHTTPSRemoteIPValve.invoke(GHTTPSRemoteIPValve.java:47)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:396)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:937)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Jul 31, 2025 10:11:12 AM org.apache.coyote.http11.Http11Processor service
+SEVERE: Error processing request
+java.lang.NullPointerException
+	at com.linoma.dpa.services.GHTTPSRemoteIPValve.invoke(GHTTPSRemoteIPValve.java:47)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:396)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:937)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Jul 31, 2025 12:07:38 PM org.apache.coyote.http11.Http11Processor service
+SEVERE: Error processing request
+java.lang.NullPointerException
+	at com.linoma.dpa.services.GHTTPSRemoteIPValve.invoke(GHTTPSRemoteIPValve.java:47)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:396)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:937)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Jul 31, 2025 1:03:20 PM org.apache.coyote.http11.Http11Processor service
+SEVERE: Error processing request
+java.lang.NullPointerException
+	at com.linoma.dpa.services.GHTTPSRemoteIPValve.invoke(GHTTPSRemoteIPValve.java:47)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:396)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:937)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Jul 31, 2025 3:24:16 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Jul 31, 2025 3:24:16 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-nio-8000"]
+Jul 31, 2025 3:24:16 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["https-jsse-nio-8001"]
+Jul 31, 2025 3:24:16 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service [admin]
+Jul 31, 2025 3:24:16 PM com.sun.xml.ws.transport.http.servlet.WSServletDelegate destroy
+INFO: WSSERVLET15: JAX-WS servlet destroyed
+Jul 31, 2025 3:24:17 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["https-jsse-nio-443"]
+Jul 31, 2025 3:24:17 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service [ghttps]
+Jul 31, 2025 3:24:17 PM com.sun.xml.ws.transport.http.servlet.WSServletDelegate destroy
+INFO: WSSERVLET15: JAX-WS servlet destroyed
+Jul 31, 2025 3:24:17 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+WARNING: The web application [ROOT] appears to have started a thread named [auto-refreshing-memoizing-supplier-0] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.20/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@11.0.20/java.util.concurrent.locks.LockSupport.park(LockSupport.java:194)
+ java.base@11.0.20/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2081)
+ java.base@11.0.20/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1170)
+ java.base@11.0.20/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@11.0.20/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1054)
+ java.base@11.0.20/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+ java.base@11.0.20/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@11.0.20/java.lang.Thread.run(Thread.java:829)
+Jul 31, 2025 3:24:17 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["https-jsse-nio-443"]
+Jul 31, 2025 3:24:18 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+WARNING: The web application [goanywhere] appears to have started a thread named [Express-Scheduler-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.20/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@11.0.20/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:234)
+ java.base@11.0.20/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2123)
+ java.base@11.0.20/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.poll(ScheduledThreadPoolExecutor.java:1218)
+ java.base@11.0.20/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.poll(ScheduledThreadPoolExecutor.java:899)
+ java.base@11.0.20/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1053)
+ java.base@11.0.20/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+ java.base@11.0.20/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@11.0.20/java.lang.Thread.run(Thread.java:829)
+Jul 31, 2025 3:24:18 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+WARNING: The web application [goanywhere] appears to have started a thread named [auto-refreshing-memoizing-supplier-0] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.20/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@11.0.20/java.util.concurrent.locks.LockSupport.park(LockSupport.java:194)
+ java.base@11.0.20/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2081)
+ java.base@11.0.20/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1170)
+ java.base@11.0.20/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@11.0.20/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1054)
+ java.base@11.0.20/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+ java.base@11.0.20/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@11.0.20/java.lang.Thread.run(Thread.java:829)
+Jul 31, 2025 3:24:18 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+WARNING: The web application [goanywhere] appears to have started a thread named [controller-client-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.20/java.lang.Thread.sleep(Native Method)
+ io.netty.util.concurrent.SingleThreadEventExecutor.confirmShutdown(SingleThreadEventExecutor.java:790)
+ io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:596)
+ io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+ io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+ java.base@11.0.20/java.lang.Thread.run(Thread.java:829)
+Jul 31, 2025 3:24:18 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+WARNING: The web application [goanywhere] appears to have started a thread named [agent-server-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.20/java.lang.Thread.sleep(Native Method)
+ io.netty.util.concurrent.SingleThreadEventExecutor.confirmShutdown(SingleThreadEventExecutor.java:790)
+ io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:596)
+ io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+ io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+ java.base@11.0.20/java.lang.Thread.run(Thread.java:829)
+Jul 31, 2025 3:24:18 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+WARNING: The web application [goanywhere] appears to have started a thread named [controller-client-3] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.20/java.lang.Thread.sleep(Native Method)
+ io.netty.util.concurrent.SingleThreadEventExecutor.confirmShutdown(SingleThreadEventExecutor.java:790)
+ io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:596)
+ io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+ io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+ java.base@11.0.20/java.lang.Thread.run(Thread.java:829)
+Jul 31, 2025 3:24:18 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+WARNING: The web application [goanywhere] appears to have started a thread named [auto-refreshing-memoizing-supplier-0] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.20/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@11.0.20/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:234)
+ java.base@11.0.20/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2123)
+ java.base@11.0.20/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@11.0.20/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@11.0.20/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1054)
+ java.base@11.0.20/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+ java.base@11.0.20/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@11.0.20/java.lang.Thread.run(Thread.java:829)
+Jul 31, 2025 3:24:18 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+WARNING: The web application [goanywhere] appears to have started a thread named [service-client-2] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.20/java.lang.Thread.sleep(Native Method)
+ io.netty.util.concurrent.SingleThreadEventExecutor.confirmShutdown(SingleThreadEventExecutor.java:790)
+ io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:596)
+ io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+ io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+ java.base@11.0.20/java.lang.Thread.run(Thread.java:829)
+Jul 31, 2025 3:24:18 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+WARNING: The web application [goanywhere] appears to have started a thread named [data-client-2] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.20/java.lang.Thread.sleep(Native Method)
+ io.netty.util.concurrent.SingleThreadEventExecutor.confirmShutdown(SingleThreadEventExecutor.java:790)
+ io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:596)
+ io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+ io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+ java.base@11.0.20/java.lang.Thread.run(Thread.java:829)
+Jul 31, 2025 3:24:18 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+WARNING: The web application [goanywhere] appears to have started a thread named [ClientAddressMap-1218] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.20/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@11.0.20/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:234)
+ java.base@11.0.20/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2123)
+ java.base@11.0.20/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.poll(ScheduledThreadPoolExecutor.java:1218)
+ java.base@11.0.20/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.poll(ScheduledThreadPoolExecutor.java:899)
+ java.base@11.0.20/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1053)
+ java.base@11.0.20/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+ java.base@11.0.20/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@11.0.20/java.lang.Thread.run(Thread.java:829)
+Jul 31, 2025 3:24:18 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+WARNING: The web application [goanywhere] appears to have started a thread named [ClientAddressMap-1219] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.20/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@11.0.20/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:234)
+ java.base@11.0.20/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2123)
+ java.base@11.0.20/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.poll(ScheduledThreadPoolExecutor.java:1223)
+ java.base@11.0.20/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.poll(ScheduledThreadPoolExecutor.java:899)
+ java.base@11.0.20/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1053)
+ java.base@11.0.20/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+ java.base@11.0.20/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@11.0.20/java.lang.Thread.run(Thread.java:829)
+Jul 31, 2025 3:24:18 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+WARNING: The web application [goanywhere] appears to have started a thread named [controller-client-2] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.20/java.lang.Thread.sleep(Native Method)
+ io.netty.util.concurrent.SingleThreadEventExecutor.confirmShutdown(SingleThreadEventExecutor.java:790)
+ io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:596)
+ io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+ io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+ java.base@11.0.20/java.lang.Thread.run(Thread.java:829)
+Jul 31, 2025 3:24:18 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+WARNING: The web application [goanywhere] appears to have started a thread named [controller-client-3] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.20/java.lang.Thread.sleep(Native Method)
+ io.netty.util.concurrent.SingleThreadEventExecutor.confirmShutdown(SingleThreadEventExecutor.java:790)
+ io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:596)
+ io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+ io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+ java.base@11.0.20/java.lang.Thread.run(Thread.java:829)
+Jul 31, 2025 3:24:18 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+WARNING: The web application [goanywhere] appears to have started a thread named [controller-client-4] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.20/java.lang.Thread.sleep(Native Method)
+ io.netty.util.concurrent.SingleThreadEventExecutor.confirmShutdown(SingleThreadEventExecutor.java:790)
+ io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:596)
+ io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+ io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+ java.base@11.0.20/java.lang.Thread.run(Thread.java:829)
+Jul 31, 2025 3:24:18 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+WARNING: The web application [goanywhere] appears to have started a thread named [agent-server-2] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.20/java.lang.Thread.sleep(Native Method)
+ io.netty.util.concurrent.SingleThreadEventExecutor.confirmShutdown(SingleThreadEventExecutor.java:790)
+ io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:596)
+ io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+ io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+ java.base@11.0.20/java.lang.Thread.run(Thread.java:829)
+Jul 31, 2025 3:24:18 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+WARNING: The web application [goanywhere] appears to have started a thread named [agent-server-3] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.20/java.lang.Thread.sleep(Native Method)
+ io.netty.util.concurrent.SingleThreadEventExecutor.confirmShutdown(SingleThreadEventExecutor.java:790)
+ io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:596)
+ io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+ io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+ java.base@11.0.20/java.lang.Thread.run(Thread.java:829)
+Jul 31, 2025 3:24:18 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+WARNING: The web application [goanywhere] appears to have started a thread named [agent-server-4] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.20/java.lang.Thread.sleep(Native Method)
+ io.netty.util.concurrent.SingleThreadEventExecutor.confirmShutdown(SingleThreadEventExecutor.java:790)
+ io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:596)
+ io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+ io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+ java.base@11.0.20/java.lang.Thread.run(Thread.java:829)
+Jul 31, 2025 3:24:18 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+WARNING: The web application [goanywhere] appears to have started a thread named [agent-proxy-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.20/java.lang.Thread.sleep(Native Method)
+ io.netty.util.concurrent.SingleThreadEventExecutor.confirmShutdown(SingleThreadEventExecutor.java:790)
+ io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:596)
+ io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+ io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+ java.base@11.0.20/java.lang.Thread.run(Thread.java:829)
+Jul 31, 2025 3:24:18 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+WARNING: The web application [goanywhere] appears to have started a thread named [agent-proxy-2] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.20/java.lang.Thread.sleep(Native Method)
+ io.netty.util.concurrent.SingleThreadEventExecutor.confirmShutdown(SingleThreadEventExecutor.java:790)
+ io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:596)
+ io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+ io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+ java.base@11.0.20/java.lang.Thread.run(Thread.java:829)
+Jul 31, 2025 3:24:18 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+WARNING: The web application [goanywhere] appears to have started a thread named [agent-proxy-3] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.20/java.lang.Thread.sleep(Native Method)
+ io.netty.util.concurrent.SingleThreadEventExecutor.confirmShutdown(SingleThreadEventExecutor.java:790)
+ io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:596)
+ io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+ io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+ java.base@11.0.20/java.lang.Thread.run(Thread.java:829)
+Jul 31, 2025 3:24:18 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+WARNING: The web application [goanywhere] appears to have started a thread named [agent-proxy-4] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.20/java.lang.Thread.sleep(Native Method)
+ io.netty.util.concurrent.SingleThreadEventExecutor.confirmShutdown(SingleThreadEventExecutor.java:790)
+ io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:596)
+ io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+ io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+ java.base@11.0.20/java.lang.Thread.run(Thread.java:829)
+Jul 31, 2025 3:24:18 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-nio-8000"]
+Jul 31, 2025 3:24:18 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["https-jsse-nio-8001"]
+Jul 31, 2025 3:24:18 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-nio-8000"]
+Jul 31, 2025 3:24:18 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["https-jsse-nio-8001"]

@@ -1,0 +1,84 @@
+2025-02-23 00:21:21 WARN  [vm-goanywhere2] Primary Connection Pool - Failed to validate connection ConnectionID:1 ClientConnectionId: ea6d75e7-b77e-4db9-98dd-ed640c43fec0 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:21 WARN  [vm-goanywhere2] Primary Connection Pool - Failed to validate connection ConnectionID:4 ClientConnectionId: 1e2a99ba-8474-4466-8417-4b7b417473de (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:21 WARN  [vm-goanywhere2] Primary Connection Pool - Failed to validate connection ConnectionID:6 ClientConnectionId: 967e64bb-cb90-4e26-a121-a2cb39856cb3 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:21 WARN  [vm-goanywhere2] Primary Connection Pool - Failed to validate connection ConnectionID:8 ClientConnectionId: 3b96bf0a-e32c-45f2-942a-95c6ea2e2a77 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:21 WARN  [vm-goanywhere2] Primary Connection Pool - Failed to validate connection ConnectionID:10 ClientConnectionId: 255d135e-8223-492c-a99f-284b00d0a0c7 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:21 WARN  [vm-goanywhere2] Primary Connection Pool - Failed to validate connection ConnectionID:12 ClientConnectionId: f1b7e187-a5c0-494c-91f1-1f5fb318b92c (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:21 WARN  [vm-goanywhere2] Primary Connection Pool - Failed to validate connection ConnectionID:14 ClientConnectionId: 9525f291-691d-4cf0-88ee-9e994a4adde6 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:21 WARN  [vm-goanywhere2] Primary Connection Pool - Failed to validate connection ConnectionID:16 ClientConnectionId: e58326f6-a950-4f52-9da8-e28c97c3b0e3 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:21 WARN  [vm-goanywhere2] Primary Connection Pool - Failed to validate connection ConnectionID:17 ClientConnectionId: 0b479af6-9260-4df3-b36c-0793a6612b49 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:21 WARN  [vm-goanywhere2] Primary Connection Pool - Failed to validate connection ConnectionID:18 ClientConnectionId: 992acec4-de27-45f8-9767-79f1fedb69c2 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:21 WARN  [vm-goanywhere2] Primary Connection Pool - Failed to validate connection ConnectionID:19 ClientConnectionId: d3955931-e032-4af3-9b0a-67792f30d560 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:21 WARN  [vm-goanywhere2] Primary Connection Pool - Failed to validate connection ConnectionID:20 ClientConnectionId: 05a318ca-db0c-43dd-b75b-183e604afcd2 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:21 WARN  [vm-goanywhere2] Primary Connection Pool - Failed to validate connection ConnectionID:21 ClientConnectionId: 8e3c124a-7b1b-4ad8-b8f7-1e4d06d5b4e9 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:21 WARN  [vm-goanywhere2] Primary Connection Pool - Failed to validate connection ConnectionID:22 ClientConnectionId: 258de936-a291-46ac-b868-24b27d4b08f2 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:21 WARN  [vm-goanywhere2] Primary Connection Pool - Failed to validate connection ConnectionID:23 ClientConnectionId: 0487ca95-05c7-4b8b-9b37-382eee084598 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:21 WARN  [vm-goanywhere2] Primary Connection Pool - Failed to validate connection ConnectionID:24 ClientConnectionId: 9daa1f54-b509-4d43-97ca-37f9f62b179e (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:21 WARN  [vm-goanywhere2] Primary Connection Pool - Failed to validate connection ConnectionID:25 ClientConnectionId: 53dd4533-5300-49bf-8713-bf60cdab63bf (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:21 WARN  [vm-goanywhere2] Primary Connection Pool - Failed to validate connection ConnectionID:26 ClientConnectionId: 40ff8050-dc96-4af0-914e-941d7043238e (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:21 WARN  [vm-goanywhere2] Primary Connection Pool - Failed to validate connection ConnectionID:27 ClientConnectionId: 384bb470-c3ed-4b4b-901d-edd4ba4202e3 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:21 WARN  [vm-goanywhere2] Primary Connection Pool - Failed to validate connection ConnectionID:28 ClientConnectionId: 3030a5e0-7ac9-43b4-9b32-b4f33f462f0a (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:21 WARN  [vm-goanywhere2] Primary Connection Pool - Failed to validate connection ConnectionID:29 ClientConnectionId: 164c485a-b965-491b-8c77-98a7b941f097 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:21 WARN  [vm-goanywhere2] Primary Connection Pool - Failed to validate connection ConnectionID:30 ClientConnectionId: 7f6acd1e-f36f-450f-99f1-c8616476d277 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:21 WARN  [vm-goanywhere2] Primary Connection Pool - Failed to validate connection ConnectionID:31 ClientConnectionId: 3c4a300f-1b20-4bbb-95b9-1e2b5e23a98c (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:21 WARN  [vm-goanywhere2] Primary Connection Pool - Failed to validate connection ConnectionID:32 ClientConnectionId: 616c4977-4d35-4456-97be-1807e27d35e5 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:21 WARN  [vm-goanywhere2] Primary Connection Pool - Failed to validate connection ConnectionID:33 ClientConnectionId: b6760c8f-9681-4a67-b03f-fe67fde535aa (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:21 WARN  [vm-goanywhere2] Primary Connection Pool - Failed to validate connection ConnectionID:34 ClientConnectionId: 8812af62-3606-4632-9c98-167096d96b42 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:21 WARN  [vm-goanywhere2] Primary Connection Pool - Failed to validate connection ConnectionID:35 ClientConnectionId: 97ee1e29-c06b-4ad3-9f3f-be3a1949ddac (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:21 WARN  [vm-goanywhere2] Primary Connection Pool - Failed to validate connection ConnectionID:36 ClientConnectionId: f8522800-e4f6-4159-8ffb-72021c59024d (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:21 WARN  [vm-goanywhere2] Primary Connection Pool - Failed to validate connection ConnectionID:37 ClientConnectionId: ba1e912b-4b9e-4e03-89d0-07a0324c8d4d (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:21 WARN  [vm-goanywhere2] Primary Connection Pool - Failed to validate connection ConnectionID:38 ClientConnectionId: cc2b1029-ed03-489d-a115-fe8a574acbb8 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:21 WARN  [vm-goanywhere2] Primary Connection Pool - Failed to validate connection ConnectionID:39 ClientConnectionId: c5815af6-0a6d-4cb3-a828-9e99ed234da9 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:21 WARN  [vm-goanywhere2] Primary Connection Pool - Failed to validate connection ConnectionID:40 ClientConnectionId: b1830931-4469-40a5-817e-58fc78662b5c (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:21 WARN  [vm-goanywhere2] Primary Connection Pool - Failed to validate connection ConnectionID:41 ClientConnectionId: f889a12c-e704-4fa1-98d2-1b43be68bc75 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:21 WARN  [vm-goanywhere2] Primary Connection Pool - Failed to validate connection ConnectionID:42 ClientConnectionId: 7c1c4ce0-9083-4057-b69d-bcb1a657824f (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:21 WARN  [vm-goanywhere2] Primary Connection Pool - Failed to validate connection ConnectionID:43 ClientConnectionId: ae64aa68-5166-4e95-857c-978b2bdaaf41 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:21 WARN  [vm-goanywhere2] Primary Connection Pool - Failed to validate connection ConnectionID:44 ClientConnectionId: 44a359b2-a803-4f20-8cf8-2dc02c1572bc (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:21 WARN  [vm-goanywhere2] Primary Connection Pool - Failed to validate connection ConnectionID:45 ClientConnectionId: e3122ec0-50a3-4a2f-bfad-fc63b61d47ab (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:21 WARN  [vm-goanywhere2] Primary Connection Pool - Failed to validate connection ConnectionID:46 ClientConnectionId: d092aa75-3bea-469d-bec8-2f5d8f3847dc (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:21 WARN  [vm-goanywhere2] Primary Connection Pool - Failed to validate connection ConnectionID:47 ClientConnectionId: a3a16be1-f133-445d-ac01-da8bb20a4c15 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:21 WARN  [vm-goanywhere2] Primary Connection Pool - Failed to validate connection ConnectionID:48 ClientConnectionId: 3389cdbf-43a3-401b-9dc1-6c97926fda5a (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:21 WARN  [vm-goanywhere2] Primary Connection Pool - Failed to validate connection ConnectionID:49 ClientConnectionId: 15ece886-92b4-42f3-8e5c-26d10c70bbba (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:21 WARN  [vm-goanywhere2] Primary Connection Pool - Failed to validate connection ConnectionID:50 ClientConnectionId: fadf4f97-b039-47a8-a1b7-c431e7039381 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:21 WARN  [vm-goanywhere2] Primary Connection Pool - Failed to validate connection ConnectionID:51 ClientConnectionId: c5369550-ac17-41fc-9d45-8543a211e59e (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:21 WARN  [vm-goanywhere2] Primary Connection Pool - Failed to validate connection ConnectionID:52 ClientConnectionId: b3b77ad1-4d49-4156-9171-09baea4e5c0a (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:21 WARN  [vm-goanywhere2] Primary Connection Pool - Failed to validate connection ConnectionID:53 ClientConnectionId: 74b5a4bb-487c-45ad-bc14-ac09fdf6b0aa (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:21 WARN  [vm-goanywhere2] Primary Connection Pool - Failed to validate connection ConnectionID:54 ClientConnectionId: b9cf8c65-467a-4fce-a1d3-0b0d6c90e808 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:21 WARN  [vm-goanywhere2] Primary Connection Pool - Failed to validate connection ConnectionID:55 ClientConnectionId: 5adf9849-3805-4fc6-97dc-ee970da1d787 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:21 WARN  [vm-goanywhere2] Primary Connection Pool - Failed to validate connection ConnectionID:56 ClientConnectionId: e64fc192-1d74-4a1f-af20-24fd31c5f04f (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:21 WARN  [vm-goanywhere2] Primary Connection Pool - Failed to validate connection ConnectionID:57 ClientConnectionId: 24601b8f-5280-4d11-83a2-1e1c1c63290b (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:21 WARN  [vm-goanywhere2] Primary Connection Pool - Failed to validate connection ConnectionID:58 ClientConnectionId: c6dd2c5b-be85-4200-96bc-3e972cbbbc60 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:21 WARN  [vm-goanywhere2] Primary Connection Pool - Failed to validate connection ConnectionID:59 ClientConnectionId: 3fed57cd-1c75-46ca-a93d-c41e12836ae8 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:21 WARN  [vm-goanywhere2] Primary Connection Pool - Failed to validate connection ConnectionID:60 ClientConnectionId: 6901ba84-b117-44bd-a609-691f7bd618c5 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:21 WARN  [vm-goanywhere2] Primary Connection Pool - Failed to validate connection ConnectionID:61 ClientConnectionId: a45f5dd6-7c46-40da-8cb7-4655c1ec1b1a (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:21 WARN  [vm-goanywhere2] Primary Connection Pool - Failed to validate connection ConnectionID:62 ClientConnectionId: 4c251a10-36a8-4688-a55d-ddff240fae56 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:21 WARN  [vm-goanywhere2] Primary Connection Pool - Failed to validate connection ConnectionID:63 ClientConnectionId: 60fa667a-25be-4693-94a0-a447f6d15e41 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:21 WARN  [vm-goanywhere2] Primary Connection Pool - Failed to validate connection ConnectionID:64 ClientConnectionId: 1c7a2b38-7020-4a59-aadc-c205a550716e (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:34 INFO  [vm-goanywhere2] Sequence Connection Pool - Shutdown initiated...
+2025-02-23 00:21:34 INFO  [vm-goanywhere2] Sequence Connection Pool - Shutdown completed.
+2025-02-23 00:21:34 INFO  [vm-goanywhere2] Primary Connection Pool - Shutdown initiated...
+2025-02-23 00:21:37 INFO  [vm-goanywhere2] Primary Connection Pool - Shutdown completed.
+2025-03-30 00:24:44 INFO  [vm-goanywhere2] Sequence Connection Pool - Shutdown initiated...
+2025-03-30 00:24:44 INFO  [vm-goanywhere2] Sequence Connection Pool - Shutdown completed.
+2025-03-30 00:24:44 INFO  [vm-goanywhere2] Primary Connection Pool - Shutdown initiated...
+2025-03-30 00:24:44 INFO  [vm-goanywhere2] Primary Connection Pool - Shutdown completed.
+2025-07-09 09:06:07 INFO  [vm-goanywhere2] Sequence Connection Pool - Shutdown initiated...
+2025-07-09 09:06:07 INFO  [vm-goanywhere2] Sequence Connection Pool - Shutdown completed.
+2025-07-09 09:06:07 INFO  [vm-goanywhere2] Primary Connection Pool - Shutdown initiated...
+2025-07-09 09:06:07 INFO  [vm-goanywhere2] Primary Connection Pool - Shutdown completed.
+2025-07-11 09:35:03 INFO  [az-pd-gomft02] Sequence Connection Pool - Shutdown initiated...
+2025-07-11 09:35:03 INFO  [az-pd-gomft02] Sequence Connection Pool - Shutdown completed.
+2025-07-11 09:35:03 INFO  [az-pd-gomft02] Primary Connection Pool - Shutdown initiated...
+2025-07-11 09:35:03 INFO  [az-pd-gomft02] Primary Connection Pool - Shutdown completed.
+2025-07-11 09:40:12 INFO  [az-pd-gomft02] Sequence Connection Pool - Shutdown initiated...
+2025-07-11 09:40:12 INFO  [az-pd-gomft02] Sequence Connection Pool - Shutdown completed.
+2025-07-11 09:40:12 INFO  [az-pd-gomft02] Primary Connection Pool - Shutdown initiated...
+2025-07-11 09:40:12 INFO  [az-pd-gomft02] Primary Connection Pool - Shutdown completed.
+2025-08-19 00:16:22 INFO  [az-pd-gomft01] Sequence Connection Pool - Shutdown initiated...
+2025-08-19 00:16:22 INFO  [az-pd-gomft01] Sequence Connection Pool - Shutdown completed.
+2025-08-19 00:16:22 INFO  [az-pd-gomft01] Primary Connection Pool - Shutdown initiated...
+2025-08-19 00:16:22 INFO  [az-pd-gomft01] Primary Connection Pool - Shutdown completed.
+2025-09-16 00:39:36 INFO  [az-pd-gomft01] Sequence Connection Pool - Shutdown initiated...
+2025-09-16 00:39:36 INFO  [az-pd-gomft01] Sequence Connection Pool - Shutdown completed.
+2025-09-16 00:39:36 INFO  [az-pd-gomft01] Primary Connection Pool - Shutdown initiated...
+2025-09-16 00:39:36 INFO  [az-pd-gomft01] Primary Connection Pool - Shutdown completed.

@@ -1,0 +1,30 @@
+[2024-02-15 20:12:16] [info]  [ 6936] Commons Daemon procrun (1.0.15.0 64-bit) started
+[2024-02-15 20:12:16] [info]  [ 6936] Service GoAnywhere name GoAnywhere
+[2024-02-15 20:12:16] [info]  [ 6936] Service 'GoAnywhere' installed
+[2024-02-15 20:12:16] [info]  [ 6936] Commons Daemon procrun finished
+[2024-02-15 20:12:16] [info]  [ 7396] Commons Daemon procrun (1.0.15.0 64-bit) started
+[2024-02-15 20:12:16] [info]  [ 7396] Updating service...
+[2024-02-15 20:12:16] [info]  [ 7396] Service 'GoAnywhere' updated
+[2024-02-15 20:12:16] [info]  [ 7396] Update service finished.
+[2024-02-15 20:12:16] [info]  [ 7396] Commons Daemon procrun finished
+[2024-02-15 20:12:16] [info]  [ 7344] Commons Daemon procrun (1.0.15.0 64-bit) started
+[2024-02-15 20:12:16] [info]  [ 7344] Updating service...
+[2024-02-15 20:12:16] [info]  [ 7344] Service 'GoAnywhere' updated
+[2024-02-15 20:12:16] [info]  [ 7344] Update service finished.
+[2024-02-15 20:12:16] [info]  [ 7344] Commons Daemon procrun finished
+[2024-02-15 20:12:16] [info]  [ 4120] Commons Daemon procrun (1.0.15.0 64-bit) started
+[2024-02-15 20:12:16] [info]  [ 4120] Running 'GoAnywhere' Service...
+[2024-02-15 20:12:16] [info]  [ 8080] Starting service...
+[2024-02-15 20:12:18] [info]  [ 8080] Service started in 1328 ms.
+[2024-02-15 21:18:35] [info]  [ 7676] Stopping service...
+[2024-02-15 21:18:37] [info]  [ 7676] Service stop thread completed.
+[2024-02-15 21:18:37] [info]  [ 4120] Run service finished.
+[2024-02-15 21:18:37] [info]  [ 4120] Commons Daemon procrun finished
+[2024-02-15 21:18:37] [info]  [ 7804] Commons Daemon procrun (1.0.15.0 64-bit) started
+[2024-02-15 21:18:37] [info]  [ 7804] Running 'GoAnywhere' Service...
+[2024-02-15 21:18:37] [info]  [ 5804] Starting service...
+[2024-02-15 21:18:39] [info]  [ 5804] Service started in 1411 ms.
+[2024-03-01 19:34:49] [info]  [ 6200] Stopping service...
+[2024-03-01 19:34:51] [info]  [ 6200] Service stop thread completed.
+[2024-03-01 19:34:51] [info]  [ 7804] Run service finished.
+[2024-03-01 19:34:51] [info]  [ 7804] Commons Daemon procrun finished

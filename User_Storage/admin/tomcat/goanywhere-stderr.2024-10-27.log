@@ -1,0 +1,67 @@
+
+2024-10-27 00:15:15 Commons Daemon procrun stderr initialized
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.linoma.security.commons.credential.key.store.KeyStoreFactory (file:/C:/Program Files/Fortra/GoAnywhere/lib/linoma-security-commons-1.3.1.jar) to constructor sun.security.provider.Sun()
+WARNING: Please consider reporting this to the maintainers of com.linoma.security.commons.credential.key.store.KeyStoreFactory
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Oct 27, 2024 12:15:34 AM org.apache.tomcat.util.digester.SetPropertiesRule begin
+WARNING: Match [Server/Service/Connector] failed to set property [forceIDPLogin] to [false]
+Oct 27, 2024 12:15:34 AM org.apache.tomcat.util.digester.SetPropertiesRule begin
+WARNING: Match [Server/Service/Connector] failed to set property [gaRedirect] to [true]
+Oct 27, 2024 12:15:34 AM org.apache.tomcat.util.digester.SetPropertiesRule begin
+WARNING: Match [Server/Service/Connector] failed to set property [gaRedirectHost] to [vm-goanywhere1]
+Oct 27, 2024 12:15:34 AM org.apache.tomcat.util.digester.SetPropertiesRule begin
+WARNING: Match [Server/Service/Connector] failed to set property [gaRedirectPort] to [8001]
+Oct 27, 2024 12:15:34 AM org.apache.tomcat.util.digester.SetPropertiesRule begin
+WARNING: Match [Server/Service/Connector] failed to set property [gaRedirectScheme] to [https]
+Oct 27, 2024 12:15:34 AM org.apache.tomcat.util.digester.SetPropertiesRule begin
+WARNING: Match [Server/Service/Connector] failed to set property [keyLocation] to [File]
+Oct 27, 2024 12:15:35 AM org.apache.tomcat.util.digester.SetPropertiesRule begin
+WARNING: Match [Server/Service/Connector] failed to set property [forceIDPLogin] to [false]
+Oct 27, 2024 12:15:35 AM org.apache.tomcat.util.digester.SetPropertiesRule begin
+WARNING: Match [Server/Service/Connector] failed to set property [gaRedirect] to [false]
+Oct 27, 2024 12:15:35 AM org.apache.tomcat.util.digester.SetPropertiesRule begin
+WARNING: Match [Server/Service/Connector] failed to set property [keyLocation] to [KeyVault]
+Oct 27, 2024 12:15:35 AM org.apache.tomcat.util.digester.SetPropertiesRule begin
+WARNING: Match [Server/Service/Connector] failed to set property [keyName] to [atricure_wildcard]
+Oct 27, 2024 12:15:35 AM org.apache.tomcat.util.net.SSLHostConfig setProtocols
+WARNING: The protocol [TLSv1.3] was added to the list of protocols on the SSLHostConfig named [_default_]. Check if a +/- prefix is missing.
+Oct 27, 2024 12:15:36 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-8000"]
+Oct 27, 2024 12:15:36 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["https-jsse-nio-8001"]
+Oct 27, 2024 12:15:36 AM org.apache.tomcat.util.net.SSLUtilBase <init>
+WARNING: The JSSE TLS 1.3 implementation does not support post handshake authentication (PHA) and is therefore incompatible with optional certificate authentication
+Oct 27, 2024 12:15:37 AM org.apache.tomcat.util.net.AbstractEndpoint logCertificate
+INFO: Connector [https-jsse-nio-8001], TLS virtual host [_default_], certificate type [UNDEFINED] configured from keystore [C:\Program Files\Fortra\GoAnywhere\tomcat\temp\mft_admin_ks_10926429701185660885] using alias [key] with trust store [C:\Program Files\Fortra\GoAnywhere\tomcat\temp\mft_admin_ts_12945417145399193374]
+Oct 27, 2024 12:15:37 AM org.apache.catalina.startup.Catalina load
+INFO: Server initialization in [2755] milliseconds
+Nov 08, 2024 9:28:28 AM org.apache.catalina.startup.Catalina stopServer
+SEVERE: Could not contact [localhost:8005] (base port [8005] and offset [0]). Tomcat may not be running.
+Nov 08, 2024 9:28:28 AM org.apache.catalina.startup.Catalina stopServer
+SEVERE: Error stopping Catalina
+java.net.ConnectException: Connection refused: connect
+	at java.base/java.net.PlainSocketImpl.connect0(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:101)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:412)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:255)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:237)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.base/java.net.Socket.connect(Socket.java:615)
+	at java.base/java.net.Socket.connect(Socket.java:563)
+	at java.base/java.net.Socket.<init>(Socket.java:459)
+	at java.base/java.net.Socket.<init>(Socket.java:236)
+	at org.apache.catalina.startup.Catalina.stopServer(Catalina.java:667)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.apache.catalina.startup.Bootstrap.stopServer(Bootstrap.java:393)
+	at com.linoma.startup.TomcatStopper.stop(TomcatStopper.java:56)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at com.linoma.bootstrap.GoAnywhereBootstrap.main(GoAnywhereBootstrap.java:117)
+

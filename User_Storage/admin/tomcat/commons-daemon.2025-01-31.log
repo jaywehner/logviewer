@@ -1,0 +1,9 @@
+[2025-01-31 15:16:07] [info]  [ 4656] Commons Daemon procrun (1.0.15.0 64-bit) started
+[2025-01-31 15:16:07] [info]  [ 4656] Running 'GoAnywhere' Service...
+[2025-01-31 15:16:07] [info]  [ 4548] Starting service...
+[2025-01-31 15:16:09] [info]  [ 4548] Service started in 1329 ms.
+[2025-02-23 00:14:31] [info]  [ 1196] Console SHUTDOWN event signaled
+[2025-02-23 00:14:31] [info]  [ 1196] Stopping service...
+[2025-02-23 00:14:35] [info]  [ 1196] Service stop thread completed.
+[2025-02-23 00:14:37] [info]  [ 4656] Run service finished.
+[2025-02-23 00:14:37] [info]  [ 4656] Commons Daemon procrun finished

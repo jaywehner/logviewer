@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  log-webapp:
+    build: .
+    ports:
+      - "5177:5177"
+    volumes:
+      # Mount user storage directory to persist logs across container restarts
+      - ./User_Storage:/app/User_Storage
+      # Mount users.json to persist user data
+      - ./users.json:/app/users.json
+    environment:
+      - FLASK_ENV=production
+      - LOG_WEBAPP_SECRET=${LOG_WEBAPP_SECRET:-your-secret-key-change-me}
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:5177/api/me"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s

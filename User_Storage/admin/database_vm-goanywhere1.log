@@ -1,0 +1,740 @@
+2025-02-23 00:21:24 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:3 ClientConnectionId: f52c86f1-38e0-4de3-8ad6-508bfe573a33 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:24 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:1 ClientConnectionId: 396426bc-c633-4969-ae0f-dd895a857efd (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:25 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:6 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:25 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:8 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:26 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:10 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:26 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:11 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:27 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:14 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:27 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:16 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:28 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:17 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:28 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:18 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:29 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:19 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:29 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:20 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:30 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:21 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:30 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:22 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:30 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:23 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:31 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:24 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:31 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:25 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:31 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:26 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:31 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:27 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:32 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:28 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:32 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:29 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:32 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:30 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:32 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:31 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:33 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:32 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:33 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:33 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:33 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:34 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:33 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:35 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:34 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:36 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:34 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:37 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:34 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:38 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:34 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:39 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:35 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:40 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:35 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:41 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:36 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:42 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:36 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:43 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:37 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:44 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:37 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:45 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:38 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:46 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:39 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:47 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:39 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:48 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:40 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:49 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:40 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:50 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:40 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:51 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:40 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:52 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:41 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:53 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:41 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:54 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:42 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:55 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:42 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:56 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:43 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:57 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:43 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:58 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:44 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:59 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:44 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:60 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:45 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:61 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:45 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:62 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:45 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:63 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:45 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:64 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:45 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:65 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:45 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:66 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:45 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:67 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:46 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:68 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:46 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:69 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:46 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:70 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:46 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:71 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:46 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:72 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:46 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:73 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:46 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:74 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:46 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:75 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:47 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:76 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:47 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:77 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:47 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:78 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:47 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:79 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:47 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:80 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:47 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:81 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:47 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:82 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:47 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:83 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:48 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:84 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:48 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:85 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:48 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:86 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:48 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:87 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:48 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:88 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:48 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:89 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:48 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:90 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:48 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:91 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:49 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:92 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:49 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:93 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:49 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:94 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:49 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:95 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:49 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:96 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:49 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:97 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:49 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:98 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:49 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:99 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:50 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:100 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:50 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:101 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:50 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:102 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:50 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:103 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:50 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:104 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:50 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:105 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:50 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:106 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:51 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:107 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-02-23 00:21:51 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:108 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-03-19 06:33:33 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:15987 ClientConnectionId: 5c51a4ef-ddce-410b-9130-5a055255e2e4 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-03-24 22:49:49 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:19670 ClientConnectionId: 47eaf0e0-d118-49be-812b-c0779a2e45a5 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-03-30 00:08:51 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:23013 ClientConnectionId: 5a1aa2ce-9c9c-4745-8b29-4f28a41ed0f1 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-03-30 00:08:51 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:23014 ClientConnectionId: a6acbc2e-9c38-4c95-a51a-9877f9ae5ec0 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-03-30 00:08:52 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:23015 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-03-30 00:08:52 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:23016 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-03-30 00:08:53 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:23017 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-03-30 00:08:53 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:23019 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-03-30 00:08:54 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:23021 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-03-30 00:08:54 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:23105 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-03-30 00:08:54 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:23022 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-03-30 00:08:55 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:23023 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-03-30 00:08:55 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:23024 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-03-30 00:08:55 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:23025 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-03-30 00:08:55 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:23072 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-03-30 00:08:55 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:23026 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-03-30 00:08:56 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:23027 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-03-30 00:08:56 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:23029 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-03-30 00:08:56 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:23030 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-03-30 00:08:56 WARN  Sequence Connection Pool - Failed to validate connection ConnectionID:23020 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-03-30 00:08:56 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:23031 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-03-30 00:08:56 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:23032 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-03-30 00:08:56 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:23033 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-03-30 00:08:57 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:23034 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-03-30 00:08:57 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:23036 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-03-30 00:08:57 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:23037 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-03-30 00:08:57 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:23038 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-03-30 00:08:57 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:23039 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-03-30 00:08:57 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:23041 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-03-30 00:08:58 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:23042 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-03-30 00:08:58 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:23043 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-03-30 00:08:58 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:23044 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-03-30 00:08:58 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:23045 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-03-30 00:08:58 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:23046 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-03-30 00:08:58 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:23047 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-03-30 00:08:59 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:23048 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-03-30 00:08:59 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:23049 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-03-30 00:08:59 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:23069 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-03-30 00:08:59 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:23050 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-03-30 00:08:59 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:23053 ClientConnectionId: 4ac9067d-c2bf-463c-9964-c97c53f8c128 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-03-30 00:08:59 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:23051 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-03-30 00:08:59 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:23052 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-03-30 00:08:59 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:23075 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-03-30 00:08:59 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:23054 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-03-30 00:09:00 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:23055 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-03-30 00:09:00 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:23056 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-03-30 00:09:00 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:23057 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-03-30 00:09:00 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:23058 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-03-30 00:09:00 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:23059 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-03-30 00:09:00 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:23060 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-03-30 00:09:01 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:23061 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-03-30 00:09:01 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:23062 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-03-30 00:09:01 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:23063 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-03-30 00:09:01 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:23064 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-03-30 00:09:01 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:23065 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-03-30 00:09:01 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:23066 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-03-30 00:09:01 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:23109 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-03-30 00:09:02 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:23068 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-03-30 00:09:02 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:23070 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-03-30 00:09:02 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:23071 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-03-30 00:09:02 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:23073 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-03-30 00:09:03 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:23074 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-03-30 00:09:03 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:23076 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-03-30 00:09:03 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:23077 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-03-30 00:09:03 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:23078 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-03-30 00:09:04 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:23079 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-03-30 00:09:04 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:23080 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-03-30 00:09:04 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:23081 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-03-30 00:09:04 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:23082 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-03-30 00:09:05 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:23093 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-03-30 00:09:05 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:23083 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-03-30 00:09:05 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:23084 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-03-30 00:09:09 WARN  Sequence Connection Pool - Failed to validate connection ConnectionID:23067 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-03-30 00:09:10 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:23085 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-03-30 00:09:10 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:23086 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-03-30 00:09:11 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:23087 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-03-30 00:09:11 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:23088 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-03-30 00:09:11 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:23089 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-03-30 00:09:11 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:23090 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-03-30 00:09:12 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:23091 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-03-30 00:09:12 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:23092 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-03-30 00:09:12 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:23094 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-03-30 00:09:12 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:23095 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-03-30 00:09:13 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:23096 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-03-30 00:09:13 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:23097 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-03-30 00:09:13 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:23099 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-03-30 00:09:13 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:23100 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-03-30 00:09:14 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:23101 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-03-30 00:09:14 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:23102 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-03-30 00:09:14 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:23103 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-03-30 00:09:14 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:23104 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-03-30 00:09:15 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:23106 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-03-30 00:09:15 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:23107 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-03-30 00:09:15 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:23108 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-03-30 00:09:15 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:23110 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-03-30 00:09:16 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:23111 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-03-30 00:09:16 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:23112 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-03-30 00:09:16 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:23113 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-03-30 00:09:16 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:23114 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-03-30 00:09:16 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:23115 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-03-30 00:09:17 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:23116 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-03-30 00:09:17 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:23117 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-03-30 00:09:17 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:23119 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-03-30 00:09:17 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:23120 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-03-30 00:10:28 WARN  Sequence Connection Pool - Failed to validate connection ConnectionID:23018 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-03-30 00:17:47 INFO  [vm-goanywhere1] Sequence Connection Pool - Shutdown initiated...
+2025-03-30 00:17:47 INFO  [vm-goanywhere1] Sequence Connection Pool - Shutdown completed.
+2025-03-30 00:17:47 INFO  [vm-goanywhere1] Primary Connection Pool - Shutdown initiated...
+2025-03-30 00:17:47 INFO  [vm-goanywhere1] Primary Connection Pool - Shutdown completed.
+2025-04-27 00:31:46 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:1 ClientConnectionId: 6627d360-2530-4111-beb7-6793c83b2134 (SHUTDOWN is in progress.). Possibly consider using a shorter maxLifetime value.
+2025-04-27 00:31:46 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:3 ClientConnectionId: 85792cea-a4ce-49f6-8a69-c8195482a78d (SHUTDOWN is in progress.). Possibly consider using a shorter maxLifetime value.
+2025-04-27 00:31:46 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:4 ClientConnectionId: 61adde74-1475-4869-9348-074e5b385816 (SHUTDOWN is in progress.). Possibly consider using a shorter maxLifetime value.
+2025-04-27 00:31:46 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:5 ClientConnectionId: 4aba9b3b-40b1-4546-a4a7-b225b706be57 (SHUTDOWN is in progress.). Possibly consider using a shorter maxLifetime value.
+2025-04-27 00:31:46 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:6 ClientConnectionId: c07dad58-4908-4e2f-a331-1f719dc5715e (SHUTDOWN is in progress.). Possibly consider using a shorter maxLifetime value.
+2025-04-27 00:31:46 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:8 ClientConnectionId: fe54f1c3-4b7a-4c8f-b4c3-2ee3ec7afc67 (SHUTDOWN is in progress.). Possibly consider using a shorter maxLifetime value.
+2025-04-27 00:31:46 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:11 ClientConnectionId: 420cf523-3460-460b-acf1-f9fbcfe31176 (SHUTDOWN is in progress.). Possibly consider using a shorter maxLifetime value.
+2025-04-27 00:31:46 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:12 ClientConnectionId: 6ff70d9a-9fa1-470d-85a4-2c04f4042bcc (SHUTDOWN is in progress.). Possibly consider using a shorter maxLifetime value.
+2025-04-27 00:31:46 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:14 ClientConnectionId: 49977840-6376-4897-ad54-c392bb653ea3 (SHUTDOWN is in progress.). Possibly consider using a shorter maxLifetime value.
+2025-04-27 00:31:46 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:17 ClientConnectionId: c1f0db18-df02-4816-97c0-df873ab6f573 (SHUTDOWN is in progress.). Possibly consider using a shorter maxLifetime value.
+2025-04-27 00:31:46 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:19 ClientConnectionId: e325e34a-434f-43f3-b280-50ded1addc7d (SHUTDOWN is in progress.). Possibly consider using a shorter maxLifetime value.
+2025-04-27 00:31:46 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:20 ClientConnectionId: c79d2e96-0290-49a5-9a93-f6b8a7221b10 (SHUTDOWN is in progress.). Possibly consider using a shorter maxLifetime value.
+2025-04-27 00:31:46 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:21 ClientConnectionId: 4da16c9c-6e8f-454c-ada5-7ef801123071 (SHUTDOWN is in progress.). Possibly consider using a shorter maxLifetime value.
+2025-04-27 00:31:46 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:22 ClientConnectionId: aba20862-2d9c-4f39-b67a-3ac6dc80fcad (SHUTDOWN is in progress.). Possibly consider using a shorter maxLifetime value.
+2025-04-27 00:31:46 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:23 ClientConnectionId: 49237967-56a7-4cdb-a5b1-3022cdc55bbf (SHUTDOWN is in progress.). Possibly consider using a shorter maxLifetime value.
+2025-04-27 00:31:46 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:24 ClientConnectionId: 61300951-1150-4739-9828-6cd35af2ab46 (SHUTDOWN is in progress.). Possibly consider using a shorter maxLifetime value.
+2025-04-27 00:31:46 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:25 ClientConnectionId: 760f709b-f3f4-4f92-9125-b3e51c21de07 (SHUTDOWN is in progress.). Possibly consider using a shorter maxLifetime value.
+2025-04-27 00:31:46 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:26 ClientConnectionId: 0a57a1a9-955b-4f17-84c9-3bb9bd42901f (SHUTDOWN is in progress.). Possibly consider using a shorter maxLifetime value.
+2025-04-27 00:31:46 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:27 ClientConnectionId: 34713eac-3f34-48b2-a556-0eb1ba00d549 (SHUTDOWN is in progress.). Possibly consider using a shorter maxLifetime value.
+2025-04-27 00:31:46 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:28 ClientConnectionId: bc87d60e-a008-403e-95a8-98da75000253 (SHUTDOWN is in progress.). Possibly consider using a shorter maxLifetime value.
+2025-04-27 00:31:46 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:29 ClientConnectionId: 714598c9-48d9-40c8-9034-e96b8ce184f3 (SHUTDOWN is in progress.). Possibly consider using a shorter maxLifetime value.
+2025-04-27 00:31:46 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:30 ClientConnectionId: 693a9d76-bdbe-4693-a2f6-8a3f73c65f9d (SHUTDOWN is in progress.). Possibly consider using a shorter maxLifetime value.
+2025-04-27 00:31:46 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:31 ClientConnectionId: ae9f7015-d227-421f-bf49-36ae6a220af2 (SHUTDOWN is in progress.). Possibly consider using a shorter maxLifetime value.
+2025-04-27 00:31:47 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:32 ClientConnectionId: ee29ad9c-41b1-4cb5-beca-ff1d3b498949 (SHUTDOWN is in progress.). Possibly consider using a shorter maxLifetime value.
+2025-04-27 00:31:47 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:33 ClientConnectionId: 63df30a6-1a20-4324-95e0-3d652b653220 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-04-27 00:31:47 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:34 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-04-27 00:31:47 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:35 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-04-27 00:31:48 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:36 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-04-27 00:31:48 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:37 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-04-27 00:31:48 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:38 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-04-27 00:31:48 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:39 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-04-27 00:31:49 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:40 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-04-27 00:31:49 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:41 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-04-27 00:31:49 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:42 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-04-27 00:31:49 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:43 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-04-27 00:31:50 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:44 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-04-27 00:31:50 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:45 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-04-27 00:31:50 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:46 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-04-27 00:31:50 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:47 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-04-27 00:31:51 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:48 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-04-27 00:31:51 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:49 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-04-27 00:31:51 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:50 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-04-27 00:31:51 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:51 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-04-27 00:31:52 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:52 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-04-27 00:31:52 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:53 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-04-27 00:31:52 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:54 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-04-27 00:31:52 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:55 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-04-27 00:31:53 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:56 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-04-27 00:31:53 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:57 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-04-27 00:31:53 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:58 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-04-27 00:31:53 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:59 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-04-27 00:31:54 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:60 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-04-27 00:31:54 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:61 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-04-27 00:31:54 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:62 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-04-27 00:31:54 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:63 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-04-27 00:31:55 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:64 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-04-27 00:31:55 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:65 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-04-27 00:31:55 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:66 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-04-27 00:31:55 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:67 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-04-27 00:31:56 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:68 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-04-27 00:31:56 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:69 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-04-27 00:31:56 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:70 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-04-27 00:31:56 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:71 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-04-27 00:32:06 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:72 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-04-27 00:32:06 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:73 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-04-27 00:32:06 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:74 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-04-27 00:32:07 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:75 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-04-27 00:32:07 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:76 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-04-27 00:32:08 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:77 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-04-27 00:32:08 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:78 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-04-27 00:32:09 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:79 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-04-27 00:32:09 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:80 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-04-27 00:32:10 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:81 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-04-27 00:32:10 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:82 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-04-27 00:32:11 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:83 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-04-27 00:32:11 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:84 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-04-27 00:32:11 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:85 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-04-27 00:32:11 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:86 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-04-27 00:32:12 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:87 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-04-27 00:32:12 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:88 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-04-27 00:32:12 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:89 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-04-27 00:32:12 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:90 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-04-27 00:32:12 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:91 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-04-27 00:32:13 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:92 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-04-27 00:32:13 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:93 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-04-27 00:32:13 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:94 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-04-27 00:32:13 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:95 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-04-27 00:32:13 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:96 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-04-27 00:32:13 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:97 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-04-27 00:32:13 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:98 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-04-27 00:32:13 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:99 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-04-27 00:32:13 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:100 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-04-27 00:32:14 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:101 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-04-27 00:32:14 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:102 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-04-27 00:32:14 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:103 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-04-27 00:32:14 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:104 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-04-27 00:32:14 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:105 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-04-27 00:32:14 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:106 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-04-27 00:32:14 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:107 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-04-27 00:32:14 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:108 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:08:32 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:18436 ClientConnectionId: 81c7ca01-94a1-4a44-b027-67b6f03758ca (SHUTDOWN is in progress.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:08:32 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:18437 ClientConnectionId: f50f334f-76ab-4eae-9b5f-5e631daaf975 (SHUTDOWN is in progress.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:08:32 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:18438 ClientConnectionId: 931f4f93-a896-4e1a-aa46-c223710aafb3 (SHUTDOWN is in progress.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:08:32 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:18439 ClientConnectionId: 5eabefce-957a-454c-8619-b20aee3c32c7 (SHUTDOWN is in progress.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:08:32 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:18440 ClientConnectionId: 90ce7ebf-fbf4-49b9-95c9-9e29424e1539 (SHUTDOWN is in progress.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:08:32 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:18441 ClientConnectionId: 3971de48-ab61-49ea-be2a-f0937cc217ef (SHUTDOWN is in progress.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:08:32 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:18442 ClientConnectionId: 4692b798-745e-4c20-9ea0-1f9c8e1659a3 (SHUTDOWN is in progress.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:08:32 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:18443 ClientConnectionId: 60a20af7-bb89-4f25-af3c-358aab2bb9b8 (SHUTDOWN is in progress.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:08:32 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:18444 ClientConnectionId: 26ec0508-727c-4bf2-bea8-03c3e0aea0fc (SHUTDOWN is in progress.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:08:32 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:18445 ClientConnectionId: ecf4e489-2cfa-4e1c-8703-3cab0c451d0f (SHUTDOWN is in progress.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:08:32 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:18446 ClientConnectionId: f581ff3c-2b9d-4bcd-9805-b8638c99aa70 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:08:32 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:18447 ClientConnectionId: 2b674917-dc5b-4634-bddc-fa862b91210c (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:08:33 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:18448 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:08:33 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:18449 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:08:33 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:18450 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:08:33 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:18451 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:08:33 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:18452 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:08:34 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:18453 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:08:34 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:18454 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:08:34 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:18507 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:08:34 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:18455 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:08:34 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:18457 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:08:34 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:18459 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:08:35 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:18460 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:08:35 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:18462 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:08:35 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:18463 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:08:35 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:18464 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:08:35 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:18465 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:08:35 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:18466 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:08:35 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:18510 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:08:36 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:18467 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:08:36 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:18468 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:08:36 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:18469 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:08:36 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:18470 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:08:36 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:18471 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:08:36 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:18472 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:08:37 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:18473 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:08:37 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:18474 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:08:37 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:18475 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:08:37 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:18476 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:08:37 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:18479 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:08:37 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:18480 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:08:38 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:18481 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:08:38 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:18483 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:08:38 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:18484 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:08:38 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:18485 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:08:38 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:18486 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:08:38 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:18487 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:08:39 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:18489 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:08:39 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:18488 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:08:39 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:18490 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:08:39 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:18492 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:08:39 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:18491 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:08:39 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:18493 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:08:40 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:18495 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:08:40 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:18494 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:08:40 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:18496 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:08:40 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:18497 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:08:40 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:18498 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:08:40 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:18499 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:08:41 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:18501 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:08:41 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:18500 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:08:41 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:18502 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:08:41 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:18503 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:08:41 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:18504 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:08:41 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:18505 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:08:42 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:18508 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:08:42 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:18506 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:08:42 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:18509 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:08:42 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:18523 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:08:42 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:18511 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:08:42 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:18512 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:08:43 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:18513 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:08:43 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:18514 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:08:47 WARN  Sequence Connection Pool - Failed to validate connection ConnectionID:18478 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:08:48 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:18515 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:08:49 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:18516 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:08:49 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:18517 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:08:50 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:18518 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:08:50 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:18519 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:08:51 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:18520 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:08:51 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:18522 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:08:52 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:18524 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:08:52 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:18525 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:08:53 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:18526 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:08:53 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:18527 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:08:53 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:18528 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:08:54 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:18529 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:08:54 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:18530 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:08:54 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:18531 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:08:54 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:18532 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:08:55 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:18533 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:08:55 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:18534 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:08:55 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:18536 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:08:56 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:18537 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:08:56 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:18538 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:08:56 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:18539 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:08:56 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:18540 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:08:57 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:18541 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:08:57 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:18542 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:08:57 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:18543 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:10:06 WARN  Sequence Connection Pool - Failed to validate connection ConnectionID:18458 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:10:21 WARN  Sequence Connection Pool - Failed to validate connection ConnectionID:18535 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:10:31 WARN  Sequence Connection Pool - Failed to validate connection ConnectionID:18461 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:31:41 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:82 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:31:42 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:18 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:31:42 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:94 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:31:43 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:62 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:31:43 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:50 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:31:44 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:17 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:31:44 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:3 ClientConnectionId: 22dd9b46-b688-4494-a051-6aaa8ba7171f (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:31:44 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:1 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:31:45 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:6 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:31:45 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:8 ClientConnectionId: ccbf4014-7c87-43f1-b4fe-48dd5aab48a8 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:31:45 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:60 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:31:45 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:9 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:31:46 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:42 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:31:46 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:11 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:31:46 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:47 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:31:46 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:13 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:31:47 WARN  Sequence Connection Pool - Failed to validate connection ConnectionID:16 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:31:47 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:15 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:31:47 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:44 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:31:47 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:77 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:31:47 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:19 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:31:48 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:20 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:31:48 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:54 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:31:48 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:23 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:31:48 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:21 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:31:49 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:93 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:31:49 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:22 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:31:49 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:24 ClientConnectionId: 382ba379-742c-4ad3-bf53-d6d01ddf0e60 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:31:49 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:95 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:31:49 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:25 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:31:50 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:45 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:31:50 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:26 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:31:50 WARN  Sequence Connection Pool - Failed to validate connection ConnectionID:12 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:31:50 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:27 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:31:50 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:87 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:31:51 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:34 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:31:51 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:28 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:31:51 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:105 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:31:51 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:29 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:31:52 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:52 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:31:52 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:30 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:31:52 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:31 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:31:52 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:36 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:31:53 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:32 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:31:53 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:49 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:31:53 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:33 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:31:53 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:101 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:31:54 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:35 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:31:54 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:106 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:31:54 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:91 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:31:55 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:92 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:31:55 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:88 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:31:56 WARN  Sequence Connection Pool - Failed to validate connection ConnectionID:10 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:31:56 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:43 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:31:56 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:38 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:31:57 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:89 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:31:57 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:58 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:31:58 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:61 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:31:58 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:108 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:31:59 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:71 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:31:59 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:37 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:31:59 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:104 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:32:00 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:39 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:32:00 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:81 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:32:00 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:40 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:32:00 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:55 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:32:01 WARN  Sequence Connection Pool - Failed to validate connection ConnectionID:14 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:32:01 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:41 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:32:01 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:68 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:32:01 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:46 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:32:01 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:66 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:32:02 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:48 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:32:02 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:74 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:32:02 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:51 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:32:03 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:98 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:32:03 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:53 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:32:03 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:59 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:32:03 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:56 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:32:04 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:70 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:32:04 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:57 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:32:04 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:63 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:32:05 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:64 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:32:05 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:65 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:32:06 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:67 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:32:06 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:69 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:32:07 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:72 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:32:07 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:73 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:32:08 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:75 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:32:09 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:76 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:32:09 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:78 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:32:09 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:83 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:32:13 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:79 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:32:13 WARN  Sequence Connection Pool - Failed to validate connection ConnectionID:7 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:32:14 WARN  Sequence Connection Pool - Failed to validate connection ConnectionID:4 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:32:15 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:80 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:32:15 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:84 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:32:16 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:85 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:32:16 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:86 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:32:17 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:90 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:32:17 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:96 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:32:18 WARN  Sequence Connection Pool - Failed to validate connection ConnectionID:2 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:32:18 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:97 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:32:18 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:99 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:32:19 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:100 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:32:19 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:102 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:32:20 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:103 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-05-25 00:32:20 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:107 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-06-08 06:29:03 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:9451 ClientConnectionId: 1d5769de-5507-4281-bda9-19c9f271814f (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-06-08 06:30:35 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:9473 ClientConnectionId: 9afaf562-8a3f-4d0f-bb5f-21f2205e88ec (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-06-29 00:36:07 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:3 ClientConnectionId: 384ab70b-c1b8-4010-bb91-1322b8cab936 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-06-29 00:36:08 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:1 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-06-29 00:36:08 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:5 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-06-29 00:36:09 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:7 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-06-29 00:36:09 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:9 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-06-29 00:36:10 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:11 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-06-29 00:36:10 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:13 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-06-29 00:36:11 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:15 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-06-29 00:36:11 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:17 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-06-29 00:36:12 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:18 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-06-29 00:36:12 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:19 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-06-29 00:36:13 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:20 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-06-29 00:36:13 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:21 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-06-29 00:36:14 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:22 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-06-29 00:36:14 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:23 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-06-29 00:36:15 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:24 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-06-29 00:36:15 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:25 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-06-29 00:36:16 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:26 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-06-29 00:36:16 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:27 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-06-29 00:36:17 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:28 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-06-29 00:36:17 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:29 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-06-29 00:36:23 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:30 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-06-29 00:36:23 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:31 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-06-29 00:36:24 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:32 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-06-29 00:36:24 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:33 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-06-29 00:36:25 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:34 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-06-29 00:36:25 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:35 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-06-29 00:36:26 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:36 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-06-29 00:36:26 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:37 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-06-29 00:36:27 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:38 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-06-29 00:36:27 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:39 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-06-29 00:36:28 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:40 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-06-29 00:36:28 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:41 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-06-29 00:36:29 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:42 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-06-29 00:36:29 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:43 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-06-29 00:36:30 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:44 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-06-29 00:36:30 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:45 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-06-29 00:36:31 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:46 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-06-29 00:36:32 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:47 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-06-29 00:36:32 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:48 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-06-29 00:36:33 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:49 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-06-29 00:36:38 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:50 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-06-29 00:36:39 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:51 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-06-29 00:36:39 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:52 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-06-29 00:36:40 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:53 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-06-29 00:36:40 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:54 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-06-29 00:36:41 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:55 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-06-29 00:36:41 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:56 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-06-29 00:36:42 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:57 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-06-29 00:36:42 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:58 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-06-29 00:36:43 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:59 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-06-29 00:36:43 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:60 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-06-29 00:36:44 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:61 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-06-29 00:36:44 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:62 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-06-29 00:36:45 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:63 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-06-29 00:36:45 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:64 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-06-29 00:36:46 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:65 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-06-29 00:36:46 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:66 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-06-29 00:36:47 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:67 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-06-29 00:36:47 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:68 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-06-29 00:36:48 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:69 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-06-29 00:36:53 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:70 ClientConnectionId: 91bc9815-16d8-4857-9cea-7518f2b00f30 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-06-29 00:36:53 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:71 ClientConnectionId: 56cb7bdc-cf80-40cd-99b1-0c7381b26e27 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-06-29 00:36:53 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:72 ClientConnectionId: 59c63f6d-81dd-407c-b1af-4fbc53fddeb9 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-06-29 00:36:53 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:73 ClientConnectionId: 89a1de89-382a-4979-ae9f-3971107acef8 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-06-29 00:36:54 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:74 ClientConnectionId: d7375ef0-6056-4e06-b5c9-69414be23bad (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-06-29 00:36:54 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:75 ClientConnectionId: 438892de-07b8-422b-b72d-4857fa7d0a4b (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-06-29 00:36:54 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:76 ClientConnectionId: cc5cd4b8-0b6a-4c0b-bc05-4188d2687fca (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-06-29 00:36:54 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:77 ClientConnectionId: 4e85b9dc-301f-43cb-b82d-41526b679bf2 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-06-29 00:36:54 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:78 ClientConnectionId: cb6a1ba9-5826-4e71-9e21-5540bb38e2a4 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-06-29 00:36:54 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:79 ClientConnectionId: f70bcdf1-10fb-4149-961e-4d4147ae14d6 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-06-29 00:36:54 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:80 ClientConnectionId: 9b4eb650-f693-4aee-a498-b0afa0f7dcd1 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-06-29 00:36:54 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:81 ClientConnectionId: b10460d8-8f58-4f9f-91a9-c5555e2817c4 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-06-29 00:36:54 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:82 ClientConnectionId: be2ccc0b-33df-4f5a-8bae-013a86f4730f (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-06-29 00:36:54 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:83 ClientConnectionId: a0bec1e7-6a37-4db8-a86b-0091346339a6 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-06-29 00:36:54 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:84 ClientConnectionId: 99443b6c-0e34-4e4d-9e04-bec1c8c7a617 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-06-29 00:36:54 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:85 ClientConnectionId: e8d40c89-56b9-4bb1-9ae4-1e61dac86d8b (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-06-29 00:36:54 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:86 ClientConnectionId: 21dea4d8-2968-4052-a2dd-23c9c7a43ed9 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-06-29 00:36:54 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:87 ClientConnectionId: 685e4c7f-1e4c-4354-87ab-997a2c457427 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-06-29 00:36:54 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:88 ClientConnectionId: 45410707-cebe-49d3-bc2d-f7dbb90669b9 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-06-29 00:36:54 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:89 ClientConnectionId: 80808629-0e24-484b-9752-2f9dbb5916c7 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-06-29 00:36:54 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:90 ClientConnectionId: 5871406c-7cfc-4d96-9076-3687e293b1f7 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-06-29 00:36:54 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:91 ClientConnectionId: c358a322-3c4a-4319-b10d-ad7ddcf5c181 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-06-29 00:36:54 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:92 ClientConnectionId: effd93b8-3090-4d83-9097-af8479694f3e (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-06-29 00:36:54 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:93 ClientConnectionId: f1517377-dbd8-43d9-bd8f-5f379f09d3df (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-06-29 00:36:54 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:94 ClientConnectionId: ef8c18cd-d81d-41fe-9001-6189eda40300 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-06-29 00:36:54 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:95 ClientConnectionId: 9152c4bc-5c7a-455f-9045-eb04f3654f15 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-06-29 00:36:54 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:96 ClientConnectionId: a0eee38c-6763-402f-944c-82bb0ef2175c (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-06-29 00:36:54 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:97 ClientConnectionId: f93fd0ea-b4db-4624-9e94-f20af8437427 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-06-29 00:36:54 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:98 ClientConnectionId: 0b4cc1e1-0ba7-4ea5-9a8f-6919fb14724b (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-06-29 00:36:54 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:99 ClientConnectionId: 85efcdcd-2483-4dc6-a203-8f7399da3519 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-06-29 00:36:55 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:100 ClientConnectionId: 7ce71683-fe69-40df-bdcb-13a73abcb03e (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-06-29 00:36:55 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:101 ClientConnectionId: a5a9ff75-2d48-469c-8879-3153611fe499 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-06-29 00:36:55 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:102 ClientConnectionId: 6776c0bb-99a5-40e5-954f-ece51091796c (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-06-29 00:36:55 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:103 ClientConnectionId: 7e39aa00-a3fc-4364-99a7-ad1a47fb391b (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-06-29 00:36:55 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:104 ClientConnectionId: 50b6845e-54d7-4469-8813-6efa78f98dbd (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-06-29 00:36:55 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:105 ClientConnectionId: c9798a9a-7e7f-4107-a4d4-d83504f551a7 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-06-29 00:36:55 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:106 ClientConnectionId: 83e9d4b9-4fb3-4e5d-a17b-1b5845d45eb8 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-06-29 00:36:55 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:107 ClientConnectionId: a24fa263-9fc6-4333-9255-fa356a214491 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-06-29 00:36:55 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:108 ClientConnectionId: 8acc819b-7bbf-48cf-964e-f9defb39d66b (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-07-09 07:21:14 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:6879 ClientConnectionId: b54a9336-b748-41cd-908c-2ae73560c6ec (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-07-09 07:21:14 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:6816 ClientConnectionId: 63306eaa-89d2-40b6-81c5-a94f2cbceebd (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-07-09 07:21:15 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:6814 ClientConnectionId: 0a3f7595-b004-4afe-ae52-35323e4e22c1 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-07-09 07:21:16 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:6817 ClientConnectionId: 45514b43-ac5e-42b7-97b0-68e260d66cfa (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-07-09 07:21:16 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:6818 ClientConnectionId: 421b10b0-9322-4ef8-bae6-64d6b24fbd3e (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-07-09 07:21:19 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:6899 ClientConnectionId: 3174e4b3-ab7b-457b-a6e8-d2283ab26c9e (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-07-09 07:21:19 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:6819 ClientConnectionId: 2d32b5a4-d2c5-44cf-9853-a637af86d5ec (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-07-09 07:21:19 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:6820 ClientConnectionId: 91a52d3e-2ba6-436e-af68-e1933041caf6 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-07-09 07:21:20 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:6821 ClientConnectionId: 8d331e22-64d6-434d-858a-6d211e4f2d6b (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-07-09 07:21:21 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:6822 ClientConnectionId: d19c4bd2-76e1-4487-8fb6-4d090fa0c48d (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-07-09 07:21:21 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:6824 ClientConnectionId: 57870bad-0dfa-4ad7-b5af-1c698d113c00 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-07-09 07:21:21 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:6825 ClientConnectionId: bc688ee3-87e7-4b30-8790-4a65db2fd48f (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-07-09 07:21:24 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:6893 ClientConnectionId: c93fcf31-3861-48e8-9b40-e2d7fb672e73 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-07-09 07:21:24 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:6826 ClientConnectionId: dfb0eaab-dea0-47d1-a176-24d8a3f2d24b (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-07-09 07:21:24 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:6827 ClientConnectionId: 9b3a32f4-accb-4c13-a28f-9e6f4dced4bd (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-07-09 07:21:26 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:6828 ClientConnectionId: 298eeb89-70a2-4b09-a405-4fb4148689eb (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-07-09 07:21:29 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:6901 ClientConnectionId: 86c6dde6-a36d-4869-9041-5438fc229d53 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-07-09 07:21:29 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:6829 ClientConnectionId: 83fac957-27c7-43b2-8f93-e058e68bf06c (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-07-09 07:21:31 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:6830 ClientConnectionId: 1fbbc375-c217-4244-a38f-6fbaa6a8ea4b (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-07-09 07:21:32 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:6831 ClientConnectionId: de7d9f7c-bbff-4a70-8940-4aac3061e094 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-07-09 07:21:34 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:6920 ClientConnectionId: 756ffc4f-df3f-4890-bf25-70fe1cf9a15d (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-07-09 07:21:36 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:6832 ClientConnectionId: b2832be4-7399-496b-9f0e-4bc8b3cfd62e (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-07-09 07:21:37 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:6833 ClientConnectionId: ad38aef8-57a3-4c99-9660-bd2f5515ebe6 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-07-09 07:21:39 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:6887 ClientConnectionId: 64d59886-2994-45b6-bd8f-b5eb9d0e026d (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-07-09 07:21:39 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:6834 ClientConnectionId: 146367c1-dd87-477b-9bc8-d8b617219751 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-07-09 07:21:44 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:6863 ClientConnectionId: 163540b8-addb-405b-8fa8-90fcd8c80dd1 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-07-09 07:21:44 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:6835 ClientConnectionId: 62b53bc8-9ef6-424b-b93b-3e14f68af0bd (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-07-09 07:21:46 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:6836 ClientConnectionId: 48ea0cbf-8112-41c8-bf7f-3b4ceb4670b3 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-07-09 07:21:47 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:6838 ClientConnectionId: 84c107aa-4d14-4bd1-8bfc-edc64d2f9784 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-07-09 07:21:49 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:6885 ClientConnectionId: dabc6627-b541-44a5-b184-0a36aec6bc74 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-07-09 07:21:51 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:6839 ClientConnectionId: 320b70b3-e4b2-435f-8735-07136498485c (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-07-09 07:21:52 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:6840 ClientConnectionId: a293b852-2363-4204-a96a-2539d7a0bff7 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-07-09 07:21:52 WARN  Sequence Connection Pool - Failed to validate connection ConnectionID:6850 ClientConnectionId: 1e73d214-b8c5-4208-ba3b-77ca55878c3e (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-07-09 07:21:54 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:6870 ClientConnectionId: 3971b3bb-4014-4692-99e6-b456519fc82f (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-07-09 07:21:55 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:6841 ClientConnectionId: 5039eba6-2c08-4954-815b-694dc02b2369 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-07-09 07:21:55 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:6843 ClientConnectionId: 495e136d-d563-4b95-9e62-45ff29d0a1e7 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-07-09 07:21:57 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:6844 ClientConnectionId: b32432ea-69be-4176-9f9d-f7dbe6244942 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-07-09 07:21:59 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:6858 ClientConnectionId: f2030cdc-cf14-4b1c-87c8-68453b0d37ef (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-07-09 07:22:00 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:6845 ClientConnectionId: 1b9ea649-0d68-4133-b73a-05d0b9b1fac9 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-07-09 07:22:00 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:6846 ClientConnectionId: e12846e9-cd3b-4764-a5f8-75e34f134f7b (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-07-09 07:22:01 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:6847 ClientConnectionId: 2f0a1563-b282-4e34-aae6-62b018de5869 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-07-09 07:22:02 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:6848 ClientConnectionId: 0928a87f-3705-4a01-aaff-5ec9e1856fee (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-07-09 07:22:04 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:6911 ClientConnectionId: 24ba5402-53d8-4e29-bb6e-892caad973ba (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-07-09 07:22:04 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:6849 ClientConnectionId: 5ea9cc3e-a444-45e9-af70-e5ed7047845e (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-07-09 07:22:04 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:6851 ClientConnectionId: 82b17b5b-3c4a-4016-8564-a57cfff92d47 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-07-09 07:22:05 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:6852 ClientConnectionId: f5493bd1-6f2c-4a99-88f5-38c0f21bd015 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-07-09 07:22:06 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:6853 ClientConnectionId: b137ebf1-52d2-4eea-9d3d-646539ae2b1c (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-07-09 07:22:09 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:6876 ClientConnectionId: f630f3d1-2fd2-45e4-a21f-89df3701f409 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-07-09 07:22:09 WARN  Primary Connection Pool - Thread starvation or clock leap detected (housekeeper delta=45s72ms133µs300ns).
+2025-07-09 07:22:09 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:6854 ClientConnectionId: 377e539a-87d2-43a3-bdab-25afcd563425 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-07-09 07:22:09 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:6855 ClientConnectionId: b466e13d-9c39-4d3b-b10a-3e300b5fa860 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-07-09 07:22:10 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:6856 ClientConnectionId: 492537f9-4e1e-4c88-a389-eba44468703c (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-07-09 07:22:11 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:6857 ClientConnectionId: d224a311-380c-45a2-872c-cf3487d090c7 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-07-09 07:22:13 WARN  Sequence Connection Pool - Failed to validate connection ConnectionID:6837 ClientConnectionId: 79e94c43-5af9-46df-9cee-7c76bf0f1c23 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-07-09 07:22:14 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:6861 ClientConnectionId: b797cecb-1d6f-40ba-b084-cf5607a011e6 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-07-09 07:22:16 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:6859 ClientConnectionId: c3453243-2558-4a14-a5ff-2574664dd34f (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-07-09 07:22:16 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:6860 ClientConnectionId: 5a52ea72-9677-4b2e-bbd7-32b8770093e6 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-07-09 07:22:19 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:6865 ClientConnectionId: 165e18b7-c4ac-4b49-81cb-f380d012c209 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-07-09 07:22:21 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:6862 ClientConnectionId: 5e8a5ceb-3899-4fe7-bc97-42f21e04bc8e (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-07-09 07:22:24 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:6895 ClientConnectionId: 4c304330-410d-4619-b3e1-96240ff136c3 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-07-09 07:22:29 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:6907 ClientConnectionId: 7cc8c304-7de0-440e-9e40-2b02c85e91ab (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-07-09 07:22:29 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:6864 ClientConnectionId: ca380827-7b19-49f5-9d2b-d96fcf900b80 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-07-09 07:22:31 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:6866 ClientConnectionId: c43142f6-0b7f-44a3-ae2f-336ad9188971 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-07-09 07:22:31 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:6867 ClientConnectionId: 36f13da7-5480-4362-8338-c984506dcd00 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-07-09 07:22:34 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:6908 ClientConnectionId: 047c47fd-5237-42ec-b3a4-7a4a1cf6fa19 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-07-09 07:22:34 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:6868 ClientConnectionId: 312c898e-5ced-4457-9098-754b237a3b93 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-07-09 07:22:35 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:6869 ClientConnectionId: 78faa9c4-7271-4f00-b494-be9d07563f35 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-07-09 07:22:36 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:6871 ClientConnectionId: e1f20b13-12fe-415c-acbd-5e773e5d23fe (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-07-09 07:22:36 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:6872 ClientConnectionId: 658801a7-7665-4abc-8afb-021fe48b7a6f (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-07-09 07:22:39 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:6881 ClientConnectionId: d6a92018-1df8-4f19-b167-f328a9503841 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-07-09 07:22:40 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:6873 ClientConnectionId: 281165ed-f459-4fb6-8c45-5332b7f24b08 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-07-09 07:22:44 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:6886 ClientConnectionId: 67e82a1d-8124-4d42-9d97-fb3f69cc9134 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-07-09 07:22:45 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:6874 ClientConnectionId: 9d5d72c2-43cf-40f6-94be-f2ebe530b3d2 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-07-09 07:22:46 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:6875 ClientConnectionId: 5f560c52-2fa7-4e5c-ae9c-4ded0d70cb19 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-07-09 07:22:49 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:6900 ClientConnectionId: ccf1542c-e3db-48f2-8bf2-4776c727acbb (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-07-09 07:22:50 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:6877 ClientConnectionId: 79897e2f-da97-4a54-b226-9f793f8bf94f (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-07-09 07:22:51 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:6878 ClientConnectionId: 4b92c447-2653-4922-b555-c3237623566c (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-07-09 07:22:54 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:6891 ClientConnectionId: 9e2920d4-5a1a-41d5-81af-e452097aea65 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-07-09 07:22:54 WARN  Primary Connection Pool - Thread starvation or clock leap detected (housekeeper delta=45s466ms45µs100ns).
+2025-07-09 07:22:54 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:6880 ClientConnectionId: 1b2ae02b-557c-44c3-ab36-9dc8f3d33020 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-07-09 07:22:59 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:6910 ClientConnectionId: 387cbfc6-fe3e-44ec-864a-27a3a0d36a21 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-07-09 07:22:59 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:6882 ClientConnectionId: 4c280620-e6ed-460f-951a-113b0fc8460d (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-07-09 07:23:01 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:6883 ClientConnectionId: 908b830d-d097-4a27-ae08-1450656956cd (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-07-09 07:23:04 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:6890 ClientConnectionId: 76b0187d-5ccb-4bb9-9ae0-8757e27f7b35 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-07-09 07:23:06 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:6884 ClientConnectionId: aad43950-3b2d-4772-a150-2c174171f4f1 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-07-09 07:23:07 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:6888 ClientConnectionId: 71a4a1bc-019b-40a8-b240-10ff9775ae80 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-07-09 07:23:09 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:6894 ClientConnectionId: c061525d-aaaf-464a-b482-76dd7457627f (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-07-09 07:23:12 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:6892 ClientConnectionId: 4eb893c1-2b48-4fa2-82c3-1c36908bf138 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-07-09 07:23:13 WARN  Sequence Connection Pool - Failed to validate connection ConnectionID:6842 ClientConnectionId: 83d6bb49-f3df-443e-85ae-bb0a2a1aafdf (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-07-09 07:23:14 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:6917 ClientConnectionId: 2617c5b4-4f25-4ca9-88a8-e7e3d6a59797 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-07-09 07:23:15 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:6896 ClientConnectionId: 355876f9-32bd-4428-b27c-d802ef2f76cf (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-07-09 07:23:16 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:6897 ClientConnectionId: b2f679d5-ae3d-475f-9aef-1f2c9d3be037 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-07-09 07:23:17 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:6898 ClientConnectionId: 7db3fd83-91c0-40b1-8b90-de31a91f98e5 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-07-09 07:23:18 WARN  Sequence Connection Pool - Failed to validate connection ConnectionID:6813 ClientConnectionId: 9b314433-877d-46d4-9803-95c2f7f67a41 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-07-09 07:23:19 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:6902 ClientConnectionId: 68cff59d-4e30-45fe-8413-84f0d80116e6 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-07-09 07:23:20 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:6903 ClientConnectionId: 800561f4-f188-4059-a566-24453ebe591f (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-07-09 07:23:21 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:6904 ClientConnectionId: 4a5d6807-7417-4c02-8bb1-eddb2b7ce013 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-07-09 07:23:22 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:6905 ClientConnectionId: dcef346f-c5a3-404e-949a-b99464ff4dca (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-07-09 07:23:22 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:6906 ClientConnectionId: a0bcd03b-315f-476a-8ea6-292af6b14775 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-07-09 07:23:24 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:6909 ClientConnectionId: 4e383e2d-0635-4b8c-8610-bed05c4676a3 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-07-09 07:23:24 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:6913 ClientConnectionId: 47eac207-c8ed-44f3-9ded-1a09ae034832 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-07-09 07:23:25 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:6912 ClientConnectionId: 4ccecb7f-c5a2-4bdc-9050-3ac8a1b3e37f (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-07-09 07:23:26 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:6914 ClientConnectionId: bebcb945-e85d-4929-9297-95675710bffe (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-07-09 07:23:27 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:6916 ClientConnectionId: 0a82a04b-5103-48a1-aa08-640e2a345c57 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-07-09 07:23:29 WARN  Sequence Connection Pool - Failed to validate connection ConnectionID:6815 ClientConnectionId: 7de313e8-8a7e-4397-a213-f2564b996103 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-07-09 07:23:30 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:6918 ClientConnectionId: 5eb962e1-9cdc-42a1-a1db-061778876a28 (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-07-09 07:23:32 WARN  Primary Connection Pool - Failed to validate connection ConnectionID:6919 ClientConnectionId: 6bc12d4b-1a5a-4f1f-8a73-3c04610ba79e (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-07-09 07:23:34 WARN  Sequence Connection Pool - Failed to validate connection ConnectionID:6889 ClientConnectionId: 1027695c-645f-4346-a533-eea1b0ad9d3c (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-07-09 07:23:54 WARN  Sequence Connection Pool - Failed to validate connection ConnectionID:6823 ClientConnectionId: 985cd058-4eab-439a-b239-370821b80b2a (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-07-09 07:25:40 WARN  Sequence Connection Pool - Failed to validate connection ConnectionID:6915 ClientConnectionId: 380d5b56-6976-484b-b20a-bd469bf1a22a (The connection is closed.). Possibly consider using a shorter maxLifetime value.
+2025-07-09 08:47:41 INFO  [vm-goanywhere1] Sequence Connection Pool - Shutdown initiated...
+2025-07-09 08:47:41 INFO  [vm-goanywhere1] Sequence Connection Pool - Shutdown completed.
+2025-07-09 08:47:41 INFO  [vm-goanywhere1] Primary Connection Pool - Shutdown initiated...
+2025-07-09 08:47:41 INFO  [vm-goanywhere1] Primary Connection Pool - Shutdown completed.
+2025-07-11 12:47:11 INFO  [vm-goanywhere1] Sequence Connection Pool - Shutdown initiated...
+2025-07-11 12:47:11 INFO  [vm-goanywhere1] Sequence Connection Pool - Shutdown completed.
+2025-07-11 12:47:11 INFO  [vm-goanywhere1] Primary Connection Pool - Shutdown initiated...
+2025-07-11 12:47:11 INFO  [vm-goanywhere1] Primary Connection Pool - Shutdown completed.

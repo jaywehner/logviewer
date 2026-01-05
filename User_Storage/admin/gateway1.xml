@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><gateway ipv4SubnetPrefix="24" ipv6SubnetPrefix="128" maxThreads="2000" memoryMonitorEnabled="false" minThreads="10" shutdownPort="9105" threadKeepAlive="60">
+  <licenseProxy enabled="false" host="" password="" port="80" resolveHostAtProxy="false" type="http" user=""/>
+  <reverseProxy enabled="true">
+    <control address="10.150.0.68" port="9100" readTimeout="60">
+      <ssl enabled="false"/>
+    </control>
+    <tcp>
+      <data address="10.150.0.68" port="9101"/>
+      <passive address="10.150.0.68" bufferSize="0" portRangeFrom="30000" portRangeTo="32000"/>
+      <rules>
+        <rule name="default">
+          <loadBalancer algorithm="roundrobin"/>
+        </rule>
+        <rule name="https">
+          <loadBalancer algorithm="roundrobin">
+            <sessionPersistence timeout="300" type="ip"/>
+          </loadBalancer>
+        </rule>
+        <rule name="agent">
+          <loadBalancer algorithm="roundrobin">
+            <sessionPersistence type="agentIP"/>
+          </loadBalancer>
+        </rule>
+      </rules>
+    </tcp>
+    <udp enabled="false" receiveBufferSize="8388608" sendBufferSize="8388608" timeout="10">
+      <internal address="10.150.0.68" portRangeFrom="9201" portRangeTo="9300"/>
+      <external address="10.150.0.68" portRangeFrom="32001" portRangeTo="32100"/>
+    </udp>
+  </reverseProxy>
+  <forwardProxies localAddress="10.150.0.68">
+    <gatewayForwardProxy address="10.150.0.68" enabled="true" port="9102"/>
+    <httpForwardProxy address="10.150.0.68" enabled="false" port="80"/>
+    <socksForwardProxy address="10.150.0.68" enabled="false" port="1080"/>
+  </forwardProxies>
+</gateway>

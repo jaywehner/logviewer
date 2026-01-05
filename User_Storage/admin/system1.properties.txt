@@ -1,0 +1,18 @@
+#This file can be used to set or override any system properties used by the Java Virtual Machine. 
+
+#org.apache.catalina.session.StandardSession.ACTIVITY_CHECK=true
+#mail.debug=true
+
+# The system property for disabling the reuse of SMTP connections.  If this 
+# property is set to false, a new connection will be established to the SMTP 
+# server each time an email is sent, and will be closed immediately after.  This
+# option was added to work around an issue with some Exchange Servers that 
+# improperly error when a timeout occurs
+# 
+#com.linoma.mail.reuseConnection=false
+
+com.linoma.sftp.client.kexProvider.BC=true
+
+#The properties below force Internet Explorer Compatibility Mode to Edge
+IECompatibility.webClient=IE\=edge
+IECompatibility.adminClient=IE\=edge

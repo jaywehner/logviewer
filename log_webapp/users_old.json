@@ -1,0 +1,8 @@
+{
+  "admin": {
+    "password_hash": "scrypt:32768:8:1$vhCv4DDo4kWSl04B$151459775241b42b960bea375d2c36a5e27510128fdf965894b7e457335ec60be54e836b0d2c40e0dabf81f49d9c59709d5dcd813b15e0c61637a402b08cfd61"
+  },
+  "testuser": {
+    "password_hash": "scrypt:32768:8:1$U7cTf3C3nvC6XZTl$a398ec8a2e5985664e4ec8f3dea117498ee80cec58ca49628196855ad42aaa50c71ec2f64bfa02e044a2174bc2deeb631ec84482461d37948347ac90700a7b7b"
+  }
+}

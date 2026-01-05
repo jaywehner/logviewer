@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en" data-bs-theme="dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Log Error Summarizer</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/styles.css" />
+  </head>
+  <body class="d-flex flex-column min-vh-100">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-body-tertiary border-bottom">
+      <div class="container-fluid">
+        <div class="d-flex align-items-center" style="min-width: 220px">
+          <span class="navbar-brand">Log Error Summarizer</span>
+        </div>
+
+        <div class="flex-grow-1 d-flex justify-content-center">
+          <button id="exportReportBtn" class="btn btn-sm btn-outline-light">Export Summary Report</button>
+        </div>
+
+        <div class="d-flex gap-2 align-items-center" style="min-width: 220px; justify-content: flex-end">
+          <span id="userBadge" class="badge text-bg-secondary d-none"></span>
+          <button id="changePasswordBtn" class="btn btn-sm btn-outline-light d-none">Change Password</button>
+          <button id="logoutBtn" class="btn btn-sm btn-outline-light d-none">Logout</button>
+          <button id="refreshBtn" class="btn btn-sm btn-outline-light">Refresh</button>
+        </div>
+      </div>
+    </nav>
+
+    <div class="modal fade" id="changePasswordModal" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Change Password</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div id="changePwError" class="alert alert-danger d-none" role="alert"></div>
+            <div id="changePwSuccess" class="alert alert-success d-none" role="alert">Password updated.</div>
+
+            <div class="mb-3">
+              <label for="currentPassword" class="form-label">Current password</label>
+              <input id="currentPassword" type="password" class="form-control" autocomplete="current-password" />
+            </div>
+            <div class="mb-3">
+              <label for="newPassword" class="form-label">New password</label>
+              <input id="newPassword" type="password" class="form-control" autocomplete="new-password" />
+              <div class="form-text">Minimum 6 characters.</div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-outline-light" data-bs-dismiss="modal">Cancel</button>
+            <button id="changePasswordSaveBtn" type="button" class="btn btn-primary">Save</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid flex-grow-1 app-content">
+      <div class="row g-0" style="height: 100%">
+        <aside class="col-12 col-md-3 col-lg-2 border-end sidebar d-flex flex-column">
+          <div class="p-3 border-bottom">
+            <div class="small text-secondary">Files (LogIngest)</div>
+            <div id="treeStatus" class="small mt-1 text-secondary">Loading…</div>
+            <input id="fileSearch" class="form-control form-control-sm mt-2" placeholder="Search files…" />
+            <div class="d-grid gap-2 mt-2">
+              <button id="deleteBtn" class="btn btn-sm btn-outline-danger" disabled>Delete Selected</button>
+              <button id="deleteAllBtn" class="btn btn-sm btn-danger">Delete All</button>
+            </div>
+          </div>
+          <div class="p-2 overflow-auto flex-grow-1" style="min-height: 0">
+            <div id="fileTree" class="file-tree"></div>
+          </div>
+          <div class="sidebar-footer-bar flex-shrink-0"></div>
+        </aside>
+
+        <main class="col-12 col-md-9 col-lg-10">
+          <div class="p-3 border-bottom">
+            <div class="row align-items-center gy-2">
+              <div class="col-12 col-lg-6">
+                <div class="fw-semibold" id="selectedFile">Select a log file…</div>
+                <div class="small text-secondary" id="selectedFileMeta"></div>
+              </div>
+              <div class="col-12 col-lg-6">
+                <div class="d-flex flex-wrap gap-3 justify-content-lg-end" id="levelToggles"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row g-0" style="height: calc(100% - 86px)">
+            <section class="col-12 col-xl-8 border-end d-flex flex-column" style="height: 100%; min-width: 0">
+              <div class="p-3 border-bottom d-flex align-items-center justify-content-between" style="min-width: 0">
+                <div class="small text-secondary">Log viewer (filtered)</div>
+                <div class="d-flex flex-wrap gap-2 justify-content-end" style="min-width: 0">
+                  <div class="input-group input-group-sm" style="width: 300px">
+                    <input id="uploadFile" type="file" class="form-control" multiple />
+                    <button id="uploadBtn" class="btn btn-outline-light" type="button">Upload</button>
+                  </div>
+                  <button id="downloadBtn" class="btn btn-sm btn-outline-light" disabled>Download</button>
+                  <div class="form-check form-switch">
+                    <input class="form-check-input" type="checkbox" role="switch" id="tailSwitch" />
+                    <label class="form-check-label" for="tailSwitch">Tail</label>
+                  </div>
+                  <select id="maxLines" class="form-select form-select-sm" style="width: 120px">
+                    <option value="500">500</option>
+                    <option value="2000" selected>2000</option>
+                    <option value="5000">5000</option>
+                    <option value="20000">20000</option>
+                  </select>
+                </div>
+              </div>
+              <div class="px-3 py-2 border-bottom">
+                <div class="d-flex gap-2">
+                  <input id="lineSearch" class="form-control form-control-sm" placeholder="Search lines…" />
+                  <button id="searchSelectedBtn" class="btn btn-sm btn-outline-light">Search</button>
+                  <button id="searchAllBtn" class="btn btn-sm btn-outline-info">Search All</button>
+                </div>
+              </div>
+              <div class="p-3 overflow-auto flex-grow-1" style="min-height: 0">
+                <pre id="logOutput" class="log-output mb-0"></pre>
+              </div>
+            </section>
+
+            <section class="col-12 col-xl-4 d-flex flex-column" style="height: 100%; min-width: 0">
+              <div class="p-3 border-bottom d-flex align-items-center justify-content-between">
+                <div class="small text-secondary">Error summary (all logs)</div>
+                <button id="refreshSummaryBtn" class="btn btn-sm btn-outline-light">Refresh summary</button>
+              </div>
+              <div class="p-3 overflow-auto flex-grow-1" style="min-height: 0">
+                <div id="summaryCounts" class="mb-3"></div>
+                <div class="small text-secondary mb-2">Top messages</div>
+                <div class="table-responsive">
+                  <table class="table table-sm table-dark table-striped align-middle">
+                    <thead>
+                      <tr>
+                        <th style="width: 90px">Count</th>
+                        <th>Message</th>
+                      </tr>
+                    </thead>
+                    <tbody id="topMessagesBody"></tbody>
+                  </table>
+                </div>
+              </div>
+            </section>
+          </div>
+        </main>
+      </div>
+    </div>
+
+    <!-- Search All Results Modal -->
+    <div class="modal fade" id="searchAllModal" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Search All Log Files</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div id="searchAllStatus" class="small text-secondary mb-2"></div>
+            <div class="table-responsive">
+              <table class="table table-dark table-striped align-middle">
+                <thead>
+                  <tr>
+                    <th style="width: 180px">File</th>
+                    <th style="width: 80px">Line</th>
+                    <th>Content</th>
+                  </tr>
+                </thead>
+                <tbody id="searchAllBody"></tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="app-footer py-2 text-center border-top">
+      <div class="container-fluid">
+        <div class="d-flex justify-content-between align-items-center">
+          <div class="d-flex align-items-center gap-3 small">
+            <span class="d-flex align-items-center gap-1">
+              <i class="bi bi-file-earmark-text" style="color: #28a745 !important;"></i>
+              <span style="color: #28a745 !important;">Log files</span>
+            </span>
+            <span class="d-flex align-items-center gap-1">
+              <i class="bi bi-file-earmark-pdf" style="color: #dc3545 !important;"></i>
+              <span style="color: #dc3545 !important;">PDF</span>
+            </span>
+            <span class="d-flex align-items-center gap-1">
+              <i class="bi bi-file-earmark-text" style="color: #ffc107 !important;"></i>
+              <span style="color: #ffc107 !important;">Text (txt)</span>
+            </span>
+            <span class="d-flex align-items-center gap-1">
+              <i class="bi bi-file-earmark-code" style="color: #0d6efd !important;"></i>
+              <span style="color: #0d6efd !important;">XML</span>
+            </span>
+          </div>
+          <span class="small text-muted">Copyright 2026 Frozen Zombies Software</span>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/static/app.js"></script>
+  </body>
+</html>

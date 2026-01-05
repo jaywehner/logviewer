@@ -1,0 +1,22 @@
+
+2024-03-05 18:57:44 Commons Daemon procrun stdout initialized
+Loading config directory property from: C:\Program Files\Fortra\GoAnywhere\config\system.properties
+Loading system properties from: C:\Program Files\Fortra\GoAnywhere\config\system.properties
+Setting system property: IECompatibility.adminClient=IE=edge
+Setting system property: com.linoma.sftp.client.kexProvider.BC=true
+Setting system property: IECompatibility.webClient=IE=edge
+DRBG required entropy bits defaulted to 256
+Loading JCIFS configuration from: C:\Program Files\Fortra\GoAnywhere\config\jcifs.properties
+Loading JNQ configuration from: C:\Program Files\Fortra\GoAnywhere\config\jnq.properties
+Initializing global log file '\\10.150.0.8\goanywhere\userdata\logs\goanywhere.log'.
+
+2024-03-05 19:15:02 Commons Daemon procrun stdout initialized
+Loading config directory property from: C:\Program Files\Fortra\GoAnywhere\config\system.properties
+Loading system properties from: C:\Program Files\Fortra\GoAnywhere\config\system.properties
+Setting system property: IECompatibility.adminClient=IE=edge
+Setting system property: com.linoma.sftp.client.kexProvider.BC=true
+Setting system property: IECompatibility.webClient=IE=edge
+DRBG required entropy bits defaulted to 256
+Loading JCIFS configuration from: C:\Program Files\Fortra\GoAnywhere\config\jcifs.properties
+Loading JNQ configuration from: C:\Program Files\Fortra\GoAnywhere\config\jnq.properties
+Initializing global log file '\\10.150.0.8\goanywhere\userdata\logs\goanywhere.log'.

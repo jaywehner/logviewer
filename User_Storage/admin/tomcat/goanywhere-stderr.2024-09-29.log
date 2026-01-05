@@ -1,0 +1,238 @@
+
+2024-09-29 00:15:18 Commons Daemon procrun stderr initialized
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.linoma.security.commons.credential.key.store.KeyStoreFactory (file:/C:/Program Files/Fortra/GoAnywhere/lib/linoma-security-commons-1.3.1.jar) to constructor sun.security.provider.Sun()
+WARNING: Please consider reporting this to the maintainers of com.linoma.security.commons.credential.key.store.KeyStoreFactory
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Sep 29, 2024 12:15:33 AM org.apache.tomcat.util.digester.SetPropertiesRule begin
+WARNING: Match [Server/Service/Connector] failed to set property [forceIDPLogin] to [false]
+Sep 29, 2024 12:15:33 AM org.apache.tomcat.util.digester.SetPropertiesRule begin
+WARNING: Match [Server/Service/Connector] failed to set property [gaRedirect] to [true]
+Sep 29, 2024 12:15:33 AM org.apache.tomcat.util.digester.SetPropertiesRule begin
+WARNING: Match [Server/Service/Connector] failed to set property [gaRedirectHost] to [vm-goanywhere1]
+Sep 29, 2024 12:15:33 AM org.apache.tomcat.util.digester.SetPropertiesRule begin
+WARNING: Match [Server/Service/Connector] failed to set property [gaRedirectPort] to [8001]
+Sep 29, 2024 12:15:33 AM org.apache.tomcat.util.digester.SetPropertiesRule begin
+WARNING: Match [Server/Service/Connector] failed to set property [gaRedirectScheme] to [https]
+Sep 29, 2024 12:15:33 AM org.apache.tomcat.util.digester.SetPropertiesRule begin
+WARNING: Match [Server/Service/Connector] failed to set property [keyLocation] to [File]
+Sep 29, 2024 12:15:33 AM org.apache.tomcat.util.digester.SetPropertiesRule begin
+WARNING: Match [Server/Service/Connector] failed to set property [forceIDPLogin] to [false]
+Sep 29, 2024 12:15:33 AM org.apache.tomcat.util.digester.SetPropertiesRule begin
+WARNING: Match [Server/Service/Connector] failed to set property [gaRedirect] to [false]
+Sep 29, 2024 12:15:33 AM org.apache.tomcat.util.digester.SetPropertiesRule begin
+WARNING: Match [Server/Service/Connector] failed to set property [keyLocation] to [KeyVault]
+Sep 29, 2024 12:15:33 AM org.apache.tomcat.util.digester.SetPropertiesRule begin
+WARNING: Match [Server/Service/Connector] failed to set property [keyName] to [atricure_wildcard]
+Sep 29, 2024 12:15:33 AM org.apache.tomcat.util.net.SSLHostConfig setProtocols
+WARNING: The protocol [TLSv1.3] was added to the list of protocols on the SSLHostConfig named [_default_]. Check if a +/- prefix is missing.
+Sep 29, 2024 12:15:34 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-8000"]
+Sep 29, 2024 12:15:34 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["https-jsse-nio-8001"]
+Sep 29, 2024 12:15:34 AM org.apache.tomcat.util.net.SSLUtilBase <init>
+WARNING: The JSSE TLS 1.3 implementation does not support post handshake authentication (PHA) and is therefore incompatible with optional certificate authentication
+Sep 29, 2024 12:15:35 AM org.apache.tomcat.util.net.AbstractEndpoint logCertificate
+INFO: Connector [https-jsse-nio-8001], TLS virtual host [_default_], certificate type [UNDEFINED] configured from keystore [C:\Program Files\Fortra\GoAnywhere\tomcat\temp\mft_admin_ks_9642572062237437889] using alias [key] with trust store [C:\Program Files\Fortra\GoAnywhere\tomcat\temp\mft_admin_ts_471077911882561916]
+Sep 29, 2024 12:15:35 AM org.apache.catalina.startup.Catalina load
+INFO: Server initialization in [1939] milliseconds
+Sep 29, 2024 12:15:40 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [admin]
+Sep 29, 2024 12:15:40 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet engine: [Apache Tomcat/9.0.83]
+Sep 29, 2024 12:15:43 AM org.apache.tomcat.util.net.SSLHostConfig setProtocols
+WARNING: The protocol [TLSv1.3] was added to the list of protocols on the SSLHostConfig named [_default_]. Check if a +/- prefix is missing.
+Sep 29, 2024 12:15:43 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["https-jsse-nio-443"]
+Sep 29, 2024 12:15:43 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [ghttps]
+Sep 29, 2024 12:15:43 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet engine: [Apache Tomcat/9.0.83]
+Sep 29, 2024 12:15:44 AM org.apache.myfaces.config.DefaultFacesConfigurationProvider getStandardFacesConfig
+INFO: Reading standard config META-INF/standard-faces-config.xml
+Sep 29, 2024 12:15:44 AM org.apache.myfaces.config.DefaultFacesConfigurationProvider getWebAppFacesConfig
+INFO: Reading config /WEB-INF/faces-config.xml
+Sep 29, 2024 12:15:45 AM org.apache.myfaces.config.DefaultFacesConfigurationProvider getClassloaderFacesConfig
+INFO: Reading config : jar:file:/C:/Program Files/Fortra/GoAnywhere/lib/gfaces-3.3.0.jar!/META-INF/faces-config.xml
+Sep 29, 2024 12:15:45 AM org.apache.myfaces.config.DefaultFacesConfigurationProvider getClassloaderFacesConfig
+INFO: Reading config : jar:file:/C:/Program Files/Fortra/GoAnywhere/lib/primefaces-7.0.14.jar!/META-INF/faces-config.xml
+Sep 29, 2024 12:15:45 AM org.apache.myfaces.config.DefaultFacesConfigurationProvider getClassloaderFacesConfig
+INFO: Reading config : jar:file:/C:/Program Files/Fortra/GoAnywhere/lib/primefaces-extensions-7.0.1.jar!/META-INF/faces-config.xml
+Sep 29, 2024 12:15:45 AM org.apache.myfaces.config.DefaultFacesConfigurationProvider getClassloaderFacesConfig
+INFO: Reading config : jar:file:/C:/Program Files/Fortra/GoAnywhere/lib/tomahawk20-1.1.14.jar!/META-INF/faces-config.xml
+Sep 29, 2024 12:15:45 AM org.apache.myfaces.config.DefaultFacesConfigurationProvider getContextSpecifiedFacesConfig
+INFO: Reading config /WEB-INF/faces-forms.xml
+Sep 29, 2024 12:15:45 AM org.apache.myfaces.config.DefaultFacesConfigurationProvider getContextSpecifiedFacesConfig
+INFO: Reading config /WEB-INF/faces-navigation.xml
+Sep 29, 2024 12:15:46 AM org.apache.myfaces.config.LogMetaInfUtils logArtifact
+INFO: Artifact 'myfaces-api' was found in version '2.2.15' from path 'file:/C:/Program Files/Fortra/GoAnywhere/lib/myfaces-api-2.2.15.jar'
+Sep 29, 2024 12:15:46 AM org.apache.myfaces.config.LogMetaInfUtils logArtifact
+INFO: Artifact 'myfaces-bundle' was found in version '2.2.15' from path 'file:/C:/Program Files/Fortra/GoAnywhere/lib/myfaces-bundle-2.2.15.jar'
+Sep 29, 2024 12:15:46 AM org.apache.myfaces.config.LogMetaInfUtils logArtifact
+INFO: Artifact 'myfaces-impl' was found in version '2.2.15' from path 'file:/C:/Program Files/Fortra/GoAnywhere/lib/myfaces-impl-2.2.15.jar'
+Sep 29, 2024 12:15:46 AM org.apache.myfaces.config.LogMetaInfUtils logArtifact
+INFO: Artifact 'tomahawk20' was found in version '1.1.14' from path 'file:/C:/Program Files/Fortra/GoAnywhere/lib/tomahawk20-1.1.14.jar'
+Sep 29, 2024 12:15:46 AM org.apache.myfaces.util.ExternalSpecifications isCDIAvailable
+INFO: MyFaces CDI support disabled
+Sep 29, 2024 12:15:46 AM org.apache.myfaces.spi.impl.DefaultInjectionProviderFactory getInjectionProvider
+INFO: Using InjectionProvider org.apache.myfaces.spi.impl.Tomcat7AnnotationInjectionProvider
+Sep 29, 2024 12:15:46 AM org.apache.myfaces.util.ExternalSpecifications isBeanValidationAvailable
+INFO: MyFaces Bean Validation support disabled
+Sep 29, 2024 12:15:46 AM org.apache.myfaces.config.FacesConfigurator handleSerialFactory
+INFO: Serialization provider : class org.apache.myfaces.shared_impl.util.serial.DefaultSerialFactory
+Sep 29, 2024 12:15:46 AM org.apache.myfaces.config.annotation.DefaultLifecycleProviderFactory getLifecycleProvider
+INFO: Using LifecycleProvider org.apache.myfaces.config.annotation.Tomcat7AnnotationLifecycleProvider
+Sep 29, 2024 12:15:46 AM org.primefaces.webapp.PostConstructApplicationEventListener processEvent
+INFO: Running on PrimeFaces 7.0.14
+Sep 29, 2024 12:15:46 AM org.primefaces.extensions.application.PostConstructApplicationEventListener processEvent
+INFO: Running on PrimeFaces Extensions 7.0.1
+Sep 29, 2024 12:15:46 AM org.apache.myfaces.webapp.AbstractFacesInitializer initFaces
+INFO: ServletContext initialized.
+Sep 29, 2024 12:15:46 AM org.apache.myfaces.util.ExternalSpecifications isUnifiedELAvailable
+INFO: MyFaces Unified EL support enabled
+Sep 29, 2024 12:15:46 AM org.apache.myfaces.view.facelets.ViewPoolProcessor initialize
+INFO: org.apache.myfaces.CACHE_EL_EXPRESSIONS web config parameter is set to "noCache". To enable view pooling this param must be set to "alwaysRecompile". View Pooling disabled.
+Sep 29, 2024 12:15:46 AM org.apache.myfaces.webapp.StartupServletContextListener contextInitialized
+INFO: MyFaces Core has started, it took [2086] ms.
+Sep 29, 2024 12:15:46 AM com.linoma.ga.ws.soap.ext.SecureFormWSServletContextListener contextInitialized
+INFO: WSSERVLET12: JAX-WS context listener initializing
+Sep 29, 2024 12:15:47 AM com.sun.xml.ws.transport.http.servlet.WSServletDelegate <init>
+INFO: WSSERVLET14: JAX-WS servlet initializing
+Sep 29, 2024 12:15:47 AM org.apache.tomcat.util.descriptor.web.SecurityConstraint handleOmittedMethods
+SEVERE: For security constraints with URL pattern [/*] the HTTP methods [HEAD POST GET] are uncovered.
+Sep 29, 2024 12:15:47 AM org.apache.tomcat.util.descriptor.web.SecurityConstraint handleOmittedMethods
+SEVERE: For security constraints with URL pattern [/rest/*] the HTTP methods [HEAD DELETE POST GET PUT] are uncovered.
+Sep 29, 2024 12:15:47 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["https-jsse-nio-443"]
+Sep 29, 2024 12:15:47 AM org.apache.tomcat.util.net.SSLUtilBase <init>
+WARNING: The JSSE TLS 1.3 implementation does not support post handshake authentication (PHA) and is therefore incompatible with optional certificate authentication
+Sep 29, 2024 12:15:48 AM org.apache.tomcat.util.net.AbstractEndpoint logCertificate
+INFO: Connector [https-jsse-nio-443], TLS virtual host [_default_], certificate type [UNDEFINED] configured from keystore [C:\Program Files\Fortra\GoAnywhere\tomcat\temp\mft_https_ks_115109042795623181525] using alias [key] with trust store [C:\Program Files\Fortra\GoAnywhere\tomcat\temp\mft_https_ts_117039560583991428139]
+Sep 29, 2024 12:15:51 AM com.linoma.ga.ws.soap.ext.GACMDWSServletContextListener contextInitialized
+INFO: WSSERVLET12: JAX-WS context listener initializing
+Sep 29, 2024 12:15:51 AM com.sun.xml.ws.transport.http.DeploymentDescriptorParser getPrimaryWSDL
+WARNING: Ignoring wrong wsdl=WEB-INF/webservices/GoAnywhereCommandService.wsdl. It should start with WEB-INF/wsdl. Going to generate and publish a new WSDL.
+Sep 29, 2024 12:15:51 AM com.sun.xml.ws.transport.http.servlet.WSServletDelegate <init>
+INFO: WSSERVLET14: JAX-WS servlet initializing
+Sep 29, 2024 12:15:51 AM org.apache.myfaces.config.DefaultFacesConfigurationProvider getStandardFacesConfig
+INFO: Reading standard config META-INF/standard-faces-config.xml
+Sep 29, 2024 12:15:51 AM org.apache.myfaces.config.DefaultFacesConfigurationProvider getWebAppFacesConfig
+INFO: Reading config /WEB-INF/faces-config.xml
+Sep 29, 2024 12:15:52 AM org.apache.myfaces.config.DefaultFacesConfigurationProvider getClassloaderFacesConfig
+INFO: Reading config : jar:file:/C:/Program Files/Fortra/GoAnywhere/lib/gfaces-3.3.0.jar!/META-INF/faces-config.xml
+Sep 29, 2024 12:15:52 AM org.apache.myfaces.config.DefaultFacesConfigurationProvider getClassloaderFacesConfig
+INFO: Reading config : jar:file:/C:/Program Files/Fortra/GoAnywhere/lib/primefaces-7.0.14.jar!/META-INF/faces-config.xml
+Sep 29, 2024 12:15:52 AM org.apache.myfaces.config.DefaultFacesConfigurationProvider getClassloaderFacesConfig
+INFO: Reading config : jar:file:/C:/Program Files/Fortra/GoAnywhere/lib/primefaces-extensions-7.0.1.jar!/META-INF/faces-config.xml
+Sep 29, 2024 12:15:52 AM org.apache.myfaces.config.DefaultFacesConfigurationProvider getClassloaderFacesConfig
+INFO: Reading config : jar:file:/C:/Program Files/Fortra/GoAnywhere/lib/tomahawk20-1.1.14.jar!/META-INF/faces-config.xml
+Sep 29, 2024 12:15:52 AM org.apache.myfaces.config.DefaultFacesConfigurationProvider getContextSpecifiedFacesConfig
+INFO: Reading config /WEB-INF/faces-forms.xml
+Sep 29, 2024 12:15:52 AM org.apache.myfaces.config.DefaultFacesConfigurationProvider getContextSpecifiedFacesConfig
+INFO: Reading config /WEB-INF/faces-navigation.xml
+Sep 29, 2024 12:15:53 AM org.apache.myfaces.config.LogMetaInfUtils logArtifact
+INFO: Artifact 'myfaces-api' was found in version '2.2.15' from path 'file:/C:/Program Files/Fortra/GoAnywhere/lib/myfaces-api-2.2.15.jar'
+Sep 29, 2024 12:15:53 AM org.apache.myfaces.config.LogMetaInfUtils logArtifact
+INFO: Artifact 'myfaces-bundle' was found in version '2.2.15' from path 'file:/C:/Program Files/Fortra/GoAnywhere/lib/myfaces-bundle-2.2.15.jar'
+Sep 29, 2024 12:15:53 AM org.apache.myfaces.config.LogMetaInfUtils logArtifact
+INFO: Artifact 'myfaces-impl' was found in version '2.2.15' from path 'file:/C:/Program Files/Fortra/GoAnywhere/lib/myfaces-impl-2.2.15.jar'
+Sep 29, 2024 12:15:53 AM org.apache.myfaces.config.LogMetaInfUtils logArtifact
+INFO: Artifact 'tomahawk20' was found in version '1.1.14' from path 'file:/C:/Program Files/Fortra/GoAnywhere/lib/tomahawk20-1.1.14.jar'
+Sep 29, 2024 12:15:53 AM org.apache.myfaces.spi.impl.DefaultInjectionProviderFactory getInjectionProvider
+INFO: Using InjectionProvider org.apache.myfaces.spi.impl.Tomcat7AnnotationInjectionProvider
+Sep 29, 2024 12:15:53 AM org.apache.myfaces.config.FacesConfigurator handleSerialFactory
+INFO: Serialization provider : class org.apache.myfaces.shared_impl.util.serial.DefaultSerialFactory
+Sep 29, 2024 12:15:53 AM org.apache.myfaces.config.annotation.DefaultLifecycleProviderFactory getLifecycleProvider
+INFO: Using LifecycleProvider org.apache.myfaces.config.annotation.Tomcat7AnnotationLifecycleProvider
+Sep 29, 2024 12:15:53 AM org.primefaces.webapp.PostConstructApplicationEventListener processEvent
+INFO: Running on PrimeFaces 7.0.14
+Sep 29, 2024 12:15:53 AM org.primefaces.extensions.application.PostConstructApplicationEventListener processEvent
+INFO: Running on PrimeFaces Extensions 7.0.1
+Sep 29, 2024 12:15:53 AM org.apache.myfaces.webapp.AbstractFacesInitializer initFaces
+INFO: ServletContext initialized.
+Sep 29, 2024 12:15:53 AM org.apache.myfaces.view.facelets.ViewPoolProcessor initialize
+INFO: org.apache.myfaces.CACHE_EL_EXPRESSIONS web config parameter is set to "noCache". To enable view pooling this param must be set to "alwaysRecompile". View Pooling disabled.
+Sep 29, 2024 12:15:53 AM org.apache.myfaces.webapp.StartupServletContextListener contextInitialized
+INFO: MyFaces Core has started, it took [1562] ms.
+Sep 29, 2024 12:15:53 AM org.apache.tomcat.util.descriptor.web.SecurityConstraint handleOmittedMethods
+SEVERE: For security constraints with URL pattern [/*] the HTTP methods [HEAD POST GET] are uncovered.
+Sep 29, 2024 12:15:53 AM org.apache.tomcat.util.descriptor.web.SecurityConstraint handleOmittedMethods
+SEVERE: For security constraints with URL pattern [/rest/*] the HTTP methods [HEAD DELETE POST GET PUT] are uncovered.
+Sep 29, 2024 12:15:53 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory [C:\Program Files\Fortra\GoAnywhere\tomcat\webapps\ROOT]
+Sep 29, 2024 12:15:53 AM org.apache.myfaces.ee6.MyFacesContainerInitializer onStartup
+INFO: Added FacesServlet with mappings=[/faces/*, *.jsf, *.faces]
+Sep 29, 2024 12:15:53 AM org.apache.tomcat.util.descriptor.web.SecurityConstraint handleOmittedMethods
+SEVERE: For security constraints with URL pattern [/*] the HTTP methods [HEAD POST GET] are uncovered.
+Sep 29, 2024 12:15:53 AM org.apache.tomcat.util.descriptor.web.SecurityConstraint handleOmittedMethods
+SEVERE: For security constraints with URL pattern [/rest/*] the HTTP methods [HEAD DELETE POST GET PUT] are uncovered.
+Sep 29, 2024 12:15:53 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [C:\Program Files\Fortra\GoAnywhere\tomcat\webapps\ROOT] has finished in [140] ms
+Sep 29, 2024 12:15:53 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-8000"]
+Sep 29, 2024 12:15:53 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["https-jsse-nio-8001"]
+Sep 29, 2024 12:15:53 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in [12612] milliseconds
+Oct 03, 2024 1:55:30 PM javax.faces.component._ExternalSpecifications isBeanValidationAvailable
+INFO: MyFaces Bean Validation support disabled
+Oct 03, 2024 3:22:48 PM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet [Faces Servlet] in context with path [/goanywhere] threw exception [/auth/Login.xhtml - No saved view state could be found for the view identifier: /auth/Login.xhtml] with root cause
+javax.faces.application.ViewExpiredException: /auth/Login.xhtml - No saved view state could be found for the view identifier: /auth/Login.xhtml
+	at org.apache.myfaces.lifecycle.RestoreViewExecutor.execute(RestoreViewExecutor.java:183)
+	at org.apache.myfaces.lifecycle.LifecycleImpl.executePhase(LifecycleImpl.java:196)
+	at org.apache.myfaces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:143)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:198)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at com.linoma.ga.ui.admin.LocaleFilter.doFilter(LocaleFilter.java:99)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at com.linoma.ga.ui.admin.WebDocFilter.doFilter(WebDocFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at com.linoma.ga.core.upload.AdminFileUploadFilter.doFilter(AdminFileUploadFilter.java:81)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at com.linoma.dpa.security.SecurityFilter.doFilter(SecurityFilter.java:215)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at com.linoma.dpa.security.SecurityHeaderFilter.doFilter(SecurityHeaderFilter.java:104)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at com.linoma.ga.ui.core.filter.IFrameEmbeddingFilter.doFilter(IFrameEmbeddingFilter.java:90)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at com.linoma.ga.ui.core.filter.NoCacheFilter.doFilter(NoCacheFilter.java:46)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at com.linoma.ga.ui.core.filter.IECompatibilityModeFilter.doFilter(IECompatibilityModeFilter.java:61)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at com.linoma.dpa.j2ee.AdminRedirectFilter.doFilter(AdminRedirectFilter.java:50)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at com.linoma.ga.ui.core.filter.XForwardedForFilter.doFilter(XForwardedForFilter.java:55)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+

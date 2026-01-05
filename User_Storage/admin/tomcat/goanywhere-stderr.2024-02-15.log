@@ -1,0 +1,343 @@
+
+2024-02-15 20:12:16 Commons Daemon procrun stderr initialized
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.linoma.security.commons.credential.key.store.KeyStoreFactory (file:/C:/Program Files/Fortra/GoAnywhere/lib/linoma-security-commons-1.3.1.jar) to constructor sun.security.provider.Sun()
+WARNING: Please consider reporting this to the maintainers of com.linoma.security.commons.credential.key.store.KeyStoreFactory
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Feb 15, 2024 8:12:35 PM org.apache.tomcat.util.digester.SetPropertiesRule begin
+WARNING: Match [Server/Service/Connector] failed to set property [keyLocation] to [KeyVault]
+Feb 15, 2024 8:12:35 PM org.apache.tomcat.util.digester.SetPropertiesRule begin
+WARNING: Match [Server/Service/Connector] failed to set property [keyName] to [goanywhere-sample]
+Feb 15, 2024 8:12:36 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-8000"]
+Feb 15, 2024 8:12:36 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["https-jsse-nio-8001"]
+Feb 15, 2024 8:12:36 PM org.apache.tomcat.util.net.SSLUtilBase checkTrustStoreEntries
+WARNING: The trusted certificate with alias [trust_cert_104] and DN [CN=AddTrust Qualified CA Root, OU=AddTrust TTP Network, O=AddTrust AB, C=SE] is not valid due to [certificate expired on 20200530104450GMT+00:00]. Certificates signed by this trusted certificate WILL be accepted
+Feb 15, 2024 8:12:36 PM org.apache.tomcat.util.net.SSLUtilBase checkTrustStoreEntries
+WARNING: The trusted certificate with alias [trust_cert_39] and DN [CN=LuxTrust Global Root, O=LuxTrust s.a., C=LU] is not valid due to [certificate expired on 20210317095137GMT+00:00]. Certificates signed by this trusted certificate WILL be accepted
+Feb 15, 2024 8:12:36 PM org.apache.tomcat.util.net.SSLUtilBase checkTrustStoreEntries
+WARNING: The trusted certificate with alias [trust_cert_38] and DN [CN=GTE CyberTrust Global Root, OU="GTE CyberTrust Solutions, Inc.", O=GTE Corporation, C=US] is not valid due to [certificate expired on 20180813235900GMT+00:00]. Certificates signed by this trusted certificate WILL be accepted
+Feb 15, 2024 8:12:36 PM org.apache.tomcat.util.net.SSLUtilBase checkTrustStoreEntries
+WARNING: The trusted certificate with alias [trust_cert_35] and DN [CN=Thawte Timestamping CA, OU=Thawte Certification, O=Thawte, L=Durbanville, ST=Western Cape, C=ZA] is not valid due to [certificate expired on 20210101235959GMT+00:00]. Certificates signed by this trusted certificate WILL be accepted
+Feb 15, 2024 8:12:36 PM org.apache.tomcat.util.net.SSLUtilBase checkTrustStoreEntries
+WARNING: The trusted certificate with alias [trust_cert_28] and DN [CN=UTN-USERFirst-Client Authentication and Email, OU=http://www.usertrust.com, O=The USERTRUST Network, L=Salt Lake City, ST=UT, C=US] is not valid due to [certificate expired on 20190709173658GMT+00:00]. Certificates signed by this trusted certificate WILL be accepted
+Feb 15, 2024 8:12:36 PM org.apache.tomcat.util.net.SSLUtilBase checkTrustStoreEntries
+WARNING: The trusted certificate with alias [trust_cert_90] and DN [CN=KEYNECTIS ROOT CA, OU=ROOT, O=KEYNECTIS, C=FR] is not valid due to [certificate expired on 20200526000000GMT+00:00]. Certificates signed by this trusted certificate WILL be accepted
+Feb 15, 2024 8:12:36 PM org.apache.tomcat.util.net.SSLUtilBase checkTrustStoreEntries
+WARNING: The trusted certificate with alias [trust_cert_18] and DN [CN=AddTrust External CA Root, OU=AddTrust External TTP Network, O=AddTrust AB, C=SE] is not valid due to [certificate expired on 20200530104838GMT+00:00]. Certificates signed by this trusted certificate WILL be accepted
+Feb 15, 2024 8:12:36 PM org.apache.tomcat.util.net.SSLUtilBase checkTrustStoreEntries
+WARNING: The trusted certificate with alias [trust_cert_14] and DN [CN=DST Root CA X3, O=Digital Signature Trust Co.] is not valid due to [certificate expired on 20210930140115GMT+00:00]. Certificates signed by this trusted certificate WILL be accepted
+Feb 15, 2024 8:12:36 PM org.apache.tomcat.util.net.SSLUtilBase checkTrustStoreEntries
+WARNING: The trusted certificate with alias [trust_cert_13] and DN [CN=GlobalSign, O=GlobalSign, OU=GlobalSign Root CA - R2] is not valid due to [certificate expired on 20211215080000GMT+00:00]. Certificates signed by this trusted certificate WILL be accepted
+Feb 15, 2024 8:12:36 PM org.apache.tomcat.util.net.SSLUtilBase checkTrustStoreEntries
+WARNING: The trusted certificate with alias [trust_cert_12] and DN [OU=Security Communication RootCA1, O=SECOM Trust.net, C=JP] is not valid due to [certificate expired on 20230930042049GMT+00:00]. Certificates signed by this trusted certificate WILL be accepted
+Feb 15, 2024 8:12:36 PM org.apache.tomcat.util.net.SSLUtilBase checkTrustStoreEntries
+WARNING: The trusted certificate with alias [trust_cert_10] and DN [CN=Deutsche Telekom Root CA 2, OU=T-TeleSec Trust Center, O=Deutsche Telekom AG, C=DE] is not valid due to [certificate expired on 20190709235900GMT+00:00]. Certificates signed by this trusted certificate WILL be accepted
+Feb 15, 2024 8:12:36 PM org.apache.tomcat.util.net.SSLUtilBase checkTrustStoreEntries
+WARNING: The trusted certificate with alias [trust_cert_98] and DN [CN=UTN-USERFirst-Hardware, OU=http://www.usertrust.com, O=The USERTRUST Network, L=Salt Lake City, ST=UT, C=US] is not valid due to [certificate expired on 20190709181922GMT+00:00]. Certificates signed by this trusted certificate WILL be accepted
+Feb 15, 2024 8:12:36 PM org.apache.tomcat.util.net.SSLUtilBase checkTrustStoreEntries
+WARNING: The trusted certificate with alias [trust_cert_7] and DN [CN=UTN-USERFirst-Object, OU=http://www.usertrust.com, O=The USERTRUST Network, L=Salt Lake City, ST=UT, C=US] is not valid due to [certificate expired on 20190709184036GMT+00:00]. Certificates signed by this trusted certificate WILL be accepted
+Feb 15, 2024 8:12:36 PM org.apache.tomcat.util.net.SSLUtilBase checkTrustStoreEntries
+WARNING: The trusted certificate with alias [trust_cert_89] and DN [CN=Class 2 Primary CA, O=Certplus, C=FR] is not valid due to [certificate expired on 20190706235959GMT+00:00]. Certificates signed by this trusted certificate WILL be accepted
+Feb 15, 2024 8:12:36 PM org.apache.tomcat.util.net.SSLUtilBase checkTrustStoreEntries
+WARNING: The trusted certificate with alias [trust_cert_86] and DN [CN=AddTrust Class 1 CA Root, OU=AddTrust TTP Network, O=AddTrust AB, C=SE] is not valid due to [certificate expired on 20200530103831GMT+00:00]. Certificates signed by this trusted certificate WILL be accepted
+Feb 15, 2024 8:12:36 PM org.apache.tomcat.util.net.SSLUtilBase checkTrustStoreEntries
+WARNING: The trusted certificate with alias [trust_cert_85] and DN [CN=QuoVadis Root Certification Authority, OU=Root Certification Authority, O=QuoVadis Limited, C=BM] is not valid due to [certificate expired on 20210317183333GMT+00:00]. Certificates signed by this trusted certificate WILL be accepted
+Feb 15, 2024 8:12:36 PM org.apache.tomcat.util.net.SSLUtilBase checkTrustStoreEntries
+WARNING: The trusted certificate with alias [trust_cert_72] and DN [CN=GeoTrust Global CA, O=GeoTrust Inc., C=US] is not valid due to [certificate expired on 20220521040000GMT+00:00]. Certificates signed by this trusted certificate WILL be accepted
+Feb 15, 2024 8:12:36 PM org.apache.tomcat.util.net.SSLUtilBase checkTrustStoreEntries
+WARNING: The trusted certificate with alias [trust_cert_77] and DN [OU=Equifax Secure Certificate Authority, O=Equifax, C=US] is not valid due to [certificate expired on 20180822164151GMT+00:00]. Certificates signed by this trusted certificate WILL be accepted
+Feb 15, 2024 8:12:36 PM org.apache.tomcat.util.net.SSLUtilBase checkTrustStoreEntries
+WARNING: The trusted certificate with alias [trust_cert_73] and DN [CN=Equifax Secure eBusiness CA-1, O=Equifax Secure Inc., C=US] is not valid due to [certificate expired on 20200622040000GMT+00:00]. Certificates signed by this trusted certificate WILL be accepted
+Feb 15, 2024 8:12:36 PM org.apache.tomcat.util.net.SSLUtilBase checkTrustStoreEntries
+WARNING: The trusted certificate with alias [trust_cert_59] and DN [EMAILADDRESS=premium-server@thawte.com, CN=Thawte Premium Server CA, OU=Certification Services Division, O=Thawte Consulting cc, L=Cape Town, ST=Western Cape, C=ZA] is not valid due to [certificate expired on 20210101235959GMT+00:00]. Certificates signed by this trusted certificate WILL be accepted
+Feb 15, 2024 8:12:36 PM org.apache.tomcat.util.net.SSLUtilBase checkTrustStoreEntries
+WARNING: The trusted certificate with alias [trust_cert_52] and DN [CN=Class 3P Primary CA, O=Certplus, C=FR] is not valid due to [certificate expired on 20190706235959GMT+00:00]. Certificates signed by this trusted certificate WILL be accepted
+Feb 15, 2024 8:12:36 PM org.apache.tomcat.util.net.SSLUtilBase checkTrustStoreEntries
+WARNING: The trusted certificate with alias [trust_cert_49] and DN [CN=Equifax Secure Global eBusiness CA-1, O=Equifax Secure Inc., C=US] is not valid due to [certificate expired on 20200622040000GMT+00:00]. Certificates signed by this trusted certificate WILL be accepted
+Feb 15, 2024 8:12:36 PM org.apache.tomcat.util.net.SSLUtilBase checkTrustStoreEntries
+WARNING: The trusted certificate with alias [trust_cert_42] and DN [CN=Sonera Class2 CA, O=Sonera, C=FI] is not valid due to [certificate expired on 20210406072940GMT+00:00]. Certificates signed by this trusted certificate WILL be accepted
+Feb 15, 2024 8:12:36 PM org.apache.tomcat.util.net.AbstractEndpoint logCertificate
+INFO: Connector [https-jsse-nio-8001], TLS virtual host [_default_], certificate type [UNDEFINED] configured from keystore [C:\Program Files\Fortra\GoAnywhere\tomcat\temp\mft_admin_ks_14346096707724653773] using alias [key] with trust store [C:\Program Files\Fortra\GoAnywhere\tomcat\temp\mft_admin_ts_11789142633244293478]
+Feb 15, 2024 8:12:36 PM org.apache.catalina.startup.Catalina load
+INFO: Server initialization in [1467] milliseconds
+Feb 15, 2024 8:12:41 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [admin]
+Feb 15, 2024 8:12:41 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet engine: [Apache Tomcat/9.0.83]
+Feb 15, 2024 8:12:46 PM com.linoma.ga.ws.soap.ext.GACMDWSServletContextListener contextInitialized
+INFO: WSSERVLET12: JAX-WS context listener initializing
+Feb 15, 2024 8:12:46 PM com.sun.xml.ws.transport.http.DeploymentDescriptorParser getPrimaryWSDL
+WARNING: Ignoring wrong wsdl=WEB-INF/webservices/GoAnywhereCommandService.wsdl. It should start with WEB-INF/wsdl. Going to generate and publish a new WSDL.
+Feb 15, 2024 8:12:47 PM com.sun.xml.bind.v2.runtime.reflect.opt.AccessorInjector <clinit>
+INFO: The optimized code generation is disabled
+Feb 15, 2024 8:12:48 PM com.sun.xml.ws.transport.http.servlet.WSServletDelegate <init>
+INFO: WSSERVLET14: JAX-WS servlet initializing
+Feb 15, 2024 8:12:48 PM org.apache.myfaces.config.DefaultFacesConfigurationProvider getStandardFacesConfig
+INFO: Reading standard config META-INF/standard-faces-config.xml
+Feb 15, 2024 8:12:48 PM org.apache.myfaces.config.DefaultFacesConfigurationProvider getWebAppFacesConfig
+INFO: Reading config /WEB-INF/faces-config.xml
+Feb 15, 2024 8:12:50 PM org.apache.myfaces.config.DefaultFacesConfigurationProvider getClassloaderFacesConfig
+INFO: Reading config : jar:file:/C:/Program Files/Fortra/GoAnywhere/lib/gfaces-3.3.0.jar!/META-INF/faces-config.xml
+Feb 15, 2024 8:12:50 PM org.apache.myfaces.config.DefaultFacesConfigurationProvider getClassloaderFacesConfig
+INFO: Reading config : jar:file:/C:/Program Files/Fortra/GoAnywhere/lib/primefaces-7.0.14.jar!/META-INF/faces-config.xml
+Feb 15, 2024 8:12:50 PM org.apache.myfaces.config.DefaultFacesConfigurationProvider getClassloaderFacesConfig
+INFO: Reading config : jar:file:/C:/Program Files/Fortra/GoAnywhere/lib/primefaces-extensions-7.0.1.jar!/META-INF/faces-config.xml
+Feb 15, 2024 8:12:50 PM org.apache.myfaces.config.DefaultFacesConfigurationProvider getClassloaderFacesConfig
+INFO: Reading config : jar:file:/C:/Program Files/Fortra/GoAnywhere/lib/tomahawk20-1.1.14.jar!/META-INF/faces-config.xml
+Feb 15, 2024 8:12:50 PM org.apache.myfaces.config.DefaultFacesConfigurationProvider getContextSpecifiedFacesConfig
+INFO: Reading config /WEB-INF/faces-forms.xml
+Feb 15, 2024 8:12:50 PM org.apache.myfaces.config.DefaultFacesConfigurationProvider getContextSpecifiedFacesConfig
+INFO: Reading config /WEB-INF/faces-navigation.xml
+Feb 15, 2024 8:12:50 PM org.apache.myfaces.config.LogMetaInfUtils logArtifact
+INFO: Artifact 'myfaces-api' was found in version '2.2.15' from path 'file:/C:/Program Files/Fortra/GoAnywhere/lib/myfaces-api-2.2.15.jar'
+Feb 15, 2024 8:12:50 PM org.apache.myfaces.config.LogMetaInfUtils logArtifact
+INFO: Artifact 'myfaces-bundle' was found in version '2.2.15' from path 'file:/C:/Program Files/Fortra/GoAnywhere/lib/myfaces-bundle-2.2.15.jar'
+Feb 15, 2024 8:12:50 PM org.apache.myfaces.config.LogMetaInfUtils logArtifact
+INFO: Artifact 'myfaces-impl' was found in version '2.2.15' from path 'file:/C:/Program Files/Fortra/GoAnywhere/lib/myfaces-impl-2.2.15.jar'
+Feb 15, 2024 8:12:50 PM org.apache.myfaces.config.LogMetaInfUtils logArtifact
+INFO: Artifact 'tomahawk20' was found in version '1.1.14' from path 'file:/C:/Program Files/Fortra/GoAnywhere/lib/tomahawk20-1.1.14.jar'
+Feb 15, 2024 8:12:50 PM org.apache.myfaces.util.ExternalSpecifications isCDIAvailable
+INFO: MyFaces CDI support disabled
+Feb 15, 2024 8:12:50 PM org.apache.myfaces.spi.impl.DefaultInjectionProviderFactory getInjectionProvider
+INFO: Using InjectionProvider org.apache.myfaces.spi.impl.Tomcat7AnnotationInjectionProvider
+Feb 15, 2024 8:12:50 PM org.apache.myfaces.util.ExternalSpecifications isBeanValidationAvailable
+INFO: MyFaces Bean Validation support disabled
+Feb 15, 2024 8:12:50 PM org.apache.myfaces.config.FacesConfigurator handleSerialFactory
+INFO: Serialization provider : class org.apache.myfaces.shared_impl.util.serial.DefaultSerialFactory
+Feb 15, 2024 8:12:50 PM org.apache.myfaces.config.annotation.DefaultLifecycleProviderFactory getLifecycleProvider
+INFO: Using LifecycleProvider org.apache.myfaces.config.annotation.Tomcat7AnnotationLifecycleProvider
+Feb 15, 2024 8:12:50 PM org.primefaces.webapp.PostConstructApplicationEventListener processEvent
+INFO: Running on PrimeFaces 7.0.14
+Feb 15, 2024 8:12:50 PM org.primefaces.extensions.application.PostConstructApplicationEventListener processEvent
+INFO: Running on PrimeFaces Extensions 7.0.1
+Feb 15, 2024 8:12:50 PM org.apache.myfaces.webapp.AbstractFacesInitializer initFaces
+INFO: ServletContext initialized.
+Feb 15, 2024 8:12:50 PM org.apache.myfaces.util.ExternalSpecifications isUnifiedELAvailable
+INFO: MyFaces Unified EL support enabled
+Feb 15, 2024 8:12:50 PM org.apache.myfaces.view.facelets.ViewPoolProcessor initialize
+INFO: org.apache.myfaces.CACHE_EL_EXPRESSIONS web config parameter is set to "noCache". To enable view pooling this param must be set to "alwaysRecompile". View Pooling disabled.
+Feb 15, 2024 8:12:50 PM org.apache.myfaces.webapp.StartupServletContextListener contextInitialized
+INFO: MyFaces Core has started, it took [2787] ms.
+Feb 15, 2024 8:12:50 PM org.apache.tomcat.util.descriptor.web.SecurityConstraint handleOmittedMethods
+SEVERE: For security constraints with URL pattern [/*] the HTTP methods [HEAD POST GET] are uncovered.
+Feb 15, 2024 8:12:50 PM org.apache.tomcat.util.descriptor.web.SecurityConstraint handleOmittedMethods
+SEVERE: For security constraints with URL pattern [/rest/*] the HTTP methods [HEAD DELETE POST GET PUT] are uncovered.
+Feb 15, 2024 8:12:50 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory [C:\Program Files\Fortra\GoAnywhere\tomcat\webapps\ROOT]
+Feb 15, 2024 8:12:51 PM org.apache.myfaces.ee6.MyFacesContainerInitializer onStartup
+INFO: Added FacesServlet with mappings=[/faces/*, *.jsf, *.faces]
+Feb 15, 2024 8:12:51 PM org.apache.tomcat.util.descriptor.web.SecurityConstraint handleOmittedMethods
+SEVERE: For security constraints with URL pattern [/*] the HTTP methods [HEAD POST GET] are uncovered.
+Feb 15, 2024 8:12:51 PM org.apache.tomcat.util.descriptor.web.SecurityConstraint handleOmittedMethods
+SEVERE: For security constraints with URL pattern [/rest/*] the HTTP methods [HEAD DELETE POST GET PUT] are uncovered.
+Feb 15, 2024 8:12:51 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [C:\Program Files\Fortra\GoAnywhere\tomcat\webapps\ROOT] has finished in [224] ms
+Feb 15, 2024 8:12:51 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-8000"]
+Feb 15, 2024 8:12:51 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["https-jsse-nio-8001"]
+Feb 15, 2024 8:12:51 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in [9729] milliseconds
+Feb 15, 2024 8:15:09 PM javax.faces.component._ExternalSpecifications isBeanValidationAvailable
+INFO: MyFaces Bean Validation support disabled
+Feb 15, 2024 9:18:36 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Feb 15, 2024 9:18:36 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-nio-8000"]
+Feb 15, 2024 9:18:36 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["https-jsse-nio-8001"]
+Feb 15, 2024 9:18:36 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service [admin]
+Feb 15, 2024 9:18:36 PM com.sun.xml.ws.transport.http.servlet.WSServletDelegate destroy
+INFO: WSSERVLET15: JAX-WS servlet destroyed
+Feb 15, 2024 9:18:36 PM com.linoma.ga.ws.soap.ext.GACMDWSServletContextListener contextDestroyed
+INFO: WSSERVLET13: JAX-WS context listener destroyed
+Feb 15, 2024 9:18:37 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+WARNING: The web application [goanywhere] appears to have started a thread named [goanywhere-GlobalLog-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.20/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@11.0.20/java.util.concurrent.locks.LockSupport.park(LockSupport.java:194)
+ java.base@11.0.20/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2081)
+ java.base@11.0.20/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1170)
+ java.base@11.0.20/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@11.0.20/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1054)
+ java.base@11.0.20/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+ java.base@11.0.20/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@11.0.20/java.lang.Thread.run(Thread.java:829)
+Feb 15, 2024 9:18:37 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-nio-8000"]
+Feb 15, 2024 9:18:37 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["https-jsse-nio-8001"]
+Feb 15, 2024 9:18:37 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-nio-8000"]
+Feb 15, 2024 9:18:37 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["https-jsse-nio-8001"]
+
+2024-02-15 21:18:37 Commons Daemon procrun stderr initialized
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.linoma.security.commons.credential.key.store.KeyStoreFactory (file:/C:/Program Files/Fortra/GoAnywhere/lib/linoma-security-commons-1.3.1.jar) to constructor sun.security.provider.Sun()
+WARNING: Please consider reporting this to the maintainers of com.linoma.security.commons.credential.key.store.KeyStoreFactory
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Feb 15, 2024 9:18:50 PM org.apache.tomcat.util.digester.SetPropertiesRule begin
+WARNING: Match [Server/Service/Connector] failed to set property [forceIDPLogin] to [false]
+Feb 15, 2024 9:18:50 PM org.apache.tomcat.util.digester.SetPropertiesRule begin
+WARNING: Match [Server/Service/Connector] failed to set property [gaRedirect] to [true]
+Feb 15, 2024 9:18:50 PM org.apache.tomcat.util.digester.SetPropertiesRule begin
+WARNING: Match [Server/Service/Connector] failed to set property [gaRedirectHost] to [vm-goanywhere1]
+Feb 15, 2024 9:18:50 PM org.apache.tomcat.util.digester.SetPropertiesRule begin
+WARNING: Match [Server/Service/Connector] failed to set property [gaRedirectPort] to [8001]
+Feb 15, 2024 9:18:50 PM org.apache.tomcat.util.digester.SetPropertiesRule begin
+WARNING: Match [Server/Service/Connector] failed to set property [gaRedirectScheme] to [https]
+Feb 15, 2024 9:18:50 PM org.apache.tomcat.util.digester.SetPropertiesRule begin
+WARNING: Match [Server/Service/Connector] failed to set property [keyLocation] to [File]
+Feb 15, 2024 9:18:51 PM org.apache.tomcat.util.digester.SetPropertiesRule begin
+WARNING: Match [Server/Service/Connector] failed to set property [forceIDPLogin] to [false]
+Feb 15, 2024 9:18:51 PM org.apache.tomcat.util.digester.SetPropertiesRule begin
+WARNING: Match [Server/Service/Connector] failed to set property [gaRedirect] to [false]
+Feb 15, 2024 9:18:51 PM org.apache.tomcat.util.digester.SetPropertiesRule begin
+WARNING: Match [Server/Service/Connector] failed to set property [keyLocation] to [KeyVault]
+Feb 15, 2024 9:18:51 PM org.apache.tomcat.util.digester.SetPropertiesRule begin
+WARNING: Match [Server/Service/Connector] failed to set property [keyName] to [atricure_wildcard]
+Feb 15, 2024 9:18:51 PM org.apache.tomcat.util.net.SSLHostConfig setProtocols
+WARNING: The protocol [TLSv1.3] was added to the list of protocols on the SSLHostConfig named [_default_]. Check if a +/- prefix is missing.
+Feb 15, 2024 9:18:51 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-8000"]
+Feb 15, 2024 9:18:51 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["https-jsse-nio-8001"]
+Feb 15, 2024 9:18:51 PM org.apache.tomcat.util.net.SSLUtilBase <init>
+WARNING: The JSSE TLS 1.3 implementation does not support post handshake authentication (PHA) and is therefore incompatible with optional certificate authentication
+Feb 15, 2024 9:18:52 PM org.apache.tomcat.util.net.AbstractEndpoint logCertificate
+INFO: Connector [https-jsse-nio-8001], TLS virtual host [_default_], certificate type [UNDEFINED] configured from keystore [C:\Program Files\Fortra\GoAnywhere\tomcat\temp\mft_admin_ks_2997019288460521814] using alias [key] with trust store [C:\Program Files\Fortra\GoAnywhere\tomcat\temp\mft_admin_ts_9220924007578516658]
+Feb 15, 2024 9:18:52 PM org.apache.catalina.startup.Catalina load
+INFO: Server initialization in [1539] milliseconds
+Feb 15, 2024 9:18:52 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [admin]
+Feb 15, 2024 9:18:52 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet engine: [Apache Tomcat/9.0.83]
+Feb 15, 2024 9:18:54 PM com.linoma.ga.ws.soap.ext.GACMDWSServletContextListener contextInitialized
+INFO: WSSERVLET12: JAX-WS context listener initializing
+Feb 15, 2024 9:18:54 PM com.sun.xml.ws.transport.http.DeploymentDescriptorParser getPrimaryWSDL
+WARNING: Ignoring wrong wsdl=WEB-INF/webservices/GoAnywhereCommandService.wsdl. It should start with WEB-INF/wsdl. Going to generate and publish a new WSDL.
+Feb 15, 2024 9:18:55 PM com.sun.xml.ws.transport.http.servlet.WSServletDelegate <init>
+INFO: WSSERVLET14: JAX-WS servlet initializing
+Feb 15, 2024 9:18:55 PM org.apache.myfaces.config.DefaultFacesConfigurationProvider getStandardFacesConfig
+INFO: Reading standard config META-INF/standard-faces-config.xml
+Feb 15, 2024 9:18:55 PM org.apache.myfaces.config.DefaultFacesConfigurationProvider getWebAppFacesConfig
+INFO: Reading config /WEB-INF/faces-config.xml
+Feb 15, 2024 9:18:56 PM org.apache.myfaces.config.DefaultFacesConfigurationProvider getClassloaderFacesConfig
+INFO: Reading config : jar:file:/C:/Program Files/Fortra/GoAnywhere/lib/gfaces-3.3.0.jar!/META-INF/faces-config.xml
+Feb 15, 2024 9:18:56 PM org.apache.myfaces.config.DefaultFacesConfigurationProvider getClassloaderFacesConfig
+INFO: Reading config : jar:file:/C:/Program Files/Fortra/GoAnywhere/lib/primefaces-7.0.14.jar!/META-INF/faces-config.xml
+Feb 15, 2024 9:18:56 PM org.apache.myfaces.config.DefaultFacesConfigurationProvider getClassloaderFacesConfig
+INFO: Reading config : jar:file:/C:/Program Files/Fortra/GoAnywhere/lib/primefaces-extensions-7.0.1.jar!/META-INF/faces-config.xml
+Feb 15, 2024 9:18:56 PM org.apache.myfaces.config.DefaultFacesConfigurationProvider getClassloaderFacesConfig
+INFO: Reading config : jar:file:/C:/Program Files/Fortra/GoAnywhere/lib/tomahawk20-1.1.14.jar!/META-INF/faces-config.xml
+Feb 15, 2024 9:18:57 PM org.apache.myfaces.config.DefaultFacesConfigurationProvider getContextSpecifiedFacesConfig
+INFO: Reading config /WEB-INF/faces-forms.xml
+Feb 15, 2024 9:18:57 PM org.apache.myfaces.config.DefaultFacesConfigurationProvider getContextSpecifiedFacesConfig
+INFO: Reading config /WEB-INF/faces-navigation.xml
+Feb 15, 2024 9:18:57 PM org.apache.myfaces.config.LogMetaInfUtils logArtifact
+INFO: Artifact 'myfaces-api' was found in version '2.2.15' from path 'file:/C:/Program Files/Fortra/GoAnywhere/lib/myfaces-api-2.2.15.jar'
+Feb 15, 2024 9:18:57 PM org.apache.myfaces.config.LogMetaInfUtils logArtifact
+INFO: Artifact 'myfaces-bundle' was found in version '2.2.15' from path 'file:/C:/Program Files/Fortra/GoAnywhere/lib/myfaces-bundle-2.2.15.jar'
+Feb 15, 2024 9:18:57 PM org.apache.myfaces.config.LogMetaInfUtils logArtifact
+INFO: Artifact 'myfaces-impl' was found in version '2.2.15' from path 'file:/C:/Program Files/Fortra/GoAnywhere/lib/myfaces-impl-2.2.15.jar'
+Feb 15, 2024 9:18:57 PM org.apache.myfaces.config.LogMetaInfUtils logArtifact
+INFO: Artifact 'tomahawk20' was found in version '1.1.14' from path 'file:/C:/Program Files/Fortra/GoAnywhere/lib/tomahawk20-1.1.14.jar'
+Feb 15, 2024 9:18:57 PM org.apache.myfaces.util.ExternalSpecifications isCDIAvailable
+INFO: MyFaces CDI support disabled
+Feb 15, 2024 9:18:57 PM org.apache.myfaces.spi.impl.DefaultInjectionProviderFactory getInjectionProvider
+INFO: Using InjectionProvider org.apache.myfaces.spi.impl.Tomcat7AnnotationInjectionProvider
+Feb 15, 2024 9:18:57 PM org.apache.myfaces.util.ExternalSpecifications isBeanValidationAvailable
+INFO: MyFaces Bean Validation support disabled
+Feb 15, 2024 9:18:57 PM org.apache.myfaces.config.FacesConfigurator handleSerialFactory
+INFO: Serialization provider : class org.apache.myfaces.shared_impl.util.serial.DefaultSerialFactory
+Feb 15, 2024 9:18:57 PM org.apache.myfaces.config.annotation.DefaultLifecycleProviderFactory getLifecycleProvider
+INFO: Using LifecycleProvider org.apache.myfaces.config.annotation.Tomcat7AnnotationLifecycleProvider
+Feb 15, 2024 9:18:57 PM org.primefaces.webapp.PostConstructApplicationEventListener processEvent
+INFO: Running on PrimeFaces 7.0.14
+Feb 15, 2024 9:18:57 PM org.primefaces.extensions.application.PostConstructApplicationEventListener processEvent
+INFO: Running on PrimeFaces Extensions 7.0.1
+Feb 15, 2024 9:18:57 PM org.apache.myfaces.webapp.AbstractFacesInitializer initFaces
+INFO: ServletContext initialized.
+Feb 15, 2024 9:18:57 PM org.apache.myfaces.util.ExternalSpecifications isUnifiedELAvailable
+INFO: MyFaces Unified EL support enabled
+Feb 15, 2024 9:18:57 PM org.apache.myfaces.view.facelets.ViewPoolProcessor initialize
+INFO: org.apache.myfaces.CACHE_EL_EXPRESSIONS web config parameter is set to "noCache". To enable view pooling this param must be set to "alwaysRecompile". View Pooling disabled.
+Feb 15, 2024 9:18:57 PM org.apache.myfaces.webapp.StartupServletContextListener contextInitialized
+INFO: MyFaces Core has started, it took [2138] ms.
+Feb 15, 2024 9:18:57 PM org.apache.tomcat.util.descriptor.web.SecurityConstraint handleOmittedMethods
+SEVERE: For security constraints with URL pattern [/*] the HTTP methods [HEAD POST GET] are uncovered.
+Feb 15, 2024 9:18:57 PM org.apache.tomcat.util.descriptor.web.SecurityConstraint handleOmittedMethods
+SEVERE: For security constraints with URL pattern [/rest/*] the HTTP methods [HEAD DELETE POST GET PUT] are uncovered.
+Feb 15, 2024 9:18:57 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory [C:\Program Files\Fortra\GoAnywhere\tomcat\webapps\ROOT]
+Feb 15, 2024 9:18:57 PM org.apache.myfaces.ee6.MyFacesContainerInitializer onStartup
+INFO: Added FacesServlet with mappings=[/faces/*, *.jsf, *.faces]
+Feb 15, 2024 9:18:57 PM org.apache.tomcat.util.descriptor.web.SecurityConstraint handleOmittedMethods
+SEVERE: For security constraints with URL pattern [/*] the HTTP methods [HEAD POST GET] are uncovered.
+Feb 15, 2024 9:18:57 PM org.apache.tomcat.util.descriptor.web.SecurityConstraint handleOmittedMethods
+SEVERE: For security constraints with URL pattern [/rest/*] the HTTP methods [HEAD DELETE POST GET PUT] are uncovered.
+Feb 15, 2024 9:18:57 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [C:\Program Files\Fortra\GoAnywhere\tomcat\webapps\ROOT] has finished in [141] ms
+Feb 15, 2024 9:18:57 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-8000"]
+Feb 15, 2024 9:18:57 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["https-jsse-nio-8001"]
+Feb 15, 2024 9:18:57 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in [5366] milliseconds
+Feb 15, 2024 9:20:24 PM javax.faces.component._ExternalSpecifications isBeanValidationAvailable
+INFO: MyFaces Bean Validation support disabled
+Mar 01, 2024 7:34:50 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Mar 01, 2024 7:34:50 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-nio-8000"]
+Mar 01, 2024 7:34:50 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["https-jsse-nio-8001"]
+Mar 01, 2024 7:34:50 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service [admin]
+Mar 01, 2024 7:34:50 PM com.sun.xml.ws.transport.http.servlet.WSServletDelegate destroy
+INFO: WSSERVLET15: JAX-WS servlet destroyed
+Mar 01, 2024 7:34:50 PM com.linoma.ga.ws.soap.ext.GACMDWSServletContextListener contextDestroyed
+INFO: WSSERVLET13: JAX-WS context listener destroyed
+Mar 01, 2024 7:34:51 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+WARNING: The web application [goanywhere] appears to have started a thread named [goanywhere-GlobalLog-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.20/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@11.0.20/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:234)
+ java.base@11.0.20/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2123)
+ java.base@11.0.20/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@11.0.20/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@11.0.20/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1054)
+ java.base@11.0.20/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+ java.base@11.0.20/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@11.0.20/java.lang.Thread.run(Thread.java:829)
+Mar 01, 2024 7:34:51 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+WARNING: The web application [goanywhere] appears to have started a thread named [Batik CleanerThread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.20/java.lang.Object.wait(Native Method)
+ java.base@11.0.20/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ java.base@11.0.20/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:176)
+ org.apache.batik.util.CleanerThread.run(CleanerThread.java:106)
+Mar 01, 2024 7:34:51 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+WARNING: The web application [goanywhere] appears to have started a thread named [ConfigurationHistoryEventHandler-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.20/jdk.internal.misc.Unsafe.unpark(Native Method)
+ java.base@11.0.20/java.util.concurrent.locks.LockSupport.unpark(LockSupport.java:160)
+ java.base@11.0.20/java.util.concurrent.FutureTask.finishCompletion(FutureTask.java:369)
+ java.base@11.0.20/java.util.concurrent.FutureTask.set(FutureTask.java:232)
+ java.base@11.0.20/java.util.concurrent.FutureTask.run(FutureTask.java:272)
+ java.base@11.0.20/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+ java.base@11.0.20/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+ java.base@11.0.20/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@11.0.20/java.lang.Thread.run(Thread.java:829)
+Mar 01, 2024 7:34:51 PM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+SEVERE: The web application [goanywhere] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@68cacf8b]) and a value of type [java.lang.Class] (value [class SampleReportList_1708546671425_459455]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Mar 01, 2024 7:34:51 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-nio-8000"]
+Mar 01, 2024 7:34:51 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["https-jsse-nio-8001"]
+Mar 01, 2024 7:34:51 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-nio-8000"]
+Mar 01, 2024 7:34:51 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["https-jsse-nio-8001"]
