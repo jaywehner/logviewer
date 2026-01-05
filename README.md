@@ -133,4 +133,4 @@ python -c "from werkzeug.security import generate_password_hash; print(generate_
 
   `YYYY-MM-DD HH:MM:SS LEVEL message`
 
-- Level toggle supports: `INFO`, `WARNING` (also matches `WARN`), `DEBUG`, `ERROR`, `SEVERE` (also matches `SERVERE`).
+- Level toggle supports: `INFO`, `WARNING` (also matches `WARN`), `DEBUG`, `ERROR`, `SEVERE`.

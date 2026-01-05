@@ -23,13 +23,12 @@ USERS_FILE = (APP_ROOT / "users.json").resolve()
 
 
 LEVEL_NORMALIZATION = {
+    "INFO": "INFO",
     "WARN": "WARNING",
     "WARNING": "WARNING",
-    "INFO": "INFO",
     "DEBUG": "DEBUG",
     "ERROR": "ERROR",
     "SEVERE": "SEVERE",
-    "SERVERE": "SEVERE",
 }
 
 LEVELS = ["INFO", "WARNING", "DEBUG", "ERROR", "SEVERE"]
