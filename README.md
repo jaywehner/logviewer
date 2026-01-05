@@ -99,7 +99,7 @@ On first run, `users.json` is created with a default user:
 
 Each user is sandboxed to their own folder:
 
-`GA_Health_Checker/User_Storage/<username>/`
+`/User_Storage/<username>/`
 
 The UI supports:
 
@@ -125,10 +125,6 @@ Edit `log_webapp/users.json` and add an entry.
 ```bash
 python -c "from werkzeug.security import generate_password_hash; print(generate_password_hash('YourPassword'))"
 ```
-
-## Important note about the old LogIngest folder
-
-The original `GA_Health_Checker/LogIngest` folder is **not automatically imported** into user folders. Upload/copy the logs you want into your user directory.
 
 ## Notes
 
