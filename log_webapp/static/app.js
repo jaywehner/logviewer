@@ -75,6 +75,12 @@ function filterTree(node, q) {
   return null;
 }
 
+function showChangePasswordModal() {
+  const modalEl = document.getElementById("changePasswordModal");
+  const modal = bootstrap.Modal.getOrCreateInstance(modalEl);
+  modal.show();
+}
+
 function renderTree() {
   const tree = document.getElementById("fileTree");
   tree.innerHTML = "";
@@ -347,6 +353,7 @@ async function loadTree() {
   tree.innerHTML = "";
 
   const res = await fetch("/api/tree");
+  console.log("Tree response status:", res.status);
   if (!res.ok) {
     if (res.status === 401) {
       window.location.href = "/login";
@@ -357,6 +364,7 @@ async function loadTree() {
     return;
   }
   const data = await res.json();
+  console.log("Tree data loaded:", data);
   setTreeStatus("", false);
   fileTreeData = data.tree;
   renderTree();
@@ -604,6 +612,7 @@ async function init() {
   const userBadge = document.getElementById("userBadge");
   const logoutBtn = document.getElementById("logoutBtn");
   const changePasswordBtn = document.getElementById("changePasswordBtn");
+  const adminUsersBtn = document.getElementById("adminUsersBtn");
   if (userBadge) {
     userBadge.textContent = user;
     userBadge.classList.remove("d-none");
@@ -614,13 +623,21 @@ async function init() {
   }
   if (changePasswordBtn) {
     changePasswordBtn.classList.remove("d-none");
-    changePasswordBtn.addEventListener("click", () => {
-      setChangePasswordAlert(null);
-      const modalEl = document.getElementById("changePasswordModal");
-      const modal = bootstrap.Modal.getOrCreateInstance(modalEl);
-      modal.show();
-    });
+    changePasswordBtn.addEventListener("click", showChangePasswordModal);
   }
+  if (adminUsersBtn) {
+    adminUsersBtn.classList.remove("d-none");
+    if (user === "admin") {
+      adminUsersBtn.classList.remove("d-none");
+      adminUsersBtn.addEventListener("click", () => {
+        window.location.href = "/admin/users";
+      });
+    } else {
+      adminUsersBtn.classList.add("d-none");
+    }
+  }
+
+  setChangePasswordAlert(null);
 
   buildLevelToggles();
   setFileActionState();

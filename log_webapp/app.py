@@ -1,8 +1,8 @@
 import os
 import re
-import json
 import zipfile
 import io
+import sqlite3
 from datetime import datetime
 import shutil
 from collections import Counter, deque
@@ -19,7 +19,7 @@ from reportlab.pdfgen import canvas
 
 APP_ROOT = Path(__file__).resolve().parent
 USER_LOGS_ROOT = (APP_ROOT.parent / "User_Storage").resolve()
-USERS_FILE = (APP_ROOT / "users.json").resolve()
+USERS_DB = (APP_ROOT / "users.db").resolve()
 
 
 LEVEL_NORMALIZATION = {
@@ -149,28 +149,61 @@ app = Flask(__name__, static_folder=str(APP_ROOT / "static"), static_url_path="/
 app.secret_key = os.environ.get("LOG_WEBAPP_SECRET", "dev-secret-change-me")
 
 
+def _init_db():
+    """Initialize SQLite database with users table."""
+    with sqlite3.connect(USERS_DB) as conn:
+        cursor = conn.cursor()
+        cursor.execute("""
+            CREATE TABLE IF NOT EXISTS users (
+                username TEXT PRIMARY KEY,
+                password_hash TEXT NOT NULL,
+                password_changed INTEGER DEFAULT 0,
+                created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+            )
+        """)
+        
+        # Check if admin user exists
+        cursor.execute("SELECT COUNT(*) FROM users WHERE username = 'admin'")
+        admin_exists = cursor.fetchone()[0] > 0
+        
+        # Create default admin user if not exists
+        if not admin_exists:
+            cursor.execute(
+                "INSERT INTO users (username, password_hash, password_changed) VALUES (?, ?, ?)",
+                ('admin', generate_password_hash('admin'), 0)
+            )
+        
+        conn.commit()
+
+
 def _load_users() -> Dict[str, Dict[str, Any]]:
-    if not USERS_FILE.exists():
-        default = {"admin": {"password_hash": generate_password_hash("admin")}}
-        USERS_FILE.write_text(json.dumps(default, indent=2), encoding="utf-8")
-        return default
-    try:
-        content = USERS_FILE.read_text(encoding="utf-8").strip()
-        if not content:
-            # File exists but is empty
-            default = {"admin": {"password_hash": generate_password_hash("admin")}}
-            USERS_FILE.write_text(json.dumps(default, indent=2), encoding="utf-8")
-            return default
-        return json.loads(content)
-    except (json.JSONDecodeError, OSError):
-        # File is corrupted or unreadable, recreate with default
-        default = {"admin": {"password_hash": generate_password_hash("admin")}}
-        USERS_FILE.write_text(json.dumps(default, indent=2), encoding="utf-8")
-        return default
+    """Load all users from SQLite database."""
+    _init_db()
+    users = {}
+    with sqlite3.connect(USERS_DB) as conn:
+        conn.row_factory = sqlite3.Row
+        cursor = conn.execute("SELECT username, password_hash, password_changed FROM users")
+        for row in cursor:
+            users[row['username']] = {
+                'password_hash': row['password_hash'],
+                'password_changed': bool(row['password_changed'])
+            }
+    return users
 
 
 def _save_users(users: Dict[str, Dict[str, Any]]) -> None:
-    USERS_FILE.write_text(json.dumps(users, indent=2), encoding="utf-8")
+    """Save users to SQLite database."""
+    _init_db()
+    with sqlite3.connect(USERS_DB) as conn:
+        cursor = conn.cursor()
+        # Clear existing users
+        cursor.execute("DELETE FROM users")
+        # Insert all users
+        for username, data in users.items():
+            cursor.execute(
+                "INSERT INTO users (username, password_hash, password_changed) VALUES (?, ?, ?)",
+                (username, data['password_hash'], int(data.get('password_changed', 0))))
+        conn.commit()
 
 
 def _get_current_user() -> Optional[str]:
@@ -261,8 +294,112 @@ def login_required(fn: Callable[..., Any]) -> Callable[..., Any]:
                 abort(401, description="not authenticated")
             return redirect("/login")
         return fn(*args, **kwargs)
-
     return wrapper
+
+
+def admin_required(fn: Callable[..., Any]) -> Callable[..., Any]:
+    """Decorator to require admin user"""
+    @wraps(fn)
+    def wrapper(*args: Any, **kwargs: Any):
+        user = _get_current_user()
+        if not user or user != "admin":
+            abort(403, description="Admin access required")
+        return fn(*args, **kwargs)
+    return wrapper
+
+
+@app.get("/admin/users")
+@login_required
+@admin_required
+def admin_users_page():
+    return render_template("admin_users.html")
+
+
+@app.get("/api/admin/users")
+@login_required
+@admin_required
+def api_admin_users():
+    users = _load_users()
+    user_list = []
+    for username, data in users.items():
+        user_list.append({
+            "username": username,
+            "password_changed": data.get("password_changed", False)
+        })
+    return jsonify({"users": user_list})
+
+
+@app.post("/api/admin/users/<username>/password")
+@login_required
+@admin_required
+def api_admin_change_password(username: str):
+    users = _load_users()
+    if username not in users:
+        abort(404, description="User not found")
+    
+    payload = request.get_json(silent=True) or {}
+    new_password = payload.get("password", "")
+    
+    if not _is_valid_password(new_password):
+        abort(400, description="Password too short")
+    
+    users[username]["password_hash"] = generate_password_hash(new_password)
+    if username == "admin":
+        users[username]["password_changed"] = True
+    
+    _save_users(users)
+    return jsonify({"ok": True})
+
+
+@app.delete("/api/admin/users/<username>")
+@login_required
+@admin_required
+def api_admin_delete_user(username: str):
+    if username == "admin":
+        abort(400, description="Cannot delete admin user")
+    
+    users = _load_users()
+    if username not in users:
+        abort(404, description="User not found")
+    
+    del users[username]
+    _save_users(users)
+    
+    # Delete user's log directory
+    user_dir = USER_LOGS_ROOT / username
+    if user_dir.exists():
+        shutil.rmtree(user_dir)
+    
+    return jsonify({"ok": True})
+
+
+@app.post("/api/admin/users")
+@login_required
+@admin_required
+def api_admin_create_user():
+    payload = request.get_json(silent=True) or {}
+    username = (payload.get("username") or "").strip()
+    password = payload.get("password") or ""
+    
+    if not _is_valid_username(username):
+        abort(400, description="Invalid username")
+    if not _is_valid_password(password):
+        abort(400, description="Password too short")
+    
+    users = _load_users()
+    if username in users:
+        abort(409, description="User already exists")
+    
+    users[username] = {
+        "password_hash": generate_password_hash(password),
+        "password_changed": False
+    }
+    _save_users(users)
+    
+    # Create user directory
+    _user_root(username)
+    
+    return jsonify({"ok": True, "user": username})
 
 
 @app.get("/")
@@ -302,12 +439,12 @@ def api_login():
     users = _load_users()
     entry = users.get(username)
     if not entry or not check_password_hash(entry["password_hash"], password):
-        abort(401, description="invalid credentials")
+        abort(401, description="Invalid username or password")
     session["user"] = username
-    # If admin and hasn't changed default password, flag it
+    # Force password change if admin hasn't changed default password
     if username == "admin" and not entry.get("password_changed", False):
         session["force_password_change"] = True
-    return jsonify({"ok": True, "user": username})
+    return jsonify({"success": True, "user": username})
 
 
 @app.post("/api/register")

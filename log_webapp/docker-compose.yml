@@ -8,8 +8,8 @@ services:
     volumes:
       # Mount user storage directory to persist logs across container restarts
       - ./User_Storage:/app/User_Storage
-      # Mount users.json file to persist user data
-      - ./users.json:/app/users.json
+      # Mount users.db to persist user data
+      - ./users.db:/app/users.db
     environment:
       - FLASK_ENV=production
       - LOG_WEBAPP_SECRET=${LOG_WEBAPP_SECRET:-your-secret-key-change-me}

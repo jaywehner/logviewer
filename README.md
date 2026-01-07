@@ -51,7 +51,6 @@ docker run -d \
   --name log-webapp \
   -p 5177:5177 \
   -v $(pwd)/User_Storage:/app/User_Storage \
-  -v $(pwd)/users.json:/app/users.json \
   -e LOG_WEBAPP_SECRET=your-secret-key \
   log-webapp
 
@@ -79,29 +78,16 @@ The Dockerfile includes retry logic and increased timeouts, but network issues m
 
 #### Docker Runtime Troubleshooting
 
-If you get "IsADirectoryError: /app/users.json" error:
+The application now uses SQLite (users.db) instead of JSON for user management. The database is automatically created and initialized on first run.
+
+If you encounter database-related errors:
 
 ```bash
-# The Dockerfile now handles this automatically, but if it persists:
+# Stop the container
 docker-compose down
 
-# Remove any existing users.json directory and recreate as file
-rm -rf users.json
-touch users.json
-
-# Restart
-docker-compose up -d
-```
-
-If you get "JSONDecodeError: Expecting value" error on login:
-
-```bash
-# The users.json file is empty or corrupted. Fix it:
-docker-compose down
-
-# Remove and recreate users.json with default content
-rm -f users.json
-echo '{"admin": {"password_hash": "scrypt:32768:8:1$vhCv4DDo4kWSl04B$151459775241b42b960bea375d2c36a5e27510128fdf965894b7e457335ec60be54e836b0d2c40e0dabf81f49d9c59709d5dcd813b15e0c61637a402b08cfd61"}}' > users.json
+# Remove the database file (will be recreated with default admin user)
+rm -f users.db
 
 # Restart
 docker-compose up -d
@@ -109,7 +95,7 @@ docker-compose up -d
 
 Default credentials: admin/admin
 
-Note: The Dockerfile now explicitly removes any users.json directory and creates it as a file before switching to the non-root user.
+Note: The SQLite database file is persisted via volume mount at `./users.db:/app/users.db`.
 
 ## Run
 
