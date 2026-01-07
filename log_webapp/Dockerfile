@@ -19,13 +19,15 @@ RUN pip install --no-cache-dir --timeout 60 --retries 5 -r requirements.txt
 # Copy application code
 COPY . .
 
+# Create non-root user for security
+RUN useradd -m -u 1000 appuser
+
 # Ensure users.json is a file, not directory (must be done as root)
 RUN rm -rf /app/users.json 2>/dev/null || true
 RUN touch /app/users.json
 RUN chown appuser /app/users.json
 
-# Create non-root user for security
-RUN useradd -m -u 1000 appuser
+# Change ownership of entire app directory
 RUN chown -R appuser:appuser /app
 USER appuser
 
