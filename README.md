@@ -79,14 +79,10 @@ The Dockerfile includes retry logic and increased timeouts, but network issues m
 
 #### Docker Runtime Troubleshooting
 
-If you get "IsADirectoryError: /app/users.json" error:
+If you get "not a directory: unknown" error when mounting users.json:
 
 ```bash
 # Ensure users.json exists as a file before running
-touch users.json
-
-# Or remove any existing users.json directory and recreate as file
-rm -rf users.json
 touch users.json
 
 # Then restart docker-compose
@@ -100,7 +96,7 @@ If you get "JSONDecodeError: Expecting value" error on login:
 # The users.json file is empty or corrupted. Fix it:
 docker-compose down
 
-# Remove and recreate users.json
+# Remove and recreate users.json with default content
 rm -f users.json
 echo '{"admin": {"password_hash": "scrypt:32768:8:1$vhCv4DDo4kWSl04B$151459775241b42b960bea375d2c36a5e27510128fdf965894b7e457335ec60be54e836b0d2c40e0dabf81f49d9c59709d5dcd813b15e0c61637a402b08cfd61"}}' > users.json
 
@@ -109,6 +105,8 @@ docker-compose up -d
 ```
 
 Default credentials: admin/admin
+
+Note: The Dockerfile no longer pre-creates users.json to avoid mount conflicts. The Flask app will create it with default admin user if it doesn't exist.
 
 ## Run
 
