@@ -94,6 +94,22 @@ docker-compose down
 docker-compose up -d
 ```
 
+If you get "JSONDecodeError: Expecting value" error on login:
+
+```bash
+# The users.json file is empty or corrupted. Fix it:
+docker-compose down
+
+# Remove and recreate users.json
+rm -f users.json
+echo '{"admin": {"password_hash": "scrypt:32768:8:1$vhCv4DDo4kWSl04B$151459775241b42b960bea375d2c36a5e27510128fdf965894b7e457335ec60be54e836b0d2c40e0dabf81f49d9c59709d5dcd813b15e0c61637a402b08cfd61"}}' > users.json
+
+# Restart
+docker-compose up -d
+```
+
+Default credentials: admin/admin
+
 ## Run
 
 ### Local development

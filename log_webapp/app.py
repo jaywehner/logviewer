@@ -154,7 +154,19 @@ def _load_users() -> Dict[str, Dict[str, Any]]:
         default = {"admin": {"password_hash": generate_password_hash("admin")}}
         USERS_FILE.write_text(json.dumps(default, indent=2), encoding="utf-8")
         return default
-    return json.loads(USERS_FILE.read_text(encoding="utf-8"))
+    try:
+        content = USERS_FILE.read_text(encoding="utf-8").strip()
+        if not content:
+            # File exists but is empty
+            default = {"admin": {"password_hash": generate_password_hash("admin")}}
+            USERS_FILE.write_text(json.dumps(default, indent=2), encoding="utf-8")
+            return default
+        return json.loads(content)
+    except (json.JSONDecodeError, OSError):
+        # File is corrupted or unreadable, recreate with default
+        default = {"admin": {"password_hash": generate_password_hash("admin")}}
+        USERS_FILE.write_text(json.dumps(default, indent=2), encoding="utf-8")
+        return default
 
 
 def _save_users(users: Dict[str, Dict[str, Any]]) -> None:

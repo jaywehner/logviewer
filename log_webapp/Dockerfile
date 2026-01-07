@@ -19,11 +19,11 @@ RUN pip install --no-cache-dir --timeout 60 --retries 5 -r requirements.txt
 # Copy application code
 COPY . .
 
-# Ensure users.json exists as a file (not directory)
+# Ensure users.json exists as a file (not directory) with default content
 RUN if [ -d /app/users.json ]; then \
         rm -rf /app/users.json; \
     fi; \
-    touch /app/users.json
+    echo '{"admin": {"password_hash": "scrypt:32768:8:1$vhCv4DDo4kWSl04B$151459775241b42b960bea375d2c36a5e27510128fdf965894b7e457335ec60be54e836b0d2c40e0dabf81f49d9c59709d5dcd813b15e0c61637a402b08cfd61"}}' > /app/users.json
 
 # Create non-root user for security
 RUN useradd -m -u 1000 appuser && chown -R appuser:appuser /app
